@@ -1,143 +1,95 @@
-#!/usr/bin/env pybricks-micropython
-from pybricks.hubs import EV3Brick
-from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
-                                 InfraredSensor, UltrasonicSensor, GyroSensor)
-from pybricks.parameters import Port, Stop, Direction, Button, Color
-from pybricks.tools import wait, StopWatch, DataLog
-from pybricks.robotics import DriveBase
-from pybricks.media.ev3dev import SoundFile, ImageFile
 
+int trigpinr = 45;
+int echopinr = 44;
+int trigpinl = 22;
+int echopinl = 23;
+int ena1 = 51;
+int in1 = 50;
+int in2 = 53;
+int in3 = 52;
+int in4 = 41;
+int ena2 = 39;
 
-# This program requires LEGO EV3 MicroPython v2.0 or higher.
-# Click "Open user guide" on the EV3 extension tab for more information.
-
-
-# Create your objects here.
-ev3 = EV3Brick()
-
-left = Motor(Port.B)
-right = Motor(Port.C)
-robot = DriveBase(left_motor, right_motor)
-dis = UltrasonicSensor(S2)
-dis2 = UltrasonicSensor(S3)
-gyro = GyroSensor(S4)
-# Write your program here.
-ev3.speaker.beep()
-robot.speed(100)
-while(dis < 370 ){
-    robot.run(100)
+void stopMotors() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, LOW);
+  digitalWrite(in3, LOW);
+  digitalWrite(in4, LOW);
+  analogWrite(ena1, 0);
+  analogWrite(ena2, 0);
 }
-if(dis2 < 780){
-    for x in range(2):
-     gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 270){
-        robot.run(100)
 
-     }
-      gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     }
+void setup() {
+  pinMode(trigpinr, OUTPUT);
 
- gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(60)
-     right.run(-60)
-     }
-     while(dis < 400){
-        robot.run(100)
-        
-     }
+  pinMode(trigpinl, OUTPUT);
 
+  pinMode(echopinr, INPUT);
+  pinMode(echopinl, INPUT);
+  pinMode(ena1, OUTPUT);
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(ena2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  Serial.begin(115200); // put your setup code here, to run once:
 }
+
+
+
+void moveForward() {
+
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+  analogWrite(ena2, 255);
+}
+
+void turnLeft() {
+  digitalWrite(in1, LOW);
+  digitalWrite(in2, HIGH);
+  analogWrite(ena1, 255);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+  analogWrite(ena2, 255);
+}
+
+void turnRight() {
+  digitalWrite(in1, HIGH);
+  digitalWrite(in2, LOW);
+  analogWrite(ena1, 255);
+  digitalWrite(in3, HIGH);
+  digitalWrite(in4, LOW);
+  analogWrite(ena2, 255);
+}
+
+void loop() {
+  
+
+ digitalWrite(trigpinr, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigpinr, LOW);
+  long durationr = pulseIn(echopinr, HIGH);
+  long distancer = durationr * 0.034 / 2;
+
+   digitalWrite(trigpinl, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigpinl, LOW);
+  long durationl = pulseIn(echopinl, HIGH);
+  long distancel = durationl * 0.034 / 2;
+  
+  if(distancel - distancer < 10){ // Move forward if no obstacle ahead
+  moveForward();
+
+  }  
+  else if(distancer > 50){
+    turnRight();
+  }
+  else if(distancer < 10){
+    turnLeft();
+  }
 else{
-    for x in range(2):
-     gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(-60)
-     right.run(60)
-     }
-     while(dis < 270){
-        robot.run(100)
-
-     }
-      gyro.reset_angle()
-     while(gyro.angle() < 89){
-    left.run(-60)
-     right.run(60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-    left.run(-60)
-     right.run(60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(-60)
-     right.run(60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     } gyro.reset_angle()
-     while(gyro.angle() < 89){
-    left.run(-60)
-     right.run(60)
-     }
-     while(dis < 270){
-        robot.run(100)
-        
-     }
-
- gyro.reset_angle()
-     while(gyro.angle() < 89){
-     left.run(-60)
-     right.run(60)
-     }
-     while(dis < 400){
-        robot.run(100)
-        
-     }
-
+  stopMotors();
 }
 
+  }
 
