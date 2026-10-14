@@ -40,23 +40,23 @@ function ElenaArt() {
       {/* backpack strap */}
       <path d="M150 318c-10 30-14 60-12 102" stroke="var(--primary)" strokeWidth="14" strokeLinecap="round" fill="none" />
       {/* neck + head */}
-      <rect x="194" y="248" width="32" height="40" rx="14" fill="#b07a5a" />
-      <ellipse cx="210" cy="200" rx="62" ry="70" fill="#c48a66" />
+      <rect x="194" y="248" width="32" height="40" rx="14" fill="#bfe0f2" />
+      <ellipse cx="210" cy="200" rx="62" ry="70" fill="#d7ecf7" />
       {/* hair */}
-      <path d="M146 206c-8-66 30-104 70-104 46 0 78 34 72 100-6-26-22-50-56-60-28 18-60 30-86 64z" fill="#2b1d17" />
-      <path d="M146 200c-10 40-6 92 14 112 6-34 2-70-2-104z" fill="#2b1d17" />
-      <path d="M276 196c10 40 8 88-10 110-4-30-2-68 2-102z" fill="#2b1d17" />
+      <path d="M146 206c-8-66 30-104 70-104 46 0 78 34 72 100-6-26-22-50-56-60-28 18-60 30-86 64z" fill="#0a5252" />
+      <path d="M146 200c-10 40-6 92 14 112 6-34 2-70-2-104z" fill="#0a5252" />
+      <path d="M276 196c10 40 8 88-10 110-4-30-2-68 2-102z" fill="#0a5252" />
       {/* face */}
-      <ellipse cx="186" cy="214" rx="6" ry="7" fill="#2b1d17" />
-      <ellipse cx="234" cy="214" rx="6" ry="7" fill="#2b1d17" />
-      <path d="M194 248c10 6 22 6 32 0" stroke="#2b1d17" strokeWidth="4" fill="none" strokeLinecap="round" />
-      <path d="M176 196c6-4 14-5 20-2M226 194c6-3 14-2 20 2" stroke="#2b1d17" strokeWidth="3.5" fill="none" strokeLinecap="round" />
+      <ellipse cx="186" cy="214" rx="6" ry="7" fill="#0a5252" />
+      <ellipse cx="234" cy="214" rx="6" ry="7" fill="#0a5252" />
+      <path d="M194 248c10 6 22 6 32 0" stroke="#0a5252" strokeWidth="4" fill="none" strokeLinecap="round" />
+      <path d="M176 196c6-4 14-5 20-2M226 194c6-3 14-2 20 2" stroke="#0a5252" strokeWidth="3.5" fill="none" strokeLinecap="round" />
       {/* small wheals on her arm area, abstract */}
       <g fill="var(--accent-soft)" stroke="var(--accent-ink)" strokeWidth="2" opacity=".9">
         <circle cx="262" cy="350" r="8" /><circle cx="282" cy="370" r="6" /><circle cx="252" cy="378" r="5" />
       </g>
       {/* phone */}
-      <rect x="282" y="300" width="56" height="92" rx="12" fill="#13201f" />
+      <rect x="282" y="300" width="56" height="92" rx="12" fill="#0a5252" />
       <rect x="288" y="310" width="44" height="70" rx="6" fill="var(--primary-soft)" />
       <circle cx="310" cy="345" r="10" fill="var(--primary)" />
       <path d="M305 345l4 4 7-8" stroke="white" strokeWidth="3" fill="none" strokeLinecap="round" strokeLinejoin="round" />

@@ -74,7 +74,7 @@ export function SettingShape({ setting, size = 14 }: { setting: Setting; size?: 
 
 /* ---------- Neutral photo placeholders (no real skin images) ---------- */
 export function placeholderPhoto(label: string, seed = 0): string {
-  const hues = [168, 18, 200, 30];
+  const hues = [168, 198, 150, 205];
   const h = hues[seed % hues.length];
   const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 120'>
   <rect width='160' height='120' fill='hsl(${h} 30% 88%)'/>

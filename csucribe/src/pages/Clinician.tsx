@@ -488,7 +488,7 @@ function PrepSheet({ events, flag, asOf }: { events: TimelineEvent[]; flag: Flag
                 <text x="0" y={14 + i * 16} fontSize="9" fill="#444">{SETTING_LABEL[l]}</text>
                 <line x1="90" x2="695" y1={11 + i * 16} y2={11 + i * 16} stroke="#ddd" />
                 {events.filter((e) => e.setting === l).map((e) => (
-                  <circle key={e.id} cx={90 + (e.day / maxD) * 600} cy={11 + i * 16} r="4" fill={['#c2410c', '#2b5f9e', '#7a3fb8', '#d9603f'][i]} />
+                  <circle key={e.id} cx={90 + (e.day / maxD) * 600} cy={11 + i * 16} r="4" fill={['#1e8449', '#0f6b6b', '#1f6fa8', '#4aa8d8'][i]} />
                 ))}
               </g>
             ))}
