@@ -1,0 +1,589 @@
+[
+  {
+    "id": "analogous",
+    "lemma": "analogous",
+    "pos": "adjective",
+    "primarySense": "similar in a way that permits a meaningful comparison",
+    "forms": ["analogous", "analogously", "analogy", "analogies"],
+    "roots": [],
+    "etymologyNote": "Greek analogos 'proportionate'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["analogous to", "roughly analogous", "an analogous situation"],
+    "nearSynonyms": [
+      { "word": "identical", "difference": "exactly the same; analogous is similar in structure or function" },
+      { "word": "homogeneous", "difference": "uniform throughout, not comparable across" }
+    ],
+    "antonyms": ["dissimilar", "disparate", "unrelated"],
+    "examples": [
+      { "domain": "science", "text": "A bird's wing and a butterfly's wing are analogous: both enable flight, but they evolved separately from different structures.", "highConstraint": true },
+      { "domain": "social-science", "text": "The economist argued that a national budget is not analogous to a family budget, since governments can print money.", "highConstraint": true },
+      { "domain": "history", "text": "The collapse of the Soviet Union was, in some ways, analogous to the fall of Rome: both empires crumbled from within.", "highConstraint": true }
+    ],
+    "satPassage": "Neuroscientists often compare memory formation to the way a path forms in a field: the more often a route is walked, the clearer it becomes. Similarly, repeated use strengthens connections between neurons, making the two processes ____ in a useful way.",
+    "verified": false
+  },
+  {
+    "id": "disparate",
+    "lemma": "disparate",
+    "pos": "adjective",
+    "primarySense": "fundamentally different and distinct in kind",
+    "forms": ["disparate", "disparity", "disparities"],
+    "roots": [],
+    "etymologyNote": "Latin disparare 'to separate' (dis- + parare 'to prepare')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["disparate groups", "disparate sources", "income disparity"],
+    "nearSynonyms": [
+      { "word": "diverse", "difference": "varied, often positively; disparate stresses incompatible difference" },
+      { "word": "discrete", "difference": "separate and distinct, not necessarily different in kind" }
+    ],
+    "antonyms": ["similar", "homogeneous", "analogous"],
+    "confusables": [{ "word": "desperate", "note": "desperate = hopeless or in great need" }],
+    "examples": [
+      { "domain": "social-science", "text": "The coalition united disparate groups—farmers, students, and factory owners—who agreed on little else.", "highConstraint": true },
+      { "domain": "history", "text": "The historian wove together disparate sources, from tax records to love poems, into a single narrative.", "highConstraint": true },
+      { "domain": "science", "text": "Physicists dream of a theory connecting such disparate forces as gravity and electromagnetism.", "highConstraint": true }
+    ],
+    "satPassage": "The museum's new exhibit brings together objects that seem to have nothing in common: a Viking sword, a Japanese tea bowl, and a nineteenth-century telescope. The curator argues that these ____ artifacts share a hidden theme of craftsmanship passed between generations.",
+    "verified": false
+  },
+  {
+    "id": "contingent",
+    "lemma": "contingent",
+    "pos": "adjective",
+    "primarySense": "dependent on something else happening or being true",
+    "otherSenses": ["(noun) a group of people forming part of a larger group"],
+    "forms": ["contingent", "contingency", "contingencies"],
+    "roots": [],
+    "etymologyNote": "Latin contingere 'to touch, befall'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["contingent on", "contingent upon", "contingency plan"],
+    "nearSynonyms": [
+      { "word": "conditional", "difference": "very close; contingent is more formal" },
+      { "word": "arbitrary", "difference": "based on random choice, not dependent on conditions" }
+    ],
+    "antonyms": ["independent", "certain", "unconditional"],
+    "examples": [
+      { "domain": "social-science", "text": "The job offer is contingent on a background check; if it fails, the offer will be withdrawn.", "highConstraint": true },
+      { "domain": "science", "text": "The mission's launch date is contingent on the weather, since high winds would endanger the rocket.", "highConstraint": true },
+      { "domain": "history", "text": "French support for the Americans was contingent upon proof that they could win a major battle on their own.", "highConstraint": true }
+    ],
+    "satPassage": "The city has approved the new stadium, but construction cannot begin until two conditions are met: the team must secure private investors, and an environmental review must find no serious risks. Approval is therefore ____ on both outcomes.",
+    "verified": false
+  },
+  {
+    "id": "inherent",
+    "lemma": "inherent",
+    "pos": "adjective",
+    "primarySense": "existing as a natural, permanent, or essential part of something",
+    "forms": ["inherent", "inherently"],
+    "roots": [],
+    "etymologyNote": "Latin inhaerere 'to stick in, cling to'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["inherent risk", "inherent in", "inherently unstable"],
+    "nearSynonyms": [
+      { "word": "intrinsic", "difference": "nearly identical; intrinsic often describes value or worth" },
+      { "word": "acquired", "difference": "the opposite: gained from outside" }
+    ],
+    "antonyms": ["extrinsic", "external", "acquired"],
+    "examples": [
+      { "domain": "science", "text": "Some risk is inherent in any surgery, no matter how skilled the surgeon or modern the hospital.", "highConstraint": true },
+      { "domain": "social-science", "text": "Critics argue the voting system is inherently unfair, since its rules favor large parties by design.", "highConstraint": true },
+      { "domain": "literature", "text": "The tension inherent in the sonnet form—fourteen lines, strict rhyme—forces poets to compress their ideas.", "highConstraint": true }
+    ],
+    "satPassage": "Engineers emphasize that no bridge can be made perfectly safe. Some degree of risk is ____ in any large structure exposed to wind, weather, and heavy traffic; the goal is to reduce that risk to an acceptable level, not to eliminate it.",
+    "verified": false
+  },
+  {
+    "id": "intrinsic",
+    "lemma": "intrinsic",
+    "pos": "adjective",
+    "primarySense": "belonging naturally to something; essential to its nature",
+    "forms": ["intrinsic", "intrinsically"],
+    "roots": [],
+    "etymologyNote": "Latin intrinsecus 'inwardly'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["intrinsic value", "intrinsic motivation", "intrinsically linked"],
+    "nearSynonyms": [
+      { "word": "inherent", "difference": "nearly identical; inherent is common with risks and flaws" },
+      { "word": "extrinsic", "difference": "the opposite: coming from outside" }
+    ],
+    "antonyms": ["extrinsic", "external", "superficial"],
+    "examples": [
+      { "domain": "social-science", "text": "Students with intrinsic motivation study because they love the subject, not because of grades or rewards.", "highConstraint": true },
+      { "domain": "history", "text": "Paper money has no intrinsic value; unlike gold coins, it is worth something only because people agree it is.", "highConstraint": true },
+      { "domain": "science", "text": "A star's color is linked to its intrinsic temperature, not to how far it is from Earth.", "highConstraint": true }
+    ],
+    "satPassage": "A diamond's high price is often assumed to reflect its natural rarity. Economists point out, however, that diamonds are not especially scarce; their value comes largely from marketing and controlled supply rather than from any ____ quality of the stone itself.",
+    "verified": false
+  },
+  {
+    "id": "ubiquitous",
+    "lemma": "ubiquitous",
+    "pos": "adjective",
+    "primarySense": "present or found everywhere",
+    "forms": ["ubiquitous", "ubiquitously", "ubiquity"],
+    "roots": [],
+    "etymologyNote": "Latin ubique 'everywhere'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["ubiquitous presence", "become ubiquitous", "nearly ubiquitous"],
+    "nearSynonyms": [
+      { "word": "common", "difference": "frequent, but not necessarily everywhere" },
+      { "word": "universal", "difference": "applies to all; ubiquitous stresses being seen everywhere" }
+    ],
+    "antonyms": ["rare", "scarce", "uncommon"],
+    "examples": [
+      { "domain": "social-science", "text": "Smartphones became ubiquitous within a decade; today it is hard to find a teenager without one.", "highConstraint": true },
+      { "domain": "science", "text": "Microplastics are now ubiquitous, found in deep ocean trenches, mountain snow, and human blood.", "highConstraint": true },
+      { "domain": "history", "text": "By the 1800s, portraits of the queen were ubiquitous, hanging in schools, post offices, and homes across the empire.", "highConstraint": true }
+    ],
+    "satPassage": "Just thirty years ago, coffee shops were rare in many American towns. Today they appear on nearly every street corner, in airports, hospitals, and bookstores—so ____ that it is difficult to imagine a city without them.",
+    "mnemonic": "UBIQUITOUS: 'you-be-quick-to-see-us' — they're everywhere.",
+    "verified": false
+  },
+  {
+    "id": "paradoxical",
+    "lemma": "paradoxical",
+    "pos": "adjective",
+    "primarySense": "seemingly contradictory, yet possibly true",
+    "forms": ["paradoxical", "paradoxically", "paradox"],
+    "roots": [],
+    "etymologyNote": "Greek paradoxos 'contrary to expectation' (para- 'against' + doxa 'opinion')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["paradoxical effect", "paradoxically", "seemingly paradoxical"],
+    "nearSynonyms": [
+      { "word": "contradictory", "difference": "actually inconsistent; paradoxical only seems so" },
+      { "word": "ironic", "difference": "opposite of what's expected, often with humor" }
+    ],
+    "antonyms": ["consistent", "logical", "expected"],
+    "examples": [
+      { "domain": "social-science", "text": "Paradoxically, offering more choices can make shoppers less likely to buy anything at all.", "highConstraint": true },
+      { "domain": "science", "text": "The drug has a paradoxical effect in some children: a stimulant that actually calms them down.", "highConstraint": true },
+      { "domain": "literature", "text": "Orwell's paradoxical slogan 'War is peace' captures how the regime twists language against itself.", "highConstraint": true }
+    ],
+    "satPassage": "It seems contradictory, but studies show that adding a new road to a congested network can actually make overall traffic slower. This ____ result, first described by the mathematician Dietrich Braess, occurs because drivers each choose the route that seems fastest for themselves.",
+    "verified": false
+  },
+  {
+    "id": "ambiguous",
+    "lemma": "ambiguous",
+    "pos": "adjective",
+    "primarySense": "open to more than one interpretation; unclear",
+    "forms": ["ambiguous", "ambiguously", "ambiguity", "unambiguous"],
+    "roots": [{ "rootId": "ambi", "part": "ambi" }],
+    "etymologyNote": "Latin ambiguus 'doubtful, going both ways' (ambi- + agere)",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["ambiguous ending", "deliberately ambiguous", "ambiguous results"],
+    "nearSynonyms": [
+      { "word": "ambivalent", "difference": "describes mixed feelings in a person, not unclear meaning" },
+      { "word": "vague", "difference": "lacking detail; ambiguous has two or more possible meanings" }
+    ],
+    "antonyms": ["clear", "explicit", "unambiguous"],
+    "confusables": [{ "word": "ambivalent", "note": "a sentence is ambiguous; a person is ambivalent" }],
+    "examples": [
+      { "domain": "literature", "text": "The novel's ending is ambiguous: readers still argue about whether the hero survives the fall.", "highConstraint": true },
+      { "domain": "history", "text": "The treaty's wording was ambiguous, allowing both nations to claim the disputed river as their border.", "highConstraint": true },
+      { "domain": "science", "text": "The test results were ambiguous, consistent with either infection or a harmless allergy, so doctors ordered another.", "highConstraint": true }
+    ],
+    "satPassage": "The final line of the poem—\"And then the door was open\"—can be read in two ways: as a sign of escape and freedom, or as a sign that danger has finally entered the house. Critics believe the poet left this line deliberately ____.",
+    "verified": false
+  },
+  {
+    "id": "explicit",
+    "lemma": "explicit",
+    "pos": "adjective",
+    "primarySense": "stated clearly and directly, leaving no room for doubt",
+    "forms": ["explicit", "explicitly"],
+    "roots": [],
+    "etymologyNote": "Latin explicitus 'unfolded' (ex- + plicare 'to fold')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["explicit instructions", "make explicit", "explicitly stated"],
+    "nearSynonyms": [
+      { "word": "implicit", "difference": "the opposite: suggested but not stated" },
+      { "word": "candid", "difference": "describes an honest person; explicit describes clear wording" }
+    ],
+    "antonyms": ["implicit", "ambiguous", "vague"],
+    "examples": [
+      { "domain": "social-science", "text": "The rules were explicit: any student caught using a phone during the exam would receive a zero.", "highConstraint": true },
+      { "domain": "history", "text": "The Constitution does not make explicit the right to privacy, so courts have inferred it from other clauses.", "highConstraint": true },
+      { "domain": "literature", "text": "Rather than hinting, the author makes the theme explicit in the final line: 'Greed ruins everything it touches.'", "highConstraint": true }
+    ],
+    "satPassage": "Earlier versions of the policy merely suggested that employees should avoid sharing passwords. The revised policy leaves nothing to interpretation: it ____ forbids password sharing and lists the penalties for violations.",
+    "verified": false
+  },
+  {
+    "id": "implicit",
+    "lemma": "implicit",
+    "pos": "adjective",
+    "primarySense": "suggested or understood without being directly stated",
+    "otherSenses": ["absolute, unquestioning (implicit trust)"],
+    "forms": ["implicit", "implicitly"],
+    "roots": [],
+    "etymologyNote": "Latin implicitus 'entangled, folded in' (in- + plicare 'to fold')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["implicit assumption", "implicit bias", "implicit in"],
+    "nearSynonyms": [
+      { "word": "explicit", "difference": "the opposite: stated outright" },
+      { "word": "inherent", "difference": "naturally part of something, not merely suggested" }
+    ],
+    "antonyms": ["explicit", "stated", "direct"],
+    "examples": [
+      { "domain": "literature", "text": "Though the story never says so, there is an implicit criticism of the war in every scene of empty homes.", "highConstraint": true },
+      { "domain": "social-science", "text": "The ad's implicit message was that buying the car would make you more attractive, though it never said so.", "highConstraint": true },
+      { "domain": "science", "text": "Implicit in the experiment's design was the assumption that all the mice responded to light in the same way.", "highConstraint": true }
+    ],
+    "satPassage": "The mayor never directly criticized the previous administration in her speech. Yet when she promised \"a government that finally answers its phones,\" her disapproval was ____, and many listeners understood exactly whom she meant.",
+    "verified": false
+  },
+  {
+    "id": "coherent",
+    "lemma": "coherent",
+    "pos": "adjective",
+    "primarySense": "logically connected and consistent; easy to follow",
+    "forms": ["coherent", "coherently", "coherence", "incoherent"],
+    "roots": [],
+    "etymologyNote": "Latin cohaerere 'to stick together'",
+    "connotation": "positive",
+    "category": "Structure & relationships",
+    "collocations": ["coherent argument", "coherent strategy", "a coherent whole"],
+    "nearSynonyms": [
+      { "word": "cohesive", "difference": "about parts sticking together as a group; coherent is about logic" },
+      { "word": "eloquent", "difference": "beautifully expressed, not just logical" }
+    ],
+    "antonyms": ["incoherent", "disjointed", "confused"],
+    "examples": [
+      { "domain": "social-science", "text": "The government lacked a coherent plan, announcing one policy on Monday and reversing it on Friday.", "highConstraint": true },
+      { "domain": "literature", "text": "Her editor helped turn a pile of scattered notes into a coherent story with a clear beginning and end.", "highConstraint": true },
+      { "domain": "science", "text": "Newton's laws offered a coherent explanation for both falling apples and orbiting moons.", "highConstraint": true }
+    ],
+    "satPassage": "The first draft of the report was a collection of unrelated observations with no clear structure. After months of revision, the team organized these findings around a single argument, producing a ____ document in which each section built logically on the last.",
+    "verified": false
+  },
+  {
+    "id": "novel",
+    "lemma": "novel",
+    "pos": "adjective",
+    "primarySense": "new and original, unlike anything seen before",
+    "otherSenses": ["(noun) a long work of fiction"],
+    "forms": ["novel", "novelty"],
+    "roots": [{ "rootId": "nov", "part": "nov" }],
+    "etymologyNote": "Latin novellus, diminutive of novus 'new'",
+    "connotation": "positive",
+    "category": "Structure & relationships",
+    "collocations": ["a novel approach", "novel idea", "novel virus"],
+    "nearSynonyms": [
+      { "word": "unprecedented", "difference": "never happened before, often on a large scale; novel stresses originality" },
+      { "word": "new", "difference": "simply recent; novel implies fresh and unusual" }
+    ],
+    "antonyms": ["conventional", "familiar", "hackneyed"],
+    "examples": [
+      { "domain": "science", "text": "The team took a novel approach to cleaning oil spills: using hair clippings, which absorb oil surprisingly well.", "highConstraint": true },
+      { "domain": "social-science", "text": "Paying people to recycle was a novel idea in 1980, but such programs are now common.", "highConstraint": true },
+      { "domain": "history", "text": "The printing press made a novel experience possible: ordinary people reading the same text at the same time in different cities.", "highConstraint": true }
+    ],
+    "satPassage": "Most attempts to fight the crop disease relied on chemical sprays. The research team tried something entirely different: they introduced a harmless fungus that outcompetes the harmful one, a ____ strategy that no one had tested before.",
+    "verified": false
+  },
+  {
+    "id": "conventional",
+    "lemma": "conventional",
+    "pos": "adjective",
+    "primarySense": "based on what is generally done or believed; traditional",
+    "forms": ["conventional", "conventionally", "convention"],
+    "roots": [],
+    "etymologyNote": "Latin conventio 'agreement, assembly'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["conventional wisdom", "conventional methods", "conventionally"],
+    "nearSynonyms": [
+      { "word": "orthodox", "difference": "conforming to established doctrine, often religious" },
+      { "word": "common", "difference": "frequent; conventional implies accepted custom" }
+    ],
+    "antonyms": ["unconventional", "novel", "radical"],
+    "examples": [
+      { "domain": "science", "text": "Conventional wisdom held that ulcers were caused by stress, until two doctors proved bacteria were responsible.", "highConstraint": true },
+      { "domain": "literature", "text": "Rejecting conventional storytelling, the author told the tale backward, beginning with the hero's death.", "highConstraint": true },
+      { "domain": "social-science", "text": "Electric cars still cost more upfront than conventional gasoline cars, though they are cheaper to run.", "highConstraint": true }
+    ],
+    "satPassage": "Most nineteenth-century novels followed a familiar pattern, describing events in order from a single narrator's perspective. Virginia Woolf broke sharply with these ____ techniques, shifting between characters' thoughts mid-sentence and abandoning straightforward chronology.",
+    "verified": false
+  },
+  {
+    "id": "unprecedented",
+    "lemma": "unprecedented",
+    "pos": "adjective",
+    "primarySense": "never done or known before",
+    "forms": ["unprecedented", "unprecedentedly"],
+    "roots": [],
+    "etymologyNote": "un- + precedent (Latin praecedere 'to go before')",
+    "connotation": "neutral",
+    "intensity": 3,
+    "category": "Structure & relationships",
+    "collocations": ["unprecedented scale", "unprecedented levels", "unprecedented in history"],
+    "nearSynonyms": [
+      { "word": "novel", "difference": "new and original; unprecedented stresses no prior example at all" },
+      { "word": "unusual", "difference": "rare, but it may have happened before" }
+    ],
+    "antonyms": ["common", "familiar", "routine"],
+    "examples": [
+      { "domain": "history", "text": "Franklin Roosevelt won an unprecedented fourth term, a feat no president before him had achieved.", "highConstraint": true },
+      { "domain": "science", "text": "The heat wave reached unprecedented temperatures, breaking records that had stood since measurements began.", "highConstraint": true },
+      { "domain": "social-science", "text": "The pandemic caused an unprecedented shift to remote work; nothing similar had happened in modern history.", "highConstraint": true }
+    ],
+    "satPassage": "No country had ever attempted to vaccinate its entire population against a disease within a single year. When the campaign began in 2021, it was an effort ____ in public health history, requiring new systems for manufacturing, shipping, and storing doses.",
+    "verified": false
+  },
+  {
+    "id": "arbitrary",
+    "lemma": "arbitrary",
+    "pos": "adjective",
+    "primarySense": "based on random choice or personal whim, not reason",
+    "otherSenses": ["(of power) unrestrained and autocratic"],
+    "forms": ["arbitrary", "arbitrarily"],
+    "roots": [],
+    "etymologyNote": "Latin arbiter 'judge' — left to a judge's discretion",
+    "connotation": "negative",
+    "category": "Structure & relationships",
+    "collocations": ["arbitrary decision", "arbitrary rules", "seemingly arbitrary"],
+    "nearSynonyms": [
+      { "word": "random", "difference": "by chance with no pattern; arbitrary implies someone's whim" },
+      { "word": "contingent", "difference": "depends on conditions, the opposite of whim" }
+    ],
+    "antonyms": ["reasoned", "principled", "logical"],
+    "examples": [
+      { "domain": "history", "text": "Colonial borders were often arbitrary, drawn with a ruler across maps without regard for the peoples living there.", "highConstraint": true },
+      { "domain": "social-science", "text": "Employees complained that promotions seemed arbitrary, with no clear connection to performance.", "highConstraint": true },
+      { "domain": "science", "text": "The choice of zero on the Celsius scale is not arbitrary; it marks the freezing point of water.", "highConstraint": true }
+    ],
+    "satPassage": "Players complained that the referee's calls followed no consistent pattern: identical fouls were punished in one half and ignored in the next. Such ____ decisions, they argued, made it impossible to know which rules the game was actually being played by.",
+    "verified": false
+  },
+  {
+    "id": "incongruous",
+    "lemma": "incongruous",
+    "pos": "adjective",
+    "primarySense": "out of place; not fitting with its surroundings",
+    "forms": ["incongruous", "incongruously", "incongruity"],
+    "roots": [],
+    "etymologyNote": "Latin in- 'not' + congruus 'agreeing, suitable'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["incongruous sight", "strikingly incongruous", "seem incongruous"],
+    "nearSynonyms": [
+      { "word": "anomalous", "difference": "deviates from a pattern; incongruous clashes with its setting" },
+      { "word": "paradoxical", "difference": "seemingly contradictory but true" }
+    ],
+    "antonyms": ["harmonious", "fitting", "appropriate"],
+    "examples": [
+      { "domain": "literature", "text": "The cheerful music was incongruous with the funeral scene, making the moment unsettling rather than sad.", "highConstraint": true },
+      { "domain": "history", "text": "A glass skyscraper rising among medieval churches struck many visitors as incongruous.", "highConstraint": true },
+      { "domain": "science", "text": "Finding tropical plant fossils in Antarctica seemed incongruous until scientists realized the continent once lay near the equator.", "highConstraint": true }
+    ],
+    "satPassage": "The director's film is set in a gloomy, rain-soaked city, yet its soundtrack features bright, bouncy pop songs. Some critics found this pairing ____ and distracting, while others argued the clash between image and music was the film's most original feature.",
+    "verified": false
+  },
+  {
+    "id": "comprehensive",
+    "lemma": "comprehensive",
+    "pos": "adjective",
+    "primarySense": "including all or nearly all elements; complete in scope",
+    "forms": ["comprehensive", "comprehensively"],
+    "roots": [],
+    "etymologyNote": "Latin comprehendere 'to grasp, include'",
+    "connotation": "positive",
+    "category": "Structure & relationships",
+    "collocations": ["comprehensive review", "comprehensive plan", "comprehensive coverage"],
+    "nearSynonyms": [
+      { "word": "rigorous", "difference": "careful and strict in method; comprehensive covers everything" },
+      { "word": "cursory", "difference": "the opposite: hasty and partial" }
+    ],
+    "antonyms": ["partial", "limited", "cursory"],
+    "examples": [
+      { "domain": "science", "text": "The comprehensive study examined every published trial—over three hundred—before reaching its conclusion.", "highConstraint": true },
+      { "domain": "social-science", "text": "Rather than fixing one road at a time, the city adopted a comprehensive transportation plan covering buses, bikes, and highways.", "highConstraint": true },
+      { "domain": "history", "text": "Her comprehensive history of the war covers not only battles but also farming, medicine, and family life.", "highConstraint": true }
+    ],
+    "satPassage": "Earlier guides to the region's birds covered only the most common species. The new field guide is far more ____, describing all 612 species recorded in the area, including rare visitors seen only once or twice.",
+    "verified": false
+  },
+  {
+    "id": "discrete",
+    "lemma": "discrete",
+    "pos": "adjective",
+    "primarySense": "individually separate and distinct",
+    "forms": ["discrete", "discretely"],
+    "roots": [],
+    "etymologyNote": "Latin discretus 'separated'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["discrete units", "discrete steps", "discrete categories"],
+    "nearSynonyms": [
+      { "word": "disparate", "difference": "fundamentally different; discrete just means separate" },
+      { "word": "discreet", "difference": "careful and tactful; a different word entirely" }
+    ],
+    "antonyms": ["continuous", "connected", "blended"],
+    "confusables": [{ "word": "discreet", "note": "discreet = careful not to attract attention or reveal secrets" }],
+    "examples": [
+      { "domain": "science", "text": "Energy comes in discrete packets called quanta, rather than flowing as a smooth, continuous stream.", "highConstraint": true },
+      { "domain": "social-science", "text": "The training is divided into five discrete modules, each of which can be completed separately.", "highConstraint": true },
+      { "domain": "history", "text": "Historians once treated the Renaissance as a discrete period, sharply separated from the Middle Ages, but the change was gradual.", "highConstraint": true }
+    ],
+    "satPassage": "Children do not experience language as a string of separate words; they hear a continuous stream of sound. Learning to speak therefore requires them to break that stream into ____ units, figuring out where one word ends and the next begins.",
+    "verified": false
+  },
+  {
+    "id": "reciprocal",
+    "lemma": "reciprocal",
+    "pos": "adjective",
+    "primarySense": "given or felt by each side toward the other; mutual",
+    "forms": ["reciprocal", "reciprocally", "reciprocate", "reciprocity"],
+    "roots": [],
+    "etymologyNote": "Latin reciprocus 'moving back and forth'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["reciprocal agreement", "reciprocal relationship", "reciprocal trade"],
+    "nearSynonyms": [
+      { "word": "mutual", "difference": "shared equally; reciprocal stresses exchange in return" },
+      { "word": "analogous", "difference": "similar, not exchanged" }
+    ],
+    "antonyms": ["one-sided", "unilateral"],
+    "examples": [
+      { "domain": "social-science", "text": "The two countries signed a reciprocal agreement: each would drop visa requirements for the other's citizens.", "highConstraint": true },
+      { "domain": "science", "text": "Bees and flowers share a reciprocal relationship—the flower provides nectar and the bee carries its pollen.", "highConstraint": true },
+      { "domain": "literature", "text": "Their admiration was reciprocal; each poet dedicated a book to the other.", "highConstraint": true }
+    ],
+    "satPassage": "Cleaner fish remove parasites from the mouths of larger fish, which in turn refrain from eating them. Because each species benefits from the other, biologists describe this arrangement as ____ rather than one-sided.",
+    "verified": false
+  },
+  {
+    "id": "peripheral",
+    "lemma": "peripheral",
+    "pos": "adjective",
+    "primarySense": "of minor importance; at the edge rather than the center",
+    "forms": ["peripheral", "peripherally", "periphery"],
+    "roots": [],
+    "etymologyNote": "Greek periphereia 'circumference' (peri- 'around' + pherein 'to carry')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["peripheral issue", "peripheral vision", "peripheral role"],
+    "nearSynonyms": [
+      { "word": "marginal", "difference": "small in effect; peripheral is about position or relevance" },
+      { "word": "salient", "difference": "the opposite: most noticeable and important" }
+    ],
+    "antonyms": ["central", "salient", "essential"],
+    "examples": [
+      { "domain": "social-science", "text": "The debate wasted an hour on peripheral issues and never reached the central question of funding.", "highConstraint": true },
+      { "domain": "science", "text": "Owls have poor peripheral vision, so they turn their heads almost completely around to see behind them.", "highConstraint": true },
+      { "domain": "literature", "text": "The maid, a peripheral character in the first act, becomes the hero by the play's end.", "highConstraint": true }
+    ],
+    "satPassage": "The documentary devotes most of its runtime to minor details—the scientists' favorite meals, the weather during their trip—while barely mentioning the discovery itself. Critics argued that by focusing on such ____ matters, the film missed its own central story.",
+    "verified": false
+  },
+  {
+    "id": "salient",
+    "lemma": "salient",
+    "pos": "adjective",
+    "primarySense": "most noticeable or important; standing out",
+    "forms": ["salient", "salience"],
+    "roots": [],
+    "etymologyNote": "Latin salire 'to leap' — leaping out at you",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["salient feature", "salient point", "the most salient"],
+    "nearSynonyms": [
+      { "word": "explicit", "difference": "clearly stated; salient is prominent" },
+      { "word": "peripheral", "difference": "the opposite: at the edge, minor" }
+    ],
+    "antonyms": ["peripheral", "minor", "inconspicuous"],
+    "examples": [
+      { "domain": "social-science", "text": "The report's salient finding was clear: children who ate breakfast scored higher on every test.", "highConstraint": true },
+      { "domain": "literature", "text": "The most salient feature of her poetry is its silence—lines broken by long white gaps.", "highConstraint": true },
+      { "domain": "history", "text": "The lawyer summarized the salient facts of the case in two minutes, ignoring dozens of minor details.", "highConstraint": true }
+    ],
+    "satPassage": "The study collected data on dozens of factors, from diet to sleep to screen time. Its most ____ result, however, stood out above all the others: students who exercised for twenty minutes before class scored substantially higher on memory tests.",
+    "mnemonic": "SALIENT ~ 'leaping' (salire): the fact that leaps off the page.",
+    "verified": false
+  },
+  {
+    "id": "nuanced",
+    "lemma": "nuanced",
+    "pos": "adjective",
+    "primarySense": "showing subtle differences or shades of meaning",
+    "forms": ["nuanced", "nuance", "nuances"],
+    "roots": [],
+    "etymologyNote": "French nuance 'shade of color'",
+    "connotation": "positive",
+    "category": "Structure & relationships",
+    "collocations": ["nuanced view", "nuanced understanding", "a nuanced portrayal"],
+    "nearSynonyms": [
+      { "word": "complex", "difference": "has many parts; nuanced stresses fine distinctions" },
+      { "word": "ambiguous", "difference": "unclear in meaning; nuanced is precise about subtleties" }
+    ],
+    "antonyms": ["simplistic", "crude", "black-and-white"],
+    "examples": [
+      { "domain": "history", "text": "Her nuanced account of Columbus shows him neither as hero nor villain but as a man with real achievements and real crimes.", "highConstraint": true },
+      { "domain": "literature", "text": "The actor gave a nuanced performance, letting small changes in his voice reveal the villain's hidden grief.", "highConstraint": true },
+      { "domain": "science", "text": "The latest research offers a more nuanced picture of fat: some kinds harm the heart, while others protect it.", "highConstraint": true }
+    ],
+    "satPassage": "Earlier biographies portrayed the inventor as either a selfless genius or a ruthless thief of other people's ideas. The new biography rejects both extremes, offering a ____ portrait that acknowledges his brilliance while documenting the credit he unfairly denied his assistants.",
+    "verified": false
+  },
+  {
+    "id": "homogeneous",
+    "lemma": "homogeneous",
+    "pos": "adjective",
+    "primarySense": "of the same kind throughout; uniform",
+    "forms": ["homogeneous", "homogeneously", "homogeneity"],
+    "roots": [{ "rootId": "gen", "part": "gen" }],
+    "etymologyNote": "Greek homos 'same' + genos 'kind'",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["homogeneous mixture", "homogeneous group", "culturally homogeneous"],
+    "nearSynonyms": [
+      { "word": "analogous", "difference": "comparable across two things; homogeneous is uniform within one" },
+      { "word": "identical", "difference": "exactly the same; homogeneous means consistent in makeup" }
+    ],
+    "antonyms": ["heterogeneous", "diverse", "disparate"],
+    "examples": [
+      { "domain": "science", "text": "Salt water is a homogeneous mixture: once stirred, every drop contains the same proportion of salt.", "highConstraint": true },
+      { "domain": "social-science", "text": "The study's sample was too homogeneous—nearly all participants were college students of the same age—to generalize from.", "highConstraint": true },
+      { "domain": "history", "text": "The village was once ethnically homogeneous, but a century of immigration transformed it into one of the most diverse towns in the country.", "highConstraint": true }
+    ],
+    "satPassage": "Researchers worried that their results might not apply to the wider population. All of their participants were male graduate students between the ages of 22 and 26, a sample so ____ that it captured almost none of the variety found in society.",
+    "mnemonic": "HOMO (same) + GEN (kind): all the same kind.",
+    "verified": false
+  },
+  {
+    "id": "anomalous",
+    "lemma": "anomalous",
+    "pos": "adjective",
+    "primarySense": "deviating from what is standard, normal, or expected",
+    "forms": ["anomalous", "anomalously", "anomaly", "anomalies"],
+    "roots": [],
+    "etymologyNote": "Greek anomalos 'uneven' (an- 'not' + homalos 'even')",
+    "connotation": "neutral",
+    "category": "Structure & relationships",
+    "collocations": ["anomalous result", "anomalous data", "statistical anomaly"],
+    "nearSynonyms": [
+      { "word": "incongruous", "difference": "clashes with its setting; anomalous breaks a pattern" },
+      { "word": "unprecedented", "difference": "never happened before; anomalous deviates from a norm" }
+    ],
+    "antonyms": ["typical", "normal", "standard"],
+    "examples": [
+      { "domain": "science", "text": "Mercury's orbit was anomalous, drifting in a way Newton's laws could not explain until Einstein's theory did.", "highConstraint": true },
+      { "domain": "social-science", "text": "One school's scores were anomalous—far higher than its neighbors'—which prompted an investigation into cheating.", "highConstraint": true },
+      { "domain": "history", "text": "The warm winter of 1709 was not typical; it was an anomalous break in a century of bitter cold.", "highConstraint": true }
+    ],
+    "satPassage": "Across forty years of measurements, the lake's temperature followed a steady seasonal pattern. The 2016 readings broke sharply from that pattern, showing midwinter water warmer than most summers—data so ____ that researchers first assumed their instruments were faulty.",
+    "verified": false
+  }
+]

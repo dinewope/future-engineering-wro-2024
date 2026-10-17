@@ -1,0 +1,493 @@
+[
+  {
+    "id": "meticulous",
+    "lemma": "meticulous",
+    "pos": "adjective",
+    "primarySense": "showing extreme care and attention to every detail",
+    "forms": ["meticulous", "meticulously", "meticulousness"],
+    "roots": [],
+    "etymologyNote": "Latin meticulosus 'fearful' (metus 'fear') — so careful it looks like fear of error",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["meticulous attention to detail", "meticulous records", "meticulously planned"],
+    "nearSynonyms": [
+      { "word": "diligent", "difference": "hardworking and persistent; meticulous is precise about details" },
+      { "word": "fussy", "difference": "overly concerned with trivial details; negative" }
+    ],
+    "antonyms": ["careless", "sloppy", "cursory"],
+    "examples": [
+      { "domain": "science", "text": "Mendel kept meticulous records of nearly 30,000 pea plants, noting the color and shape of every seed.", "highConstraint": true },
+      { "domain": "history", "text": "The forger was meticulous, aging the paper with tea and copying each letter of the king's handwriting.", "highConstraint": true },
+      { "domain": "literature", "text": "Austen's meticulous revisions are visible in her manuscripts, where single words are crossed out and replaced three times.", "highConstraint": true }
+    ],
+    "satPassage": "The restoration took eleven years. Working with tiny brushes under magnification, the conservators cleaned the mural one square centimeter at a time, recording every change in a detailed log—a ____ process that left no detail to chance.",
+    "verified": false
+  },
+  {
+    "id": "diligent",
+    "lemma": "diligent",
+    "pos": "adjective",
+    "primarySense": "showing steady, careful effort in work or duties",
+    "forms": ["diligent", "diligently", "diligence"],
+    "roots": [],
+    "etymologyNote": "Latin diligens 'attentive, careful' (diligere 'to value highly')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["diligent student", "diligent research", "work diligently"],
+    "nearSynonyms": [
+      { "word": "meticulous", "difference": "precise about details; diligent is about persistent effort" },
+      { "word": "tenacious", "difference": "refuses to give up against obstacles" }
+    ],
+    "antonyms": ["lazy", "negligent", "careless"],
+    "examples": [
+      { "domain": "science", "text": "Thanks to the diligent work of volunteers who counted birds every morning for twenty years, scientists could track the decline.", "highConstraint": true },
+      { "domain": "history", "text": "The diligent clerk copied every royal decree by hand, and his notebooks are now our only record of the period.", "highConstraint": true },
+      { "domain": "social-science", "text": "Diligent students in the study practiced a little every day rather than cramming the night before.", "highConstraint": true }
+    ],
+    "satPassage": "Ada Lovelace did not achieve her insights through sudden inspiration alone. Her notebooks reveal years of steady effort: she worked through mathematical problems every day, checked each calculation repeatedly, and rarely missed a lesson—a ____ habit that underpinned her later breakthroughs.",
+    "verified": false
+  },
+  {
+    "id": "frugal",
+    "lemma": "frugal",
+    "pos": "adjective",
+    "primarySense": "careful to avoid wasting money or resources",
+    "forms": ["frugal", "frugally", "frugality"],
+    "roots": [],
+    "etymologyNote": "Latin frugalis 'thrifty' (frux 'fruit, value')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["frugal lifestyle", "frugal meal", "live frugally"],
+    "nearSynonyms": [
+      { "word": "stingy", "difference": "unwilling to spend or share even when appropriate; negative" },
+      { "word": "prudent", "difference": "wise and cautious in general, not only with money" }
+    ],
+    "antonyms": ["extravagant", "wasteful", "lavish"],
+    "examples": [
+      { "domain": "social-science", "text": "Despite his wealth, the investor lived frugally, driving an old car and eating lunch at his desk.", "highConstraint": true },
+      { "domain": "history", "text": "Wartime families became frugal out of necessity, reusing fabric scraps and growing vegetables in their yards.", "highConstraint": true },
+      { "domain": "literature", "text": "Their frugal supper—bread, a little cheese, and water—was all the widow could afford.", "highConstraint": true }
+    ],
+    "satPassage": "Benjamin Franklin urged readers to avoid waste in all its forms. In his popular almanac, he advised them to mend old clothes rather than buy new ones and to save every spare penny, promoting a ____ way of life as the path to independence.",
+    "mnemonic": "FRUGAL vs stingy: frugal saves wisely; stingy refuses to share.",
+    "verified": false
+  },
+  {
+    "id": "prudent",
+    "lemma": "prudent",
+    "pos": "adjective",
+    "primarySense": "acting with careful thought about the future; sensibly cautious",
+    "forms": ["prudent", "prudently", "prudence", "imprudent"],
+    "roots": [],
+    "etymologyNote": "Latin prudens, contraction of providens 'foreseeing'",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["prudent decision", "it would be prudent to", "financially prudent"],
+    "nearSynonyms": [
+      { "word": "judicious", "difference": "shows good judgment; prudent stresses caution about the future" },
+      { "word": "timid", "difference": "fearful; prudent caution is wise, not fearful" }
+    ],
+    "antonyms": ["reckless", "rash", "imprudent"],
+    "examples": [
+      { "domain": "social-science", "text": "It is prudent to save three months of expenses, since a job loss can come without warning.", "highConstraint": true },
+      { "domain": "history", "text": "The prudent captain waited out the storm in harbor while others sailed and were lost.", "highConstraint": true },
+      { "domain": "science", "text": "Given the uncertain data, the agency made the prudent choice of delaying the launch until the fuel valve was tested again.", "highConstraint": true }
+    ],
+    "satPassage": "Some investors poured their savings into the booming new technology, certain prices would keep rising. Others, more ____, kept most of their money in safer accounts—a cautious choice that spared them heavy losses when the market collapsed a year later.",
+    "verified": false
+  },
+  {
+    "id": "audacious",
+    "lemma": "audacious",
+    "pos": "adjective",
+    "primarySense": "showing bold willingness to take risks",
+    "forms": ["audacious", "audaciously", "audacity"],
+    "roots": [],
+    "etymologyNote": "Latin audax 'bold' (audere 'to dare')",
+    "connotation": "neutral",
+    "category": "People & character",
+    "collocations": ["audacious plan", "audacious goal", "the sheer audacity"],
+    "nearSynonyms": [
+      { "word": "brave", "difference": "faces fear; audacious is daring, sometimes recklessly or rudely" },
+      { "word": "reckless", "difference": "careless of consequences; always negative" }
+    ],
+    "antonyms": ["timid", "cautious", "diffident"],
+    "examples": [
+      { "domain": "science", "text": "The audacious plan to land a rover using a sky crane seemed absurd—until it worked perfectly on Mars.", "highConstraint": true },
+      { "domain": "history", "text": "Hannibal's audacious decision to cross the Alps with elephants caught Rome completely by surprise.", "highConstraint": true },
+      { "domain": "literature", "text": "The heroine's audacious reply—telling the queen to her face that she was wrong—shocked the entire court.", "highConstraint": true }
+    ],
+    "satPassage": "Most experts considered it impossible to fly solo across the Atlantic in 1927. Charles Lindbergh attempted it anyway, stripping his plane of a radio and even a front window to carry extra fuel—an ____ gamble that made him famous when it succeeded.",
+    "verified": false
+  },
+  {
+    "id": "tenacious",
+    "lemma": "tenacious",
+    "pos": "adjective",
+    "primarySense": "holding firmly to a goal or grip; refusing to give up",
+    "forms": ["tenacious", "tenaciously", "tenacity"],
+    "roots": [{ "rootId": "ten", "part": "ten" }],
+    "etymologyNote": "Latin tenax 'holding fast' (tenere 'to hold')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["tenacious grip", "tenacious defender", "tenaciously pursue"],
+    "nearSynonyms": [
+      { "word": "obstinate", "difference": "stubborn in an unreasonable way; negative" },
+      { "word": "resilient", "difference": "recovers after setbacks; tenacious refuses to let go in the first place" }
+    ],
+    "antonyms": ["irresolute", "yielding", "half-hearted"],
+    "examples": [
+      { "domain": "science", "text": "Barnacles are so tenacious that their glue holds them to ship hulls through storms and years of crashing waves.", "highConstraint": true },
+      { "domain": "history", "text": "The tenacious defenders held the fortress for eight months, refusing every offer to surrender.", "highConstraint": true },
+      { "domain": "social-science", "text": "Tenacious reporters spent three years tracking documents until they finally exposed the fraud.", "highConstraint": true }
+    ],
+    "satPassage": "Marie Curie spent four years processing tons of ore in a leaky shed, stirring boiling vats by hand to isolate a tiny amount of radium. Despite exhaustion and repeated failures, she refused to abandon the work, a ____ commitment that eventually earned her two Nobel Prizes.",
+    "mnemonic": "TEN-acious ~ 'tenant' holding onto the lease: it HOLDS (ten) on.",
+    "verified": false
+  },
+  {
+    "id": "complacent",
+    "lemma": "complacent",
+    "pos": "adjective",
+    "primarySense": "smugly satisfied, unaware of possible dangers or flaws",
+    "forms": ["complacent", "complacently", "complacency"],
+    "roots": [{ "rootId": "plac", "part": "plac" }],
+    "etymologyNote": "Latin complacere 'to please greatly' (com- + placere 'to please')",
+    "connotation": "negative",
+    "category": "People & character",
+    "collocations": ["grow complacent", "complacent attitude", "dangerous complacency"],
+    "nearSynonyms": [
+      { "word": "content", "difference": "happily satisfied, with no hint of danger ignored" },
+      { "word": "indifferent", "difference": "doesn't care; complacent cares but wrongly feels secure" }
+    ],
+    "antonyms": ["vigilant", "wary", "alert"],
+    "examples": [
+      { "domain": "social-science", "text": "After years as the market leader, the company grew complacent and ignored the smartphone until rivals had overtaken it.", "highConstraint": true },
+      { "domain": "science", "text": "Doctors warned that falling infection rates should not make the public complacent, since the virus could easily return.", "highConstraint": true },
+      { "domain": "history", "text": "The complacent garrison left the gates unguarded on the holiday, and the city fell before dawn.", "highConstraint": true }
+    ],
+    "satPassage": "The champion had won so easily for so many years that she stopped studying her opponents and cut back on training. This ____ attitude proved costly when a little-known challenger, who had prepared intensively, defeated her in the first round.",
+    "verified": false
+  },
+  {
+    "id": "eloquent",
+    "lemma": "eloquent",
+    "pos": "adjective",
+    "primarySense": "fluent and persuasive in speaking or writing",
+    "otherSenses": ["clearly expressive (an eloquent silence)"],
+    "forms": ["eloquent", "eloquently", "eloquence"],
+    "roots": [{ "rootId": "loqu", "part": "loqu" }],
+    "etymologyNote": "Latin eloqui 'to speak out' (e- 'out' + loqui 'to speak')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["eloquent speech", "eloquent speaker", "speak eloquently"],
+    "nearSynonyms": [
+      { "word": "articulate", "difference": "expresses ideas clearly; eloquent is also moving and beautiful" },
+      { "word": "talkative", "difference": "speaks a lot, not necessarily well" }
+    ],
+    "antonyms": ["inarticulate", "tongue-tied"],
+    "examples": [
+      { "domain": "history", "text": "Frederick Douglass was so eloquent that some audiences refused to believe he had ever been enslaved.", "highConstraint": true },
+      { "domain": "literature", "text": "Her eloquent final letter, full of vivid images and quiet dignity, moved readers to tears.", "highConstraint": true },
+      { "domain": "science", "text": "Carl Sagan was an eloquent explainer of astronomy, turning complex ideas into poetry for millions of viewers.", "highConstraint": true }
+    ],
+    "satPassage": "The young senator had little experience, but her speeches quickly won national attention. Using vivid images and carefully chosen words, she could move audiences from laughter to tears in minutes, and even opponents admitted she was the most ____ speaker in the chamber.",
+    "mnemonic": "e-LOQU-ent: words flowing OUT (e-) of the speaker (loqu).",
+    "verified": false
+  },
+  {
+    "id": "reticent",
+    "lemma": "reticent",
+    "pos": "adjective",
+    "primarySense": "not revealing one's thoughts or feelings readily; reserved",
+    "forms": ["reticent", "reticence"],
+    "roots": [],
+    "etymologyNote": "Latin reticere 'to keep silent' (re- + tacere 'to be silent')",
+    "connotation": "neutral",
+    "category": "People & character",
+    "collocations": ["reticent about", "naturally reticent", "unusual reticence"],
+    "nearSynonyms": [
+      { "word": "shy", "difference": "nervous around others; reticent chooses not to share" },
+      { "word": "aloof", "difference": "emotionally distant and unfriendly; reticent is just private" }
+    ],
+    "antonyms": ["candid", "forthcoming", "talkative"],
+    "examples": [
+      { "domain": "history", "text": "Washington was reticent about his own feelings, so historians rely on others' letters to understand him.", "highConstraint": true },
+      { "domain": "literature", "text": "The usually reticent father surprised everyone by speaking for an hour about his childhood.", "highConstraint": true },
+      { "domain": "science", "text": "The company was reticent about the drug's side effects, releasing details only when regulators demanded them.", "highConstraint": true }
+    ],
+    "satPassage": "Although the poet published hundreds of poems, she rarely discussed her private life. In interviews she changed the subject whenever her family came up, and she left behind no diaries, so biographers have struggled to understand such a ____ figure.",
+    "verified": false
+  },
+  {
+    "id": "gregarious",
+    "lemma": "gregarious",
+    "pos": "adjective",
+    "primarySense": "fond of company; sociable",
+    "otherSenses": ["(of animals) living in flocks or groups"],
+    "forms": ["gregarious", "gregariously"],
+    "roots": [],
+    "etymologyNote": "Latin grex 'flock'",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["gregarious personality", "gregarious nature", "gregarious species"],
+    "nearSynonyms": [
+      { "word": "extroverted", "difference": "psychological term; gregarious stresses enjoying groups" },
+      { "word": "talkative", "difference": "speaks a lot; gregarious seeks company" }
+    ],
+    "antonyms": ["reclusive", "aloof", "introverted"],
+    "examples": [
+      { "domain": "science", "text": "Starlings are gregarious birds, gathering in flocks of thousands that swirl together at dusk.", "highConstraint": true },
+      { "domain": "literature", "text": "Gregarious and warm, the innkeeper knew every traveler's name by the end of the first evening.", "highConstraint": true },
+      { "domain": "history", "text": "Unlike his reclusive predecessor, the gregarious new king held feasts almost every week.", "highConstraint": true }
+    ],
+    "satPassage": "The two sisters could hardly have been more different. The elder preferred long hours alone with her books, while the younger was famously ____, filling the house with guests and rarely spending an evening without friends.",
+    "mnemonic": "GREG-arious: Greg is in every group photo.",
+    "verified": false
+  },
+  {
+    "id": "magnanimous",
+    "lemma": "magnanimous",
+    "pos": "adjective",
+    "primarySense": "generous and forgiving, especially toward a rival or someone weaker",
+    "forms": ["magnanimous", "magnanimously", "magnanimity"],
+    "roots": [{ "rootId": "magn", "part": "magn" }, { "rootId": "anim", "part": "anim" }],
+    "etymologyNote": "Latin magnus 'great' + animus 'soul' — great-souled",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["magnanimous in victory", "magnanimous gesture", "a magnanimous offer"],
+    "nearSynonyms": [
+      { "word": "benevolent", "difference": "kind and well-meaning in general; magnanimous forgives rivals" },
+      { "word": "generous", "difference": "gives freely; magnanimous adds forgiveness and nobility" }
+    ],
+    "antonyms": ["petty", "vindictive", "spiteful"],
+    "examples": [
+      { "domain": "history", "text": "Grant was magnanimous at Appomattox, letting defeated soldiers keep their horses so they could plant crops.", "highConstraint": true },
+      { "domain": "literature", "text": "In a magnanimous gesture, the champion lifted his beaten rival's arm so the crowd would cheer for him too.", "highConstraint": true },
+      { "domain": "social-science", "text": "The winning candidate's magnanimous speech praised her opponent and invited his supporters to work with her.", "highConstraint": true }
+    ],
+    "satPassage": "After defeating his rival in a bitter election, the new mayor could easily have punished those who opposed him. Instead, he appointed his former opponent to lead the city's planning board and publicly praised her ideas, a ____ choice that surprised supporters on both sides.",
+    "mnemonic": "MAGN (great) + ANIM (soul): a great soul forgives.",
+    "verified": false
+  },
+  {
+    "id": "obstinate",
+    "lemma": "obstinate",
+    "pos": "adjective",
+    "primarySense": "stubbornly refusing to change one's opinion or behavior",
+    "forms": ["obstinate", "obstinately", "obstinacy"],
+    "roots": [],
+    "etymologyNote": "Latin obstinare 'to persist, be resolved'",
+    "connotation": "negative",
+    "category": "People & character",
+    "collocations": ["obstinate refusal", "obstinately insist", "obstinate child"],
+    "nearSynonyms": [
+      { "word": "tenacious", "difference": "persistent in a positive way; obstinate is unreasonable stubbornness" },
+      { "word": "resolute", "difference": "firmly determined, usually admirable" }
+    ],
+    "antonyms": ["flexible", "compliant", "open-minded"],
+    "examples": [
+      { "domain": "history", "text": "The obstinate general refused to retreat even as his army was surrounded, and thousands paid for his pride.", "highConstraint": true },
+      { "domain": "science", "text": "Some scientists remained obstinate in rejecting the new theory long after the evidence for it was overwhelming.", "highConstraint": true },
+      { "domain": "literature", "text": "No argument could move the obstinate old man; he had decided, and that was the end of it.", "highConstraint": true }
+    ],
+    "satPassage": "Engineers presented the director with clear evidence that the bridge design was flawed. He dismissed their reports, refused to order further tests, and insisted that construction continue as planned—an ____ stance that a later investigation blamed for the collapse.",
+    "verified": false
+  },
+  {
+    "id": "versatile",
+    "lemma": "versatile",
+    "pos": "adjective",
+    "primarySense": "able to adapt to many different functions or activities",
+    "forms": ["versatile", "versatility"],
+    "roots": [{ "rootId": "vers", "part": "vers" }],
+    "etymologyNote": "Latin versatilis 'turning easily' (vertere 'to turn')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["versatile material", "versatile performer", "highly versatile"],
+    "nearSynonyms": [
+      { "word": "resilient", "difference": "recovers from difficulty; versatile handles many roles" },
+      { "word": "flexible", "difference": "able to bend or change; versatile stresses many different abilities" }
+    ],
+    "antonyms": ["limited", "specialized", "inflexible"],
+    "examples": [
+      { "domain": "science", "text": "Bamboo is remarkably versatile: it can become flooring, clothing, scaffolding, or even food.", "highConstraint": true },
+      { "domain": "history", "text": "Leonardo da Vinci was astonishingly versatile, painting masterpieces while designing machines and dissecting bodies.", "highConstraint": true },
+      { "domain": "literature", "text": "A versatile writer, she moved easily from comic novels to poetry to serious history.", "highConstraint": true }
+    ],
+    "satPassage": "The actor was known for playing only villains early in his career. Over the next decade, however, he proved remarkably ____, taking on comedy, romance, and even a musical, and earning praise in every role.",
+    "verified": false
+  },
+  {
+    "id": "resilient",
+    "lemma": "resilient",
+    "pos": "adjective",
+    "primarySense": "able to recover quickly from difficulties or damage",
+    "forms": ["resilient", "resiliently", "resilience"],
+    "roots": [],
+    "etymologyNote": "Latin resilire 'to leap back'",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["remarkably resilient", "resilient economy", "build resilience"],
+    "nearSynonyms": [
+      { "word": "tenacious", "difference": "refuses to let go; resilient bounces back after being knocked down" },
+      { "word": "robust", "difference": "strong enough not to break in the first place" }
+    ],
+    "antonyms": ["fragile", "vulnerable", "brittle"],
+    "examples": [
+      { "domain": "science", "text": "Some coral species proved resilient, regrowing within a few years after a heat wave bleached the reef.", "highConstraint": true },
+      { "domain": "history", "text": "The resilient city was rebuilt three times after fires, each time larger than before.", "highConstraint": true },
+      { "domain": "social-science", "text": "Children with at least one supportive adult tend to be more resilient, recovering faster from hardship.", "highConstraint": true }
+    ],
+    "satPassage": "Ecologists expected the forest to take a century to recover from the eruption that flattened it. Instead, surviving roots and buried seeds sprouted within months, and the area proved far more ____ than predicted, regaining much of its plant life within two decades.",
+    "verified": false
+  },
+  {
+    "id": "judicious",
+    "lemma": "judicious",
+    "pos": "adjective",
+    "primarySense": "having or showing good judgment; wise and sensible",
+    "forms": ["judicious", "judiciously"],
+    "roots": [{ "rootId": "jud", "part": "jud" }],
+    "etymologyNote": "Latin judicium 'judgment' (judex 'judge')",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["judicious use of", "judicious choice", "used judiciously"],
+    "nearSynonyms": [
+      { "word": "prudent", "difference": "cautious about future risk; judicious weighs options wisely" },
+      { "word": "judicial", "difference": "relating to courts and judges" }
+    ],
+    "antonyms": ["rash", "injudicious", "foolish"],
+    "confusables": [{ "word": "judicial", "note": "judicial = relating to courts; judicious = wise" }],
+    "examples": [
+      { "domain": "science", "text": "Judicious use of antibiotics—only when truly needed—slows the rise of resistant bacteria.", "highConstraint": true },
+      { "domain": "literature", "text": "The editor made judicious cuts, removing a hundred pages without losing a single important scene.", "highConstraint": true },
+      { "domain": "social-science", "text": "A judicious manager listens to all sides before deciding, rather than acting on the first complaint.", "highConstraint": true }
+    ],
+    "satPassage": "The chef's dishes rarely contain more than a few ingredients. Rather than piling on spices, she adds each one sparingly and only where it truly improves the flavor—a ____ approach that critics credit for her food's clarity.",
+    "verified": false
+  },
+  {
+    "id": "scrupulous",
+    "lemma": "scrupulous",
+    "pos": "adjective",
+    "primarySense": "very careful to be honest, correct, and thorough",
+    "forms": ["scrupulous", "scrupulously", "unscrupulous"],
+    "roots": [],
+    "etymologyNote": "Latin scrupulus 'small sharp stone' — a tiny worry pricking the conscience",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["scrupulously honest", "scrupulous attention", "scrupulously fair"],
+    "nearSynonyms": [
+      { "word": "meticulous", "difference": "careful about details; scrupulous adds moral honesty" },
+      { "word": "honest", "difference": "truthful; scrupulous adds extreme care to do right" }
+    ],
+    "antonyms": ["unscrupulous", "careless", "dishonest"],
+    "examples": [
+      { "domain": "social-science", "text": "The scrupulous accountant reported even a two-dollar error, refusing to round anything in the company's favor.", "highConstraint": true },
+      { "domain": "history", "text": "Lincoln earned the nickname 'Honest Abe' for his scrupulous habit of returning even a few cents of overcharged change.", "highConstraint": true },
+      { "domain": "science", "text": "The lab was scrupulous about cleaning its equipment, knowing that one stray cell could ruin months of results.", "highConstraint": true }
+    ],
+    "satPassage": "The historian was careful to separate fact from legend in her biography of the pirate. Every claim is supported by a cited document, and she openly flags stories that cannot be verified, a ____ method that has made her book the standard reference.",
+    "verified": false
+  },
+  {
+    "id": "aloof",
+    "lemma": "aloof",
+    "pos": "adjective",
+    "primarySense": "cool and distant; not friendly or involved",
+    "forms": ["aloof", "aloofness"],
+    "roots": [],
+    "etymologyNote": "nautical a- 'on' + loof 'windward' — keeping the ship's head away from shore",
+    "connotation": "negative",
+    "category": "People & character",
+    "collocations": ["remain aloof", "aloof from", "cold and aloof"],
+    "nearSynonyms": [
+      { "word": "reticent", "difference": "keeps thoughts private; aloof is emotionally distant from people" },
+      { "word": "indifferent", "difference": "doesn't care about an issue" }
+    ],
+    "antonyms": ["friendly", "gregarious", "approachable"],
+    "examples": [
+      { "domain": "literature", "text": "Mr. Darcy seems aloof at the ball, refusing to dance and barely speaking to anyone.", "highConstraint": true },
+      { "domain": "history", "text": "The queen remained aloof from her subjects, rarely appearing in public and never visiting the poorer districts.", "highConstraint": true },
+      { "domain": "science", "text": "Cats can seem aloof compared with dogs, but studies show they do form strong bonds with their owners.", "highConstraint": true }
+    ],
+    "satPassage": "Colleagues often described the physicist as cold and distant. He ate lunch alone, rarely attended department gatherings, and answered questions in a few curt words, though friends insisted that his ____ manner hid deep shyness rather than arrogance.",
+    "verified": false
+  },
+  {
+    "id": "benevolent",
+    "lemma": "benevolent",
+    "pos": "adjective",
+    "primarySense": "kind, well-meaning, and generous toward others",
+    "forms": ["benevolent", "benevolently", "benevolence"],
+    "roots": [{ "rootId": "bene", "part": "bene" }, { "rootId": "vol", "part": "vol" }],
+    "etymologyNote": "Latin bene 'well' + volens 'wishing' — wishing others well",
+    "connotation": "positive",
+    "category": "People & character",
+    "collocations": ["benevolent ruler", "benevolent society", "benevolent smile"],
+    "nearSynonyms": [
+      { "word": "magnanimous", "difference": "generous toward rivals or the defeated" },
+      { "word": "charitable", "difference": "gives to those in need specifically" }
+    ],
+    "antonyms": ["malevolent", "cruel", "malicious"],
+    "examples": [
+      { "domain": "history", "text": "Some philosophers argued for a benevolent ruler who would use absolute power only for the good of the people.", "highConstraint": true },
+      { "domain": "literature", "text": "The benevolent stranger paid for the orphan's schooling and asked nothing in return.", "highConstraint": true },
+      { "domain": "social-science", "text": "Workers in the factory town found the owner's control benevolent but suffocating: he built schools yet banned unions.", "highConstraint": true }
+    ],
+    "satPassage": "Unlike the cruel landlords in many Victorian novels, the squire in this story genuinely wishes his tenants well. He lowers their rents in bad harvests, pays for the village school, and visits the sick, a ____ figure who represents the author's ideal of responsible wealth.",
+    "mnemonic": "BENE (well) + VOL (wish): wishing others well. Opposite: MALevolent.",
+    "verified": false
+  },
+  {
+    "id": "pugnacious",
+    "lemma": "pugnacious",
+    "pos": "adjective",
+    "primarySense": "eager to argue, quarrel, or fight",
+    "forms": ["pugnacious", "pugnaciously", "pugnacity"],
+    "roots": [{ "rootId": "pugn", "part": "pugn" }],
+    "etymologyNote": "Latin pugnax 'combative' (pugnare 'to fight'; pugnus 'fist')",
+    "connotation": "negative",
+    "category": "People & character",
+    "collocations": ["pugnacious style", "pugnacious critic", "pugnacious temperament"],
+    "nearSynonyms": [
+      { "word": "audacious", "difference": "boldly daring; pugnacious is eager for conflict" },
+      { "word": "assertive", "difference": "confidently forceful without seeking a fight" }
+    ],
+    "antonyms": ["peaceable", "conciliatory", "meek"],
+    "examples": [
+      { "domain": "social-science", "text": "The pugnacious senator interrupted witnesses constantly and seemed to enjoy every argument.", "highConstraint": true },
+      { "domain": "science", "text": "Male hippos are notoriously pugnacious, fighting fiercely over territory along the river.", "highConstraint": true },
+      { "domain": "literature", "text": "Tybalt is pugnacious from his first scene, drawing his sword at the slightest insult.", "highConstraint": true }
+    ],
+    "satPassage": "The critic seemed to relish conflict. He attacked rival reviewers by name, challenged authors to public debates, and responded to every complaint with sharper insults, a ____ style that won him readers but few friends.",
+    "mnemonic": "PUGN ~ 'pug' the boxer dog with its fists up.",
+    "verified": false
+  },
+  {
+    "id": "diffident",
+    "lemma": "diffident",
+    "pos": "adjective",
+    "primarySense": "shy and lacking self-confidence",
+    "forms": ["diffident", "diffidently", "diffidence"],
+    "roots": [{ "rootId": "fid", "part": "fid" }],
+    "etymologyNote": "Latin dis- 'not' + fidere 'to trust' — not trusting oneself",
+    "connotation": "neutral",
+    "category": "People & character",
+    "collocations": ["diffident manner", "shy and diffident", "diffident about"],
+    "nearSynonyms": [
+      { "word": "reticent", "difference": "chooses not to share; diffident lacks confidence" },
+      { "word": "modest", "difference": "doesn't boast; may still be confident" }
+    ],
+    "antonyms": ["confident", "assertive", "audacious"],
+    "examples": [
+      { "domain": "literature", "text": "The diffident clerk barely raised his voice in meetings, convinced no one wanted to hear his ideas.", "highConstraint": true },
+      { "domain": "science", "text": "Darwin was diffident about publishing, delaying his theory for twenty years partly out of fear of criticism.", "highConstraint": true },
+      { "domain": "history", "text": "The diffident prince, uncomfortable in public, dreaded the speeches his new crown required.", "highConstraint": true }
+    ],
+    "satPassage": "Although her research was groundbreaking, the young chemist rarely spoke at conferences. She doubted that her findings were important enough to share and often let senior colleagues present them, a ____ habit that delayed recognition of her work for years.",
+    "mnemonic": "DIF (not) + FID (trust): not trusting yourself. Compare conFIDent.",
+    "verified": false
+  }
+]

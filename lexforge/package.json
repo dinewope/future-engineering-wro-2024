@@ -1,0 +1,44 @@
+{
+  "name": "lexforge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SAT vocabulary through use, not recognition.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate:content && next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "validate:content": "tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "dexie": "^4.2.0",
+    "dexie-react-hooks": "^4.2.0",
+    "framer-motion": "^12.43.0",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "ts-fsrs": "^5.2.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.56.1",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^22.18.8",
+    "@types/react": "^19.1.17",
+    "@types/react-dom": "^19.1.11",
+    "fake-indexeddb": "^6.2.2",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "overrides": {
+    "postcss": "$postcss",
+    "playwright-core": "1.56.1"
+  }
+}

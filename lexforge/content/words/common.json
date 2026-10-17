@@ -1,0 +1,598 @@
+[
+  {
+    "id": "qualify",
+    "lemma": "qualify",
+    "pos": "verb",
+    "primarySense": "to limit or modify a statement to make it less absolute",
+    "otherSenses": ["to meet the requirements for something"],
+    "forms": ["qualify", "qualifies", "qualified", "qualifying", "qualification", "qualifications", "unqualified"],
+    "roots": [],
+    "etymologyNote": "Medieval Latin qualificare 'to attribute a quality to'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["qualify a claim", "a qualified success", "unqualified support"],
+    "nearSynonyms": [
+      { "word": "retract", "difference": "takes the statement back entirely; qualify only narrows it" },
+      { "word": "concede", "difference": "admits a point; qualify adds limits to one's own claim" }
+    ],
+    "antonyms": ["generalize", "overstate"],
+    "examples": [
+      { "domain": "science", "text": "The author later qualified her claim, saying the drug helped most patients but not those with heart conditions.", "highConstraint": true },
+      { "domain": "history", "text": "The general called the battle a qualified success: the town was captured, but at a far higher cost than planned.", "highConstraint": true },
+      { "domain": "social-science", "text": "Economists qualified their forecast, adding that growth would continue only if oil prices stayed low.", "highConstraint": true }
+    ],
+    "satPassage": "In the first edition of his book, the economist claimed that free trade always benefits every nation. Later editions ____ this bold statement, adding that some industries and workers can be seriously harmed in the short term.",
+    "mnemonic": "Think of adding a 'qualifier' word like 'usually' or 'some' to soften a claim.",
+    "verified": false
+  },
+  {
+    "id": "check",
+    "lemma": "check",
+    "pos": "verb",
+    "primarySense": "to restrain, stop, or hold back something",
+    "otherSenses": ["to examine for accuracy"],
+    "forms": ["check", "checks", "checked", "checking", "unchecked"],
+    "roots": [],
+    "etymologyNote": "from chess: 'check' threatens the king and halts his movement",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["check the spread of", "checks and balances", "go unchecked"],
+    "nearSynonyms": [
+      { "word": "impede", "difference": "slows progress; check suggests restraining or holding in control" },
+      { "word": "examine", "difference": "the common meaning — inspect, not restrain" }
+    ],
+    "antonyms": ["unleash", "encourage", "accelerate"],
+    "examples": [
+      { "domain": "history", "text": "The Constitution's system of checks and balances was designed so that no single branch could seize too much power.", "highConstraint": true },
+      { "domain": "science", "text": "Vaccination checked the spread of smallpox until the disease was finally eradicated.", "highConstraint": true },
+      { "domain": "literature", "text": "She checked her anger, biting back the sharp words she longed to say.", "highConstraint": true }
+    ],
+    "satPassage": "When wolves were removed from the park, the deer population grew without limit and stripped the riverbanks of vegetation. Reintroducing the predators in 1995 ____ this growth, allowing willows and aspens to recover for the first time in decades.",
+    "verified": false
+  },
+  {
+    "id": "sound",
+    "lemma": "sound",
+    "pos": "adjective",
+    "primarySense": "based on reliable reasoning or evidence; well-founded",
+    "otherSenses": ["in good condition (safe and sound)"],
+    "forms": ["sound", "soundly", "soundness", "unsound"],
+    "roots": [],
+    "etymologyNote": "Old English gesund 'healthy, whole' — unrelated to sound meaning noise",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["sound reasoning", "sound judgment", "scientifically sound"],
+    "nearSynonyms": [
+      { "word": "robust", "difference": "holds up under stress; sound means logically valid" },
+      { "word": "plausible", "difference": "only seems reasonable; sound actually is" }
+    ],
+    "antonyms": ["unsound", "flawed", "fallacious"],
+    "examples": [
+      { "domain": "science", "text": "The experiment was sound: it had a control group, a large sample, and results that other labs repeated.", "highConstraint": true },
+      { "domain": "social-science", "text": "Saving a portion of every paycheck is sound financial advice, since it protects you against emergencies.", "highConstraint": true },
+      { "domain": "history", "text": "Washington's decision to retreat from New York proved sound, preserving his army to fight another day.", "highConstraint": true }
+    ],
+    "satPassage": "Critics initially mocked the engineer's unusual design for the tower. Careful testing showed that her calculations were entirely reliable, however, and the structure—built on such well-founded principles—has survived three major earthquakes. Her reasoning, it turned out, had been ____ all along.",
+    "verified": false
+  },
+  {
+    "id": "grave",
+    "lemma": "grave",
+    "pos": "adjective",
+    "primarySense": "serious and worrying; solemn in manner",
+    "forms": ["grave", "gravely", "gravity"],
+    "roots": [],
+    "etymologyNote": "Latin gravis 'heavy, serious' — unrelated to grave meaning burial place",
+    "connotation": "negative",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["grave danger", "grave concern", "a grave expression"],
+    "nearSynonyms": [
+      { "word": "serious", "difference": "general; grave suggests weight and potential danger" },
+      { "word": "earnest", "difference": "sincere; grave is solemn and heavy" }
+    ],
+    "antonyms": ["trivial", "minor", "lighthearted"],
+    "examples": [
+      { "domain": "science", "text": "Doctors warned that the infection posed a grave threat, since no available antibiotic could stop it.", "highConstraint": true },
+      { "domain": "history", "text": "Ignoring the scouts' warnings was a grave mistake; the enemy attacked at dawn from exactly the direction they had reported.", "highConstraint": true },
+      { "domain": "literature", "text": "The judge's grave expression silenced the courtroom before she said a word.", "highConstraint": true }
+    ],
+    "satPassage": "The report's authors avoided dramatic language, but their conclusions were deeply serious. They warned that without immediate repairs, the dam could fail during the next major storm, placing thousands of residents in ____ danger.",
+    "verified": false
+  },
+  {
+    "id": "arrest",
+    "lemma": "arrest",
+    "pos": "verb",
+    "primarySense": "to stop or halt a process; (arresting) strikingly attention-grabbing",
+    "otherSenses": ["to take someone into police custody"],
+    "forms": ["arrest", "arrests", "arrested", "arresting"],
+    "roots": [],
+    "etymologyNote": "Old French arester 'to stop, stay'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["arrest the decline", "cardiac arrest", "an arresting image"],
+    "nearSynonyms": [
+      { "word": "check", "difference": "restrains; arrest brings to a full stop" },
+      { "word": "detain", "difference": "the police meaning; not about halting processes" }
+    ],
+    "antonyms": ["accelerate", "advance", "promote"],
+    "examples": [
+      { "domain": "science", "text": "The new drug can arrest the progress of the disease, though it cannot reverse damage already done.", "highConstraint": true },
+      { "domain": "history", "text": "Emergency reforms arrested the empire's economic decline for a few decades but could not prevent its collapse.", "highConstraint": true },
+      { "domain": "literature", "text": "The portrait is arresting: the girl's direct, unblinking gaze stops visitors in their tracks.", "highConstraint": true }
+    ],
+    "satPassage": "Conservationists had watched the bird's population shrink every year for three decades. A captive breeding program launched in 1987 finally ____ that decline, and numbers have slowly risen ever since.",
+    "verified": false
+  },
+  {
+    "id": "command",
+    "lemma": "command",
+    "pos": "noun",
+    "primarySense": "mastery or thorough knowledge of a skill or subject",
+    "otherSenses": ["(verb) to deserve and receive (command respect)", "an order"],
+    "forms": ["command", "commands", "commanded", "commanding"],
+    "roots": [],
+    "etymologyNote": "Latin commandare 'to entrust, order'",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["a command of", "an impressive command", "command respect"],
+    "nearSynonyms": [
+      { "word": "familiarity", "difference": "basic acquaintance; command is mastery" },
+      { "word": "order", "difference": "the common meaning — an instruction" }
+    ],
+    "antonyms": ["ignorance", "unfamiliarity"],
+    "examples": [
+      { "domain": "literature", "text": "Nabokov's command of English was remarkable, especially since it was not his first language.", "highConstraint": true },
+      { "domain": "history", "text": "Her command of five languages made the queen an unusually effective diplomat.", "highConstraint": true },
+      { "domain": "science", "text": "The student's command of statistics allowed her to spot the error that experienced researchers had missed.", "highConstraint": true }
+    ],
+    "satPassage": "Raised in a household where three languages were spoken, the translator developed an extraordinary ____ of Spanish, Portuguese, and Italian, moving between them so easily that native speakers often assumed each was her first language.",
+    "verified": false
+  },
+  {
+    "id": "appreciate",
+    "lemma": "appreciate",
+    "pos": "verb",
+    "primarySense": "to rise in value over time",
+    "otherSenses": ["to be grateful for", "to understand fully"],
+    "forms": ["appreciate", "appreciates", "appreciated", "appreciating", "appreciation"],
+    "roots": [],
+    "etymologyNote": "Latin appretiare 'to set a price on' (pretium 'price')",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["appreciate in value", "property appreciated", "currency appreciation"],
+    "nearSynonyms": [
+      { "word": "augment", "difference": "someone adds to it; appreciate is value rising on its own" },
+      { "word": "thank", "difference": "the common meaning — gratitude" }
+    ],
+    "antonyms": ["depreciate", "decline", "devalue"],
+    "examples": [
+      { "domain": "social-science", "text": "Homes in the neighborhood appreciated rapidly, doubling in value within five years of the new train station.", "highConstraint": true },
+      { "domain": "history", "text": "Gold appreciated sharply during the war, as frightened investors fled from paper currency.", "highConstraint": true },
+      { "domain": "literature", "text": "The painting he bought for a few dollars appreciated so much that his grandchildren sold it for millions.", "highConstraint": true }
+    ],
+    "satPassage": "Many collectors bought rare comic books in the 1960s for less than a dollar each. Because so few copies survived in good condition, these comics ____ dramatically in the following decades, with some selling for over a million dollars.",
+    "mnemonic": "apPRECIate ~ PRICE: its price goes up.",
+    "verified": false
+  },
+  {
+    "id": "economy",
+    "lemma": "economy",
+    "pos": "noun",
+    "primarySense": "careful, efficient use of resources or words; thrift",
+    "otherSenses": ["the system of production and trade in a region"],
+    "forms": ["economy", "economical", "economically"],
+    "roots": [],
+    "etymologyNote": "Greek oikonomia 'household management' (oikos 'house' + nomos 'law')",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["economy of language", "economy of effort", "economy of means"],
+    "nearSynonyms": [
+      { "word": "frugality", "difference": "thrift with money; economy also applies to words and motion" },
+      { "word": "brevity", "difference": "shortness; economy means nothing wasted" }
+    ],
+    "antonyms": ["extravagance", "excess", "wastefulness"],
+    "examples": [
+      { "domain": "literature", "text": "Hemingway's economy of language—short sentences, few adjectives—makes every word carry weight.", "highConstraint": true },
+      { "domain": "science", "text": "Cheetahs hunt with great economy, saving their bursts of speed for the final seconds of a chase.", "highConstraint": true },
+      { "domain": "history", "text": "Lincoln's Gettysburg Address is famous for its economy: just 272 words that redefined the war.", "highConstraint": true }
+    ],
+    "satPassage": "Haiku poets have only seventeen syllables in which to capture an image or emotion. This strict limit forces a remarkable ____ of expression: every unnecessary word must be cut, and each remaining one must do as much work as possible.",
+    "verified": false
+  },
+  {
+    "id": "yield",
+    "lemma": "yield",
+    "pos": "verb",
+    "primarySense": "to produce or provide a result; to give way under pressure",
+    "forms": ["yield", "yields", "yielded", "yielding"],
+    "roots": [],
+    "etymologyNote": "Old English gieldan 'to pay, repay'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["yield results", "yield to pressure", "high-yield crops"],
+    "nearSynonyms": [
+      { "word": "concede", "difference": "admits defeat in an argument; yield can be physical or produce results" },
+      { "word": "produce", "difference": "general; yield often implies a return on effort" }
+    ],
+    "antonyms": ["resist", "withstand"],
+    "examples": [
+      { "domain": "science", "text": "The experiment yielded surprising results: the plants grew faster in darkness than in light.", "highConstraint": true },
+      { "domain": "history", "text": "After a month-long siege, the city finally yielded to the invading army.", "highConstraint": true },
+      { "domain": "social-science", "text": "The new farming method yielded twice as much rice per acre as traditional planting.", "highConstraint": true }
+    ],
+    "satPassage": "For years, the dig site produced nothing but broken pottery. Then, in its final season, careful excavation of a collapsed wall ____ an extraordinary find: a sealed jar containing dozens of perfectly preserved scrolls.",
+    "verified": false
+  },
+  {
+    "id": "concrete",
+    "lemma": "concrete",
+    "pos": "adjective",
+    "primarySense": "specific and real rather than abstract or vague",
+    "otherSenses": ["(noun) a building material"],
+    "forms": ["concrete", "concretely"],
+    "roots": [],
+    "etymologyNote": "Latin concretus 'grown together, solid'",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["concrete evidence", "concrete example", "concrete steps"],
+    "nearSynonyms": [
+      { "word": "explicit", "difference": "stated clearly; concrete is specific and tangible" },
+      { "word": "empirical", "difference": "based on observation; concrete is real and specific" }
+    ],
+    "antonyms": ["abstract", "vague", "theoretical"],
+    "examples": [
+      { "domain": "social-science", "text": "Voters wanted concrete plans, not vague promises about 'a brighter future.'", "highConstraint": true },
+      { "domain": "science", "text": "The teacher made the abstract idea of gravity concrete by dropping a feather and a hammer on video from the Moon.", "highConstraint": true },
+      { "domain": "history", "text": "Despite years of rumors, investigators found no concrete evidence that the king had been poisoned.", "highConstraint": true }
+    ],
+    "satPassage": "The candidate's speeches were full of grand themes like \"renewal\" and \"opportunity,\" but they rarely included specific proposals. Voters increasingly demanded ____ details—how much each program would cost, who would run it, and when it would begin.",
+    "verified": false
+  },
+  {
+    "id": "deliberate",
+    "lemma": "deliberate",
+    "pos": "adjective",
+    "primarySense": "done intentionally and with careful thought; (verb) to consider carefully",
+    "forms": ["deliberate", "deliberately", "deliberates", "deliberated", "deliberating", "deliberation"],
+    "roots": [],
+    "etymologyNote": "Latin deliberare 'to weigh well' (libra 'scales')",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["a deliberate choice", "deliberate pace", "jury deliberations"],
+    "nearSynonyms": [
+      { "word": "measured", "difference": "calm and restrained; deliberate stresses intention" },
+      { "word": "accidental", "difference": "the opposite: unintended" }
+    ],
+    "antonyms": ["accidental", "impulsive", "hasty"],
+    "examples": [
+      { "domain": "literature", "text": "The author's misspellings are deliberate, mimicking how the uneducated narrator would actually write.", "highConstraint": true },
+      { "domain": "social-science", "text": "The jury deliberated for three days, carefully reviewing every piece of evidence before reaching a verdict.", "highConstraint": true },
+      { "domain": "history", "text": "The general moved at a deliberate pace, refusing to rush his troops into an ambush.", "highConstraint": true }
+    ],
+    "satPassage": "At first, viewers assumed that the gaps in the film's soundtrack were technical errors. The director later explained that every silence was intentional and carefully planned—a ____ choice meant to make the audience feel the characters' isolation.",
+    "verified": false
+  },
+  {
+    "id": "discriminating",
+    "lemma": "discriminating",
+    "pos": "adjective",
+    "primarySense": "showing refined taste and good judgment in distinguishing quality",
+    "forms": ["discriminating", "discriminate", "discriminates", "discriminated"],
+    "roots": [],
+    "etymologyNote": "Latin discriminare 'to divide, distinguish'",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["discriminating taste", "discriminating reader", "discriminate between"],
+    "nearSynonyms": [
+      { "word": "judicious", "difference": "wise in decisions; discriminating is refined in taste and perception" },
+      { "word": "prejudiced", "difference": "the negative sense of discrimination — unfair bias" }
+    ],
+    "antonyms": ["undiscerning", "indiscriminate"],
+    "examples": [
+      { "domain": "literature", "text": "A discriminating reader, she could tell within a page whether a novel was worth finishing.", "highConstraint": true },
+      { "domain": "science", "text": "Bees are surprisingly discriminating, able to distinguish flowers by subtle differences in color and scent.", "highConstraint": true },
+      { "domain": "history", "text": "The Medici were discriminating patrons, funding only artists whose talent they judged truly exceptional.", "highConstraint": true }
+    ],
+    "satPassage": "The gallery owner rarely accepts new artists, rejecting hundreds of portfolios each year. Her eye for genuine talent is so refined that collectors treat her approval as a guarantee of quality, trusting her ____ judgment over that of most critics.",
+    "verified": false
+  },
+  {
+    "id": "entertain",
+    "lemma": "entertain",
+    "pos": "verb",
+    "primarySense": "to consider an idea or possibility seriously",
+    "otherSenses": ["to amuse", "to host guests"],
+    "forms": ["entertain", "entertains", "entertained", "entertaining"],
+    "roots": [],
+    "etymologyNote": "French entretenir 'to hold together, maintain'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["entertain the idea", "entertain the possibility", "refuse to entertain"],
+    "nearSynonyms": [
+      { "word": "accept", "difference": "agrees with it; entertain merely considers it" },
+      { "word": "dismiss", "difference": "the opposite: refuses to consider" }
+    ],
+    "antonyms": ["dismiss", "reject"],
+    "examples": [
+      { "domain": "science", "text": "Most astronomers would not even entertain the idea that the continents moved until evidence from the seafloor forced them to.", "highConstraint": true },
+      { "domain": "history", "text": "The king refused to entertain any proposal that would limit his power, rejecting the petition unread.", "highConstraint": true },
+      { "domain": "literature", "text": "For a moment, she entertained the thought of running away before deciding she could not leave her sister.", "highConstraint": true }
+    ],
+    "satPassage": "For centuries, physicians refused even to consider the possibility that invisible organisms might cause disease. Only after Louis Pasteur's experiments in the 1860s were most doctors willing to ____ the idea seriously.",
+    "verified": false
+  },
+  {
+    "id": "host",
+    "lemma": "host",
+    "pos": "noun",
+    "primarySense": "a large number of people or things",
+    "otherSenses": ["a person who receives guests", "an organism that supports a parasite"],
+    "forms": ["host", "hosts"],
+    "roots": [],
+    "etymologyNote": "Latin hostis 'army' (this sense) — a different origin from host 'one who entertains'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["a host of problems", "a host of reasons", "a whole host of"],
+    "nearSynonyms": [
+      { "word": "multitude", "difference": "very close; multitude is more formal and often about people" },
+      { "word": "few", "difference": "the opposite: a small number" }
+    ],
+    "antonyms": ["handful", "few"],
+    "examples": [
+      { "domain": "social-science", "text": "Poor sleep is linked to a host of problems, including weaker memory, weight gain, and depression.", "highConstraint": true },
+      { "domain": "science", "text": "The new material has a host of possible uses, from bulletproof vests to lighter airplane wings.", "highConstraint": true },
+      { "domain": "history", "text": "The canal brought a host of changes to the town: new businesses, new residents, and new diseases.", "highConstraint": true }
+    ],
+    "satPassage": "The move to a four-day school week was intended simply to save money on buses and heating. Instead, it brought a whole ____ of unexpected consequences, from childcare shortages to changes in students' test scores and sleep habits.",
+    "verified": false
+  },
+  {
+    "id": "reserve",
+    "lemma": "reserve",
+    "pos": "noun",
+    "primarySense": "restraint in expressing feelings or opinions",
+    "otherSenses": ["a supply kept for future use", "(verb) to set aside or book"],
+    "forms": ["reserve", "reserved"],
+    "roots": [],
+    "etymologyNote": "Latin reservare 'to keep back'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["natural reserve", "without reserve", "reserved manner"],
+    "nearSynonyms": [
+      { "word": "reticence", "difference": "unwillingness to speak; reserve is broader emotional restraint" },
+      { "word": "aloofness", "difference": "cold distance; reserve can be polite and warm" }
+    ],
+    "antonyms": ["openness", "effusiveness", "candor"],
+    "examples": [
+      { "domain": "literature", "text": "Beneath her cool reserve, the governess felt a passion she would never allow herself to show.", "highConstraint": true },
+      { "domain": "history", "text": "British soldiers were famous for their reserve, joking calmly even while under heavy fire.", "highConstraint": true },
+      { "domain": "social-science", "text": "In interviews, the usually reserved scientist spoke with surprising emotion about her late mentor.", "highConstraint": true }
+    ],
+    "satPassage": "The queen was known for her emotional restraint, rarely smiling in public and never revealing her opinions on political matters. Biographers have debated whether this ____ reflected her true personality or was a role she believed her position required.",
+    "verified": false
+  },
+  {
+    "id": "temper",
+    "lemma": "temper",
+    "pos": "verb",
+    "primarySense": "to moderate or soften something by adding a balancing element",
+    "otherSenses": ["(noun) a tendency to become angry", "to harden metal by heating and cooling"],
+    "forms": ["temper", "tempers", "tempered", "tempering"],
+    "roots": [],
+    "etymologyNote": "Latin temperare 'to mix in due proportion, restrain'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["temper expectations", "temper justice with mercy", "tempered by"],
+    "nearSynonyms": [
+      { "word": "mitigate", "difference": "reduces something harmful; temper balances or softens" },
+      { "word": "qualify", "difference": "limits a statement specifically" }
+    ],
+    "antonyms": ["intensify", "aggravate", "inflame"],
+    "examples": [
+      { "domain": "social-science", "text": "The company tempered its optimism, warning investors that sales might fall before they rose.", "highConstraint": true },
+      { "domain": "literature", "text": "The judge tempered justice with mercy, giving the young thief community service instead of prison.", "highConstraint": true },
+      { "domain": "science", "text": "Scientists tempered their excitement about the signal, noting that it might be caused by equipment noise.", "highConstraint": true }
+    ],
+    "satPassage": "The new findings about the cancer treatment are exciting, but the researchers urge caution. They ____ their enthusiasm by noting that the trial included only forty patients and that the long-term effects of the drug remain unknown.",
+    "verified": false
+  },
+  {
+    "id": "betray",
+    "lemma": "betray",
+    "pos": "verb",
+    "primarySense": "to reveal something unintentionally, especially a hidden feeling",
+    "otherSenses": ["to be disloyal to"],
+    "forms": ["betray", "betrays", "betrayed", "betraying"],
+    "roots": [],
+    "etymologyNote": "be- + Old French trair 'to hand over' (Latin tradere)",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["betray emotion", "betray nervousness", "betray no sign of"],
+    "nearSynonyms": [
+      { "word": "reveal", "difference": "general; betray implies the revealing was unintended" },
+      { "word": "deceive", "difference": "the disloyalty meaning, not unintended revealing" }
+    ],
+    "antonyms": ["conceal", "hide", "mask"],
+    "examples": [
+      { "domain": "literature", "text": "Though he claimed to be calm, his trembling hands betrayed his fear.", "highConstraint": true },
+      { "domain": "history", "text": "The spy's accent betrayed his foreign origins, and the guards arrested him at the border.", "highConstraint": true },
+      { "domain": "science", "text": "Tiny changes in the star's light betrayed the presence of an orbiting planet too faint to see directly.", "highConstraint": true }
+    ],
+    "satPassage": "The ambassador insisted that she was perfectly confident about the negotiations. Yet her short, clipped answers and the way she kept glancing at the door ____ her anxiety, and reporters quickly noticed the gap between her words and her manner.",
+    "verified": false
+  },
+  {
+    "id": "champion",
+    "lemma": "champion",
+    "pos": "verb",
+    "primarySense": "to vigorously support or defend a cause or person",
+    "otherSenses": ["(noun) the winner of a competition"],
+    "forms": ["champion", "champions", "championed", "championing"],
+    "roots": [],
+    "etymologyNote": "Medieval Latin campio 'fighter in the field'",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["champion a cause", "champion the rights of", "tireless champion"],
+    "nearSynonyms": [
+      { "word": "advocate", "difference": "argues for; champion fights for with personal energy" },
+      { "word": "endorse", "difference": "states approval, often once and briefly" }
+    ],
+    "antonyms": ["oppose", "abandon", "undermine"],
+    "examples": [
+      { "domain": "history", "text": "Eleanor Roosevelt championed human rights, helping to write the Universal Declaration of Human Rights.", "highConstraint": true },
+      { "domain": "science", "text": "Jane Goodall has championed the protection of chimpanzees for more than sixty years.", "highConstraint": true },
+      { "domain": "literature", "text": "The editor championed the unknown poet, pushing publishers to print her work after many rejections.", "highConstraint": true }
+    ],
+    "satPassage": "When the young author's first manuscript was rejected by eleven publishers, one editor refused to give up on it. She defended the book in meetings, wrote letters to reviewers, and persuaded her company to print it, tirelessly ____ a novel that went on to win national awards.",
+    "verified": false
+  },
+  {
+    "id": "flag",
+    "lemma": "flag",
+    "pos": "verb",
+    "primarySense": "to lose energy or enthusiasm; to weaken",
+    "otherSenses": ["to mark for attention", "(noun) a banner"],
+    "forms": ["flag", "flags", "flagged", "flagging"],
+    "roots": [],
+    "etymologyNote": "possibly from obsolete flag 'hanging down, drooping'",
+    "connotation": "negative",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["flagging spirits", "interest flagged", "energy began to flag"],
+    "nearSynonyms": [
+      { "word": "wane", "difference": "gradual decline of power or size; flag is about energy and enthusiasm" },
+      { "word": "mark", "difference": "the common verb meaning of flag" }
+    ],
+    "antonyms": ["revive", "strengthen", "surge"],
+    "examples": [
+      { "domain": "history", "text": "As winter dragged on, the soldiers' spirits began to flag, and many deserted.", "highConstraint": true },
+      { "domain": "social-science", "text": "Sales of the toy flagged after the holidays, falling by half in January.", "highConstraint": true },
+      { "domain": "literature", "text": "Twenty miles into the race, his energy flagged, and his steps grew heavy and slow.", "highConstraint": true }
+    ],
+    "satPassage": "The first months of the campaign drew enormous crowds and enthusiastic volunteers. By late autumn, however, public interest had begun to ____, and the candidate's rallies were attracting only a fraction of their earlier audiences.",
+    "verified": false
+  },
+  {
+    "id": "fast",
+    "lemma": "fast",
+    "pos": "adjective",
+    "primarySense": "firmly fixed or attached; loyal and unwavering",
+    "otherSenses": ["quick", "(verb) to go without food"],
+    "forms": ["fast"],
+    "roots": [],
+    "etymologyNote": "Old English fæst 'firm, secure' — the 'quick' meaning developed later",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["hold fast", "stand fast", "fast friends", "colorfast"],
+    "nearSynonyms": [
+      { "word": "tenacious", "difference": "describes persistent people; fast describes being firmly fixed" },
+      { "word": "quick", "difference": "the common meaning of fast" }
+    ],
+    "antonyms": ["loose", "wavering", "unsteady"],
+    "examples": [
+      { "domain": "history", "text": "Despite enormous pressure, the protesters held fast to their demands and refused to leave the square.", "highConstraint": true },
+      { "domain": "literature", "text": "The two orphans became fast friends, loyal to each other through every hardship that followed.", "highConstraint": true },
+      { "domain": "science", "text": "The mussel held fast to the rock, its threads anchoring it even as waves crashed over it.", "highConstraint": true }
+    ],
+    "satPassage": "During the storm, sailors lashed the cargo to the deck with heavy ropes. Although the ship rolled violently for hours, the crates remained ____, firmly secured in place, and not a single one was lost overboard.",
+    "verified": false
+  },
+  {
+    "id": "telling",
+    "lemma": "telling",
+    "pos": "adjective",
+    "primarySense": "revealing something important, often unintentionally",
+    "forms": ["telling", "tellingly"],
+    "roots": [],
+    "etymologyNote": "from tell 'to reveal, make known'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["a telling detail", "telling sign", "tellingly"],
+    "nearSynonyms": [
+      { "word": "salient", "difference": "most noticeable; telling is revealing of something hidden" },
+      { "word": "betraying", "difference": "reveals unintentionally; similar but used as a verb" }
+    ],
+    "antonyms": ["insignificant", "uninformative"],
+    "examples": [
+      { "domain": "literature", "text": "It is telling that the hero never mentions his father; the silence speaks louder than any description could.", "highConstraint": true },
+      { "domain": "social-science", "text": "The most telling statistic was that most of the company's executives had sold their own shares months earlier.", "highConstraint": true },
+      { "domain": "history", "text": "In a telling detail, the king's diary records the weather on the day of the revolution but not the revolution itself.", "highConstraint": true }
+    ],
+    "satPassage": "The company insists that its new phone is its most important product in years. Yet one detail is especially revealing: the chief executive was photographed at the launch using a competitor's device, a ____ sign of how little faith insiders may have in it.",
+    "verified": false
+  },
+  {
+    "id": "marked",
+    "lemma": "marked",
+    "pos": "adjective",
+    "primarySense": "clearly noticeable; distinct",
+    "forms": ["marked", "markedly"],
+    "roots": [],
+    "etymologyNote": "from mark — something that leaves a visible sign",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["a marked improvement", "marked difference", "markedly different"],
+    "nearSynonyms": [
+      { "word": "salient", "difference": "most important and prominent; marked is simply noticeable" },
+      { "word": "substantial", "difference": "large in amount; marked is easy to notice" }
+    ],
+    "antonyms": ["slight", "imperceptible", "negligible"],
+    "examples": [
+      { "domain": "science", "text": "Patients showed a marked improvement within days, with fevers dropping and appetites returning.", "highConstraint": true },
+      { "domain": "literature", "text": "Her later poems differ markedly from her early work, trading rhyme and cheer for free verse and grief.", "highConstraint": true },
+      { "domain": "social-science", "text": "There was a marked difference between the two schools: one had a waiting list, the other half-empty classrooms.", "highConstraint": true }
+    ],
+    "satPassage": "Before the new tutoring program, the school's reading scores had remained flat for a decade. In its first year, however, students showed a clearly noticeable rise, with scores jumping fifteen points—a ____ improvement that surprised even the program's designers.",
+    "verified": false
+  },
+  {
+    "id": "conviction",
+    "lemma": "conviction",
+    "pos": "noun",
+    "primarySense": "a firmly held belief or opinion; strong certainty",
+    "otherSenses": ["a formal declaration that someone is guilty of a crime"],
+    "forms": ["conviction", "convictions"],
+    "roots": [],
+    "etymologyNote": "Latin convincere 'to overcome, prove'",
+    "connotation": "positive",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["deep conviction", "speak with conviction", "the courage of one's convictions"],
+    "nearSynonyms": [
+      { "word": "opinion", "difference": "a view that may be weakly held; conviction is firm" },
+      { "word": "assertion", "difference": "a statement, not the belief behind it" }
+    ],
+    "antonyms": ["doubt", "uncertainty", "skepticism"],
+    "examples": [
+      { "domain": "history", "text": "Martin Luther spoke with such conviction that he refused to recant even when threatened with death.", "highConstraint": true },
+      { "domain": "science", "text": "Galileo's conviction that Earth orbits the sun never wavered, even under house arrest.", "highConstraint": true },
+      { "domain": "literature", "text": "The heroine's quiet conviction that every person deserves kindness shapes every choice she makes.", "highConstraint": true }
+    ],
+    "satPassage": "Many reformers abandoned the campaign for women's suffrage after repeated defeats. Susan B. Anthony never did; her firm ____ that women deserved the vote sustained her through decades of setbacks, arrests, and public ridicule.",
+    "verified": false
+  },
+  {
+    "id": "regard",
+    "lemma": "regard",
+    "pos": "verb",
+    "primarySense": "to consider or think of someone or something in a particular way",
+    "otherSenses": ["(noun) respect or esteem", "(noun) attention or concern"],
+    "forms": ["regard", "regards", "regarded", "regarding"],
+    "roots": [],
+    "etymologyNote": "French regarder 'to look at'",
+    "connotation": "neutral",
+    "category": "Common words, uncommon meanings",
+    "collocations": ["regard as", "widely regarded", "held in high regard"],
+    "nearSynonyms": [
+      { "word": "deem", "difference": "formal; implies a deliberate judgment" },
+      { "word": "entertain", "difference": "considers an idea as possible, not views it in a fixed way" }
+    ],
+    "antonyms": ["disregard", "ignore", "overlook"],
+    "examples": [
+      { "domain": "literature", "text": "Critics once regarded the novel as light entertainment; today it is regarded as a masterpiece.", "highConstraint": true },
+      { "domain": "science", "text": "Pluto was regarded as a planet for seventy-six years before astronomers reclassified it as a dwarf planet.", "highConstraint": true },
+      { "domain": "history", "text": "Many colonists regarded the new tax as an attack on their rights, not merely a cost.", "highConstraint": true }
+    ],
+    "satPassage": "During her lifetime, Emily Dickinson was largely unknown, and the few critics who saw her poems considered them odd and unpolished. Today, however, she is widely ____ as one of the most original poets in the English language.",
+    "verified": false
+  }
+]

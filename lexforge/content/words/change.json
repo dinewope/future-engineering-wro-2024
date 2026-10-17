@@ -1,0 +1,588 @@
+[
+  {
+    "id": "catalyze",
+    "lemma": "catalyze",
+    "pos": "verb",
+    "primarySense": "to cause or speed up a change or reaction",
+    "forms": ["catalyze", "catalyzes", "catalyzed", "catalyzing", "catalyst"],
+    "roots": [],
+    "etymologyNote": "Greek katalysis 'dissolution' (kata- 'down' + lyein 'to loosen')",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["catalyze change", "catalyze a reaction", "a catalyst for"],
+    "nearSynonyms": [
+      { "word": "precipitate", "difference": "causes something suddenly, often something bad" },
+      { "word": "cause", "difference": "general; catalyze implies sparking or accelerating a process" }
+    ],
+    "antonyms": ["inhibit", "impede"],
+    "examples": [
+      { "domain": "science", "text": "Enzymes catalyze reactions in the body, allowing digestion to happen in hours instead of years.", "highConstraint": true },
+      { "domain": "history", "text": "Rosa Parks's arrest catalyzed the Montgomery bus boycott, turning years of quiet frustration into organized action.", "highConstraint": true },
+      { "domain": "social-science", "text": "A single viral video catalyzed a nationwide debate about school lunches that lawmakers had ignored for a decade.", "highConstraint": true }
+    ],
+    "satPassage": "For years, residents had complained about the polluted river with little result. Then a photograph of the water catching fire appeared in a national magazine, and the public outrage it provoked ____ the passage of new environmental laws within months.",
+    "verified": false
+  },
+  {
+    "id": "precipitate",
+    "lemma": "precipitate",
+    "pos": "verb",
+    "primarySense": "to cause something, usually bad, to happen suddenly",
+    "otherSenses": ["(adjective) done hastily without thought", "(chemistry) to separate a solid out of a solution"],
+    "forms": ["precipitate", "precipitates", "precipitated", "precipitating"],
+    "roots": [],
+    "etymologyNote": "Latin praecipitare 'to throw headlong' (prae- + caput 'head')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["precipitate a crisis", "precipitate a war", "precipitating event"],
+    "nearSynonyms": [
+      { "word": "catalyze", "difference": "sparks or speeds a process, good or bad; precipitate stresses suddenness" },
+      { "word": "trigger", "difference": "informal; close in meaning" }
+    ],
+    "antonyms": ["prevent", "forestall", "delay"],
+    "examples": [
+      { "domain": "history", "text": "The assassination of Archduke Franz Ferdinand precipitated the First World War, turning tension into open conflict within weeks.", "highConstraint": true },
+      { "domain": "social-science", "text": "A sudden rise in interest rates precipitated the housing crash, as thousands of owners could no longer pay their loans.", "highConstraint": true },
+      { "domain": "science", "text": "A small earthquake can precipitate a landslide on slopes already weakened by heavy rain.", "highConstraint": true }
+    ],
+    "satPassage": "The bank had been quietly struggling for months, but its collapse came abruptly. A single newspaper report questioning its finances ____ a panic in which thousands of customers withdrew their savings in two days.",
+    "verified": false
+  },
+  {
+    "id": "exacerbate",
+    "lemma": "exacerbate",
+    "pos": "verb",
+    "primarySense": "to make a problem or bad situation worse",
+    "forms": ["exacerbate", "exacerbates", "exacerbated", "exacerbating", "exacerbation"],
+    "roots": [],
+    "etymologyNote": "Latin exacerbare 'to irritate' (ex- + acerbus 'harsh, bitter')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["exacerbate the problem", "exacerbate tensions", "exacerbated by"],
+    "nearSynonyms": [
+      { "word": "aggravate", "difference": "very close; aggravate is also used informally for 'annoy'" },
+      { "word": "precipitate", "difference": "causes something to start suddenly; exacerbate worsens what already exists" }
+    ],
+    "antonyms": ["mitigate", "alleviate", "ease"],
+    "examples": [
+      { "domain": "science", "text": "Cutting down the forest exacerbated the flooding, because no roots remained to absorb the heavy rain.", "highConstraint": true },
+      { "domain": "history", "text": "The harsh treaty exacerbated German resentment rather than calming it, helping fuel the next war.", "highConstraint": true },
+      { "domain": "social-science", "text": "Raising bus fares exacerbated inequality, since low-income workers rely on public transit far more than others.", "highConstraint": true }
+    ],
+    "satPassage": "Officials hoped that building more highways would ease the city's traffic. Instead, the new roads ____ the problem: they encouraged more people to drive, and within five years congestion was worse than it had ever been.",
+    "mnemonic": "EX-ACERB-ate ~ acerbic (bitter, sharp): it makes the sore even more bitter.",
+    "verified": false
+  },
+  {
+    "id": "mitigate",
+    "lemma": "mitigate",
+    "pos": "verb",
+    "primarySense": "to make something bad less severe or harmful",
+    "forms": ["mitigate", "mitigates", "mitigated", "mitigating", "mitigation"],
+    "roots": [{ "rootId": "mitis", "part": "miti" }, { "rootId": "ag-act", "part": "gate" }],
+    "etymologyNote": "Latin mitis 'mild, soft' + agere 'to drive, do' → 'to make mild'",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["mitigate the risk", "mitigate the effects of", "mitigating factors"],
+    "nearSynonyms": [
+      { "word": "alleviate", "difference": "usually about suffering or pain felt by someone" },
+      { "word": "eliminate", "difference": "removes completely; mitigate only reduces" }
+    ],
+    "antonyms": ["exacerbate", "aggravate"],
+    "confusables": [{ "word": "militate", "note": "militate against = to be a strong factor preventing something" }],
+    "examples": [
+      { "domain": "science", "text": "Planting mangroves along the coast can mitigate storm damage, because their roots absorb the force of incoming waves.", "highConstraint": true },
+      { "domain": "history", "text": "The new treaty did little to mitigate tensions; within a year, both empires were mobilizing troops again.", "highConstraint": true },
+      { "domain": "social-science", "text": "Researchers found that free school lunches mitigated, but did not erase, the achievement gap between income groups.", "highConstraint": true }
+    ],
+    "satPassage": "Urban planners have long known that dark asphalt traps heat. To ____ this 'heat island' effect, several cities now coat roads with reflective paint, which in early trials lowered surface temperatures by several degrees—an improvement, though not a complete solution.",
+    "mnemonic": "MITIGATE ≈ 'mitten-gate': a mitten softens the blow of the cold.",
+    "verified": true
+  },
+  {
+    "id": "alleviate",
+    "lemma": "alleviate",
+    "pos": "verb",
+    "primarySense": "to make pain, suffering, or a problem easier to bear",
+    "forms": ["alleviate", "alleviates", "alleviated", "alleviating", "alleviation"],
+    "roots": [],
+    "etymologyNote": "Latin alleviare 'to lighten' (ad- + levis 'light')",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["alleviate pain", "alleviate poverty", "alleviate symptoms"],
+    "nearSynonyms": [
+      { "word": "mitigate", "difference": "reduces the severity of a harm or risk; alleviate focuses on suffering felt" },
+      { "word": "cure", "difference": "removes the cause entirely" }
+    ],
+    "antonyms": ["exacerbate", "intensify", "aggravate"],
+    "examples": [
+      { "domain": "science", "text": "The medication alleviates the symptoms of the flu, though it does nothing to kill the virus itself.", "highConstraint": true },
+      { "domain": "social-science", "text": "Cash payments to families helped alleviate child poverty, cutting it nearly in half within a year.", "highConstraint": true },
+      { "domain": "literature", "text": "Nothing could alleviate her grief—not music, not travel, not the kindness of friends.", "highConstraint": true }
+    ],
+    "satPassage": "Nurses in the ward noticed that patients who could see trees from their windows asked for less pain medication. Later studies confirmed that views of nature can ____ discomfort, making recovery from surgery noticeably easier to endure.",
+    "mnemonic": "al-LEVI-ate ~ levitate: it makes the burden lighter.",
+    "verified": false
+  },
+  {
+    "id": "curtail",
+    "lemma": "curtail",
+    "pos": "verb",
+    "primarySense": "to reduce or restrict something, cutting it short",
+    "forms": ["curtail", "curtails", "curtailed", "curtailing", "curtailment"],
+    "roots": [],
+    "etymologyNote": "from obsolete curtal 'a horse with a docked tail' — to cut short",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["curtail spending", "curtail freedoms", "sharply curtailed"],
+    "nearSynonyms": [
+      { "word": "diminish", "difference": "becomes smaller, often naturally; curtail is an active cutting back" },
+      { "word": "stop", "difference": "ends completely; curtail only reduces" }
+    ],
+    "antonyms": ["extend", "expand", "augment"],
+    "examples": [
+      { "domain": "history", "text": "The new laws curtailed freedom of the press, forcing newspapers to submit every article to government censors.", "highConstraint": true },
+      { "domain": "social-science", "text": "Facing a budget gap, the city curtailed library hours, closing branches on weekends.", "highConstraint": true },
+      { "domain": "science", "text": "The drought curtailed the trees' growth, leaving unusually thin rings for those years.", "highConstraint": true }
+    ],
+    "satPassage": "The explorers had planned to spend six months mapping the coastline. When their supply ship sank in a storm, however, they were forced to ____ the expedition, returning home after only seven weeks.",
+    "mnemonic": "Picture a CURT TAIL: cut short.",
+    "verified": false
+  },
+  {
+    "id": "augment",
+    "lemma": "augment",
+    "pos": "verb",
+    "primarySense": "to make something larger by adding to it",
+    "forms": ["augment", "augments", "augmented", "augmenting", "augmentation"],
+    "roots": [],
+    "etymologyNote": "Latin augere 'to increase'",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["augment income", "augmented reality", "augment the collection"],
+    "nearSynonyms": [
+      { "word": "bolster", "difference": "props up or strengthens; augment adds more of something" },
+      { "word": "replace", "difference": "substitutes rather than adds" }
+    ],
+    "antonyms": ["diminish", "reduce", "curtail"],
+    "examples": [
+      { "domain": "social-science", "text": "Many teachers augment their salaries by tutoring on weekends.", "highConstraint": true },
+      { "domain": "history", "text": "The general augmented his army with local volunteers, nearly doubling its size before the battle.", "highConstraint": true },
+      { "domain": "science", "text": "The telescope's images were augmented with radio data, adding details invisible to ordinary light.", "highConstraint": true }
+    ],
+    "satPassage": "The museum's dinosaur collection was already impressive, but the curators wanted more. Over the next decade they ____ it with specimens purchased from collectors in Mongolia and Argentina, adding nearly two hundred new fossils.",
+    "verified": false
+  },
+  {
+    "id": "diminish",
+    "lemma": "diminish",
+    "pos": "verb",
+    "primarySense": "to become or make smaller, weaker, or less important",
+    "forms": ["diminish", "diminishes", "diminished", "diminishing", "undiminished"],
+    "roots": [],
+    "etymologyNote": "Latin deminuere 'to lessen' (minuere, related to minor 'smaller')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["diminishing returns", "diminish the importance of", "greatly diminished"],
+    "nearSynonyms": [
+      { "word": "wane", "difference": "gradual fading after a peak, often of power or light" },
+      { "word": "curtail", "difference": "an active cutting short by someone" }
+    ],
+    "antonyms": ["augment", "increase", "intensify"],
+    "examples": [
+      { "domain": "science", "text": "The pain diminished steadily over the week, and by Friday the patient barely noticed it.", "highConstraint": true },
+      { "domain": "history", "text": "After losing its colonies, the empire's influence diminished until it was a minor power.", "highConstraint": true },
+      { "domain": "social-science", "text": "Extra practice helps at first, but the gains diminish: the tenth hour adds far less than the first.", "highConstraint": true }
+    ],
+    "satPassage": "Some critics argue that the author's later novels ____ her achievement, since they repeat the same plots with less energy. Others insist that her reputation remains as strong as ever and that the later books simply deserve closer reading.",
+    "verified": false
+  },
+  {
+    "id": "proliferate",
+    "lemma": "proliferate",
+    "pos": "verb",
+    "primarySense": "to increase rapidly in number; to spread quickly",
+    "forms": ["proliferate", "proliferates", "proliferated", "proliferating", "proliferation"],
+    "roots": [],
+    "etymologyNote": "Latin proles 'offspring' + ferre 'to bear'",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["proliferate rapidly", "nuclear proliferation", "cells proliferate"],
+    "nearSynonyms": [
+      { "word": "burgeon", "difference": "grows and flourishes, usually positively" },
+      { "word": "augment", "difference": "someone deliberately adds to it" }
+    ],
+    "antonyms": ["dwindle", "decline", "diminish"],
+    "examples": [
+      { "domain": "science", "text": "Cancer cells proliferate uncontrollably, dividing again and again while healthy cells stop.", "highConstraint": true },
+      { "domain": "social-science", "text": "Food-delivery apps proliferated after 2015; within five years, most cities had a dozen competing services.", "highConstraint": true },
+      { "domain": "history", "text": "Printing presses proliferated across Europe, with more than two hundred towns hosting one by 1500.", "highConstraint": true }
+    ],
+    "satPassage": "In 1990, only a handful of farmers' markets operated in the state. Over the next two decades, they ____ at a remarkable rate, until nearly every town of any size held one each weekend.",
+    "verified": false
+  },
+  {
+    "id": "wane",
+    "lemma": "wane",
+    "pos": "verb",
+    "primarySense": "to gradually decrease in size, strength, or importance",
+    "forms": ["wane", "wanes", "waned", "waning"],
+    "roots": [],
+    "etymologyNote": "Old English wanian 'to lessen'",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["interest waned", "waning moon", "on the wane"],
+    "nearSynonyms": [
+      { "word": "diminish", "difference": "broader; wane suggests fading after a peak" },
+      { "word": "collapse", "difference": "sudden; wane is gradual" }
+    ],
+    "antonyms": ["wax", "grow", "burgeon"],
+    "examples": [
+      { "domain": "science", "text": "After the full moon, the moon wanes, showing a thinner sliver of light each night.", "highConstraint": true },
+      { "domain": "history", "text": "As trade routes shifted to the ocean, Venice's power slowly waned over two centuries.", "highConstraint": true },
+      { "domain": "literature", "text": "Her enthusiasm for the project waned as the weeks dragged on and no one replied to her letters.", "highConstraint": true }
+    ],
+    "satPassage": "Public excitement about the new space telescope was intense at its launch. Over the following years, however, attention gradually ____ as the novelty wore off, even though the instrument continued producing remarkable discoveries.",
+    "verified": false
+  },
+  {
+    "id": "burgeon",
+    "lemma": "burgeon",
+    "pos": "verb",
+    "primarySense": "to grow or develop rapidly; to flourish",
+    "forms": ["burgeon", "burgeons", "burgeoned", "burgeoning"],
+    "roots": [],
+    "etymologyNote": "Old French burjon 'a bud'",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["burgeoning industry", "burgeoning population", "a burgeoning career"],
+    "nearSynonyms": [
+      { "word": "proliferate", "difference": "multiplies in number, neutral or negative; burgeon is flourishing growth" },
+      { "word": "expand", "difference": "neutral; lacks the sense of vigorous blooming" }
+    ],
+    "antonyms": ["wane", "wither", "stagnate"],
+    "examples": [
+      { "domain": "social-science", "text": "The burgeoning tech industry transformed the sleepy town, tripling its population in ten years.", "highConstraint": true },
+      { "domain": "science", "text": "After the wildfire, new plant life burgeoned, with green shoots covering the black ground within weeks.", "highConstraint": true },
+      { "domain": "history", "text": "Trade burgeoned after the canal opened, as ships no longer had to sail around an entire continent.", "highConstraint": true }
+    ],
+    "satPassage": "When the first video game studio opened in the city in 2005, few expected much to follow. Yet the industry ____ over the next decade, growing from a single office to more than eighty companies employing thousands of developers.",
+    "mnemonic": "BURGEON ~ 'bud': buds bursting open in spring.",
+    "verified": false
+  },
+  {
+    "id": "stagnate",
+    "lemma": "stagnate",
+    "pos": "verb",
+    "primarySense": "to stop developing or changing; to become inactive",
+    "forms": ["stagnate", "stagnates", "stagnated", "stagnating", "stagnation", "stagnant"],
+    "roots": [],
+    "etymologyNote": "Latin stagnum 'pool of standing water'",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["wages stagnated", "economic stagnation", "stagnant water"],
+    "nearSynonyms": [
+      { "word": "wane", "difference": "actively declines; stagnate simply stops progressing" },
+      { "word": "pause", "difference": "temporary and neutral" }
+    ],
+    "antonyms": ["flourish", "burgeon", "progress"],
+    "examples": [
+      { "domain": "social-science", "text": "Wages stagnated for decades even as productivity climbed, so workers produced more without earning more.", "highConstraint": true },
+      { "domain": "science", "text": "Without currents to mix it, the pond's water stagnated, losing oxygen until the fish died.", "highConstraint": true },
+      { "domain": "history", "text": "Cut off from new ideas, the isolated kingdom's technology stagnated for two hundred years.", "highConstraint": true }
+    ],
+    "satPassage": "For most of the 1970s, the country's economy barely moved: output stayed flat, wages failed to rise, and few new businesses opened. Economists still debate why growth ____ for so long after decades of rapid expansion.",
+    "verified": false
+  },
+  {
+    "id": "induce",
+    "lemma": "induce",
+    "pos": "verb",
+    "primarySense": "to bring about or cause something; to persuade someone",
+    "forms": ["induce", "induces", "induced", "inducing", "inducement"],
+    "roots": [{ "rootId": "duc", "part": "duc" }],
+    "etymologyNote": "Latin inducere 'to lead in' (in- + ducere 'to lead')",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["induce sleep", "induce labor", "induce someone to"],
+    "nearSynonyms": [
+      { "word": "foster", "difference": "nurtures gradually; induce directly brings about" },
+      { "word": "force", "difference": "uses pressure; induce leads or persuades" }
+    ],
+    "antonyms": ["prevent", "deter", "inhibit"],
+    "examples": [
+      { "domain": "science", "text": "Certain medications can induce drowsiness, so patients are warned not to drive after taking them.", "highConstraint": true },
+      { "domain": "social-science", "text": "Lower prices induced shoppers to try the new brand, and many kept buying it afterward.", "highConstraint": true },
+      { "domain": "history", "text": "Promises of free land induced thousands of settlers to move west.", "highConstraint": true }
+    ],
+    "satPassage": "Botanists discovered that the plant flowers only after experiencing cold weather. By placing seedlings in refrigerators for several weeks, researchers were able to ____ blooming in the middle of summer, months ahead of the normal season.",
+    "verified": false
+  },
+  {
+    "id": "foster",
+    "lemma": "foster",
+    "pos": "verb",
+    "primarySense": "to encourage the growth or development of something",
+    "otherSenses": ["to raise a child who is not one's own"],
+    "forms": ["foster", "fosters", "fostered", "fostering"],
+    "roots": [],
+    "etymologyNote": "Old English fostrian 'to feed, nourish'",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["foster creativity", "foster cooperation", "foster a sense of"],
+    "nearSynonyms": [
+      { "word": "facilitate", "difference": "makes easier; foster actively nurtures over time" },
+      { "word": "induce", "difference": "causes directly; foster grows something gradually" }
+    ],
+    "antonyms": ["hinder", "suppress", "stifle"],
+    "examples": [
+      { "domain": "social-science", "text": "Open office layouts were meant to foster collaboration, though studies show they often reduce conversation.", "highConstraint": true },
+      { "domain": "history", "text": "The Medici family fostered Renaissance art by funding painters, sculptors, and architects for generations.", "highConstraint": true },
+      { "domain": "science", "text": "Warm, moist conditions foster the growth of mold, which is why bread spoils faster in summer.", "highConstraint": true }
+    ],
+    "satPassage": "The school replaced its rows of desks with small tables and added weekly group projects. Teachers hoped these changes would ____ teamwork among students, who had previously worked almost entirely alone.",
+    "verified": false
+  },
+  {
+    "id": "impede",
+    "lemma": "impede",
+    "pos": "verb",
+    "primarySense": "to slow down or block progress or movement",
+    "forms": ["impede", "impedes", "impeded", "impeding", "impediment"],
+    "roots": [],
+    "etymologyNote": "Latin impedire 'to shackle the feet' (in- + pes 'foot')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["impede progress", "impede the flow of", "an impediment to"],
+    "nearSynonyms": [
+      { "word": "hinder", "difference": "nearly identical; hinder is slightly more common in speech" },
+      { "word": "stymie", "difference": "blocks completely, leaving one stuck" }
+    ],
+    "antonyms": ["facilitate", "expedite", "foster"],
+    "examples": [
+      { "domain": "science", "text": "Plaque in the arteries impedes blood flow, forcing the heart to work harder.", "highConstraint": true },
+      { "domain": "history", "text": "Deep snow impeded Napoleon's retreat from Moscow, and thousands of soldiers froze along the way.", "highConstraint": true },
+      { "domain": "social-science", "text": "Complicated paperwork impedes small businesses, which lack the lawyers that large firms can afford.", "highConstraint": true }
+    ],
+    "satPassage": "The rescue team reached the village two days later than planned. Fallen trees and washed-out bridges ____ their progress at every turn, forcing them to clear paths by hand and detour through the hills.",
+    "mnemonic": "im-PED-e: something grabbing your feet (ped, as in pedestrian).",
+    "verified": false
+  },
+  {
+    "id": "hinder",
+    "lemma": "hinder",
+    "pos": "verb",
+    "primarySense": "to make it difficult for something to happen or progress",
+    "forms": ["hinder", "hinders", "hindered", "hindering", "hindrance"],
+    "roots": [],
+    "etymologyNote": "Old English hindrian 'to harm, hold back' (related to hind 'behind')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["hinder progress", "hinder efforts", "help or hinder"],
+    "nearSynonyms": [
+      { "word": "impede", "difference": "nearly identical; impede often describes physical movement" },
+      { "word": "prevent", "difference": "stops completely; hinder only makes harder" }
+    ],
+    "antonyms": ["facilitate", "help", "foster"],
+    "examples": [
+      { "domain": "science", "text": "Cloud cover hindered the astronomers' observations, so they captured only a few minutes of the eclipse.", "highConstraint": true },
+      { "domain": "social-science", "text": "A lack of reliable internet hinders rural students, who struggle to complete online homework.", "highConstraint": true },
+      { "domain": "literature", "text": "Her pride hindered her more than any rival did, keeping her from asking for the help she needed.", "highConstraint": true }
+    ],
+    "satPassage": "The language barrier did not stop the two scientists from collaborating, but it certainly ____ their work. Every email had to be translated, and simple questions sometimes took a week to answer.",
+    "verified": false
+  },
+  {
+    "id": "facilitate",
+    "lemma": "facilitate",
+    "pos": "verb",
+    "primarySense": "to make an action or process easier",
+    "forms": ["facilitate", "facilitates", "facilitated", "facilitating", "facilitator"],
+    "roots": [],
+    "etymologyNote": "Latin facilis 'easy'",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["facilitate communication", "facilitate trade", "facilitate learning"],
+    "nearSynonyms": [
+      { "word": "foster", "difference": "nurtures growth over time; facilitate removes obstacles" },
+      { "word": "cause", "difference": "brings about directly; facilitate only eases" }
+    ],
+    "antonyms": ["impede", "hinder", "obstruct"],
+    "examples": [
+      { "domain": "history", "text": "The Silk Road facilitated trade between China and Rome, letting goods travel thousands of miles.", "highConstraint": true },
+      { "domain": "science", "text": "Water facilitates many chemical reactions by allowing molecules to move and meet more easily.", "highConstraint": true },
+      { "domain": "social-science", "text": "Translation apps have facilitated communication between tourists and locals who share no language.", "highConstraint": true }
+    ],
+    "satPassage": "Before the bridge was built, crossing the river required a slow and unreliable ferry. The new structure greatly ____ travel between the two towns, cutting the trip from two hours to ten minutes.",
+    "verified": false
+  },
+  {
+    "id": "galvanize",
+    "lemma": "galvanize",
+    "pos": "verb",
+    "primarySense": "to shock or excite someone into taking action",
+    "forms": ["galvanize", "galvanizes", "galvanized", "galvanizing"],
+    "roots": [],
+    "etymologyNote": "after Luigi Galvani, who made frogs' legs twitch with electricity",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["galvanize support", "galvanize into action", "galvanize the public"],
+    "nearSynonyms": [
+      { "word": "catalyze", "difference": "sparks a process; galvanize energizes people" },
+      { "word": "encourage", "difference": "much gentler, without the sense of a jolt" }
+    ],
+    "antonyms": ["discourage", "deter", "pacify"],
+    "examples": [
+      { "domain": "history", "text": "The attack on Pearl Harbor galvanized the American public, turning widespread reluctance into support for war overnight.", "highConstraint": true },
+      { "domain": "social-science", "text": "A teenager's speech galvanized students worldwide, and millions joined climate strikes within a year.", "highConstraint": true },
+      { "domain": "science", "text": "The first photographs of the ozone hole galvanized governments into banning the chemicals responsible.", "highConstraint": true }
+    ],
+    "satPassage": "Residents had long been indifferent to the plan to close the neighborhood library. When a beloved librarian wrote an open letter describing what the closure would mean for children, it ____ the community, and hundreds of people packed the next council meeting to protest.",
+    "mnemonic": "Galvani zapped frog legs with electricity — to galvanize is to jolt people into motion.",
+    "verified": false
+  },
+  {
+    "id": "perpetuate",
+    "lemma": "perpetuate",
+    "pos": "verb",
+    "primarySense": "to make something, often bad, continue indefinitely",
+    "forms": ["perpetuate", "perpetuates", "perpetuated", "perpetuating", "perpetuation"],
+    "roots": [],
+    "etymologyNote": "Latin perpetuus 'continuing throughout'",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["perpetuate a myth", "perpetuate stereotypes", "perpetuate a cycle"],
+    "nearSynonyms": [
+      { "word": "preserve", "difference": "protects something valued; perpetuate often keeps something harmful going" },
+      { "word": "foster", "difference": "encourages growth, usually positive" }
+    ],
+    "antonyms": ["end", "break", "abolish"],
+    "examples": [
+      { "domain": "social-science", "text": "Unpaid internships can perpetuate inequality, since only students with family money can afford to work for free.", "highConstraint": true },
+      { "domain": "history", "text": "Textbooks that ignored the massacre perpetuated a false version of events for generations.", "highConstraint": true },
+      { "domain": "literature", "text": "The family's silence perpetuates the curse; only when the youngest daughter speaks does it finally break.", "highConstraint": true }
+    ],
+    "satPassage": "The idea that people use only ten percent of their brains has been disproved repeatedly by neuroscientists. Yet films and advertisements continue to repeat it, ____ a myth that most of the public still believes.",
+    "verified": false
+  },
+  {
+    "id": "supplant",
+    "lemma": "supplant",
+    "pos": "verb",
+    "primarySense": "to take the place of something, often by force or replacement",
+    "forms": ["supplant", "supplants", "supplanted", "supplanting"],
+    "roots": [],
+    "etymologyNote": "Latin supplantare 'to trip up' (sub- 'under' + planta 'sole of the foot')",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["supplant the old", "be supplanted by", "supplant a rival"],
+    "nearSynonyms": [
+      { "word": "replace", "difference": "neutral; supplant suggests pushing out the original" },
+      { "word": "augment", "difference": "adds to rather than replaces" }
+    ],
+    "antonyms": ["preserve", "maintain", "retain"],
+    "examples": [
+      { "domain": "history", "text": "By 1900, steamships had largely supplanted sailing vessels on major trade routes.", "highConstraint": true },
+      { "domain": "science", "text": "Einstein's theory did not erase Newton's laws but supplanted them for objects moving near the speed of light.", "highConstraint": true },
+      { "domain": "social-science", "text": "Streaming services have supplanted DVD rentals so completely that most rental stores have closed.", "highConstraint": true }
+    ],
+    "satPassage": "For centuries, Latin served as the shared language of European scholars. By the eighteenth century, however, national languages such as French and English had largely ____ it, and scientists increasingly published in their native tongues.",
+    "verified": false
+  },
+  {
+    "id": "undergird",
+    "lemma": "undergird",
+    "pos": "verb",
+    "primarySense": "to provide a firm foundation or support for something",
+    "forms": ["undergird", "undergirds", "undergirded", "undergirding"],
+    "roots": [],
+    "etymologyNote": "under + gird 'to encircle, brace' — bracing from beneath",
+    "connotation": "positive",
+    "category": "Change & causation",
+    "collocations": ["undergird a theory", "the principles that undergird", "undergirded by"],
+    "nearSynonyms": [
+      { "word": "bolster", "difference": "props up something that might weaken; undergird is the base beneath it" },
+      { "word": "underscore", "difference": "emphasizes rather than supports" }
+    ],
+    "antonyms": ["undermine", "weaken"],
+    "examples": [
+      { "domain": "science", "text": "Decades of careful measurements undergird the theory of plate tectonics, which is why geologists rarely doubt it.", "highConstraint": true },
+      { "domain": "history", "text": "The ideas of Locke and Montesquieu undergirded the U.S. Constitution, shaping its separation of powers.", "highConstraint": true },
+      { "domain": "social-science", "text": "Trust between neighbors undergirds a healthy community; without it, even good programs fail.", "highConstraint": true }
+    ],
+    "satPassage": "The novelist's fantastical plots may seem to float free of reality, but careful research ____ every one of them. Before writing, she spent years studying maps, court records, and diaries, so that even her strangest scenes rest on a foundation of historical fact.",
+    "verified": false
+  },
+  {
+    "id": "erode",
+    "lemma": "erode",
+    "pos": "verb",
+    "primarySense": "to gradually wear away or weaken",
+    "forms": ["erode", "erodes", "eroded", "eroding", "erosion"],
+    "roots": [],
+    "etymologyNote": "Latin erodere 'to gnaw away' (e- 'out' + rodere 'to gnaw')",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["erode trust", "erode support", "soil erosion"],
+    "nearSynonyms": [
+      { "word": "undermine", "difference": "weakens from beneath, often deliberately; erode wears away gradually" },
+      { "word": "destroy", "difference": "sudden and complete" }
+    ],
+    "antonyms": ["build", "strengthen", "bolster"],
+    "examples": [
+      { "domain": "science", "text": "Waves eroded the cliff so steadily that the lighthouse had to be moved inland twice.", "highConstraint": true },
+      { "domain": "social-science", "text": "Repeated scandals eroded public trust in the agency until few people believed its reports.", "highConstraint": true },
+      { "domain": "history", "text": "Inflation eroded the value of Roman coins, which contained less silver with each emperor.", "highConstraint": true }
+    ],
+    "satPassage": "The company's reputation did not collapse overnight. Instead, a long series of small failures—late deliveries, unanswered complaints, and quietly raised prices—gradually ____ customers' loyalty until most had switched to competitors.",
+    "verified": false
+  },
+  {
+    "id": "accelerate",
+    "lemma": "accelerate",
+    "pos": "verb",
+    "primarySense": "to make something happen faster or sooner",
+    "forms": ["accelerate", "accelerates", "accelerated", "accelerating", "acceleration"],
+    "roots": [],
+    "etymologyNote": "Latin accelerare 'to hasten' (ad- + celer 'swift')",
+    "connotation": "neutral",
+    "category": "Change & causation",
+    "collocations": ["accelerate growth", "accelerate the process", "rapidly accelerating"],
+    "nearSynonyms": [
+      { "word": "catalyze", "difference": "sparks or triggers; accelerate speeds up what is already happening" },
+      { "word": "precipitate", "difference": "causes suddenly, often something bad" }
+    ],
+    "antonyms": ["decelerate", "slow", "impede"],
+    "examples": [
+      { "domain": "science", "text": "Rising ocean temperatures have accelerated the melting of Greenland's ice, which now disappears three times faster than in 1990.", "highConstraint": true },
+      { "domain": "social-science", "text": "The pandemic accelerated the shift to online shopping, compressing a decade of change into a single year.", "highConstraint": true },
+      { "domain": "history", "text": "The railroad accelerated westward settlement, turning a months-long journey into a week.", "highConstraint": true }
+    ],
+    "satPassage": "Scientists had predicted that the glacier would retreat slowly over the coming century. Instead, warmer ocean currents have ____ its decline dramatically, and it is now losing ice four times faster than the original models projected.",
+    "verified": false
+  },
+  {
+    "id": "stymie",
+    "lemma": "stymie",
+    "pos": "verb",
+    "primarySense": "to block or thwart someone's progress completely",
+    "forms": ["stymie", "stymies", "stymied", "stymieing", "stymying"],
+    "roots": [],
+    "etymologyNote": "from golf, where a ball blocking the line to the hole was a 'stymie'",
+    "connotation": "negative",
+    "category": "Change & causation",
+    "collocations": ["stymie progress", "stymied by", "stymie efforts"],
+    "nearSynonyms": [
+      { "word": "hinder", "difference": "makes harder; stymie leaves one stuck" },
+      { "word": "delay", "difference": "only postpones" }
+    ],
+    "antonyms": ["facilitate", "enable", "advance"],
+    "examples": [
+      { "domain": "science", "text": "Researchers were stymied by the virus's ability to mutate, which made each new vaccine obsolete within months.", "highConstraint": true },
+      { "domain": "history", "text": "Disagreements among the allies stymied the peace talks, which stalled for nearly a year.", "highConstraint": true },
+      { "domain": "social-science", "text": "Strict zoning rules have stymied efforts to build affordable housing in many wealthy suburbs.", "highConstraint": true }
+    ],
+    "satPassage": "For decades, linguists tried to decode the ancient script, but every attempt failed. They were ____ by a basic problem: with no bilingual inscription to compare against, they had no way to test whether their guesses were correct.",
+    "verified": false
+  }
+]

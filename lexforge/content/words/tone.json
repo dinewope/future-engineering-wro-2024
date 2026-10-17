@@ -1,0 +1,592 @@
+[
+  {
+    "id": "ambivalent",
+    "lemma": "ambivalent",
+    "pos": "adjective",
+    "primarySense": "having mixed or conflicting feelings about something",
+    "forms": ["ambivalent", "ambivalently", "ambivalence"],
+    "roots": [{ "rootId": "ambi", "part": "ambi" }],
+    "etymologyNote": "Latin ambi- 'both' + valentia 'strength' — pulled strongly both ways",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["ambivalent about", "ambivalent feelings", "deeply ambivalent"],
+    "nearSynonyms": [
+      { "word": "indifferent", "difference": "doesn't care at all; ambivalent cares in two opposite directions" },
+      { "word": "ambiguous", "difference": "describes unclear meaning, not mixed feelings" }
+    ],
+    "antonyms": ["certain", "resolute", "wholehearted"],
+    "confusables": [{ "word": "ambiguous", "note": "a message is ambiguous; a person is ambivalent" }],
+    "examples": [
+      { "domain": "literature", "text": "The narrator is ambivalent about her hometown: she loves its quiet streets yet cannot wait to escape them.", "highConstraint": true },
+      { "domain": "history", "text": "Many colonists felt ambivalent about independence, valuing their British heritage while resenting British taxes.", "highConstraint": true },
+      { "domain": "social-science", "text": "Survey respondents were ambivalent toward the new technology, praising its convenience but fearing its effect on privacy.", "highConstraint": true }
+    ],
+    "satPassage": "The scientist's memoir reveals conflicting feelings about her most famous discovery. She describes pride at its importance for medicine but also regret that it was later used to build weapons, an ____ attitude that she never fully resolved.",
+    "mnemonic": "AMBI (both) + VALENT (strong): strong feelings both ways.",
+    "verified": false
+  },
+  {
+    "id": "indifferent",
+    "lemma": "indifferent",
+    "pos": "adjective",
+    "primarySense": "having no interest or concern; not caring either way",
+    "otherSenses": ["mediocre, neither good nor bad"],
+    "forms": ["indifferent", "indifferently", "indifference"],
+    "roots": [],
+    "etymologyNote": "Latin indifferens 'not differing, of no importance'",
+    "connotation": "negative",
+    "category": "Tone & attitude",
+    "collocations": ["indifferent to", "utterly indifferent", "public indifference"],
+    "nearSynonyms": [
+      { "word": "ambivalent", "difference": "torn between feelings; indifferent has no feelings about it" },
+      { "word": "aloof", "difference": "emotionally distant from people, not uninterested in an issue" }
+    ],
+    "antonyms": ["concerned", "eager", "ardent"],
+    "examples": [
+      { "domain": "social-science", "text": "Voter turnout was low because many residents were indifferent to the election, seeing little difference between the candidates.", "highConstraint": true },
+      { "domain": "literature", "text": "The cat remained indifferent to the commotion, grooming itself calmly while the family shouted.", "highConstraint": true },
+      { "domain": "science", "text": "Nature is indifferent to human plans; a volcano erupts whether or not a city sits at its base.", "highConstraint": true }
+    ],
+    "satPassage": "The composer expected his radical new symphony to provoke either outrage or praise. Instead, the audience was ____: they applauded politely, chatted about dinner plans, and left without seeming to have noticed anything unusual at all.",
+    "verified": false
+  },
+  {
+    "id": "skeptical",
+    "lemma": "skeptical",
+    "pos": "adjective",
+    "primarySense": "doubtful about whether something is true; questioning",
+    "forms": ["skeptical", "skeptically", "skepticism", "skeptic", "skeptics"],
+    "roots": [],
+    "etymologyNote": "Greek skeptikos 'inquiring, reflective'",
+    "connotation": "neutral",
+    "intensity": 1,
+    "category": "Tone & attitude",
+    "collocations": ["skeptical of", "deeply skeptical", "healthy skepticism"],
+    "nearSynonyms": [
+      { "word": "cynical", "difference": "assumes the worst about people's motives; skeptical just wants evidence" },
+      { "word": "incredulous", "difference": "unable to believe something, often in shock" }
+    ],
+    "antonyms": ["credulous", "convinced", "trusting"],
+    "examples": [
+      { "domain": "science", "text": "Most physicists were skeptical of the faster-than-light claim, and they were proved right when a loose cable explained the result.", "highConstraint": true },
+      { "domain": "social-science", "text": "Economists remain skeptical that the tax cut will pay for itself, noting that past cuts did not.", "highConstraint": true },
+      { "domain": "history", "text": "Columbus's sailors grew skeptical of his promises as weeks passed with no land in sight.", "highConstraint": true }
+    ],
+    "satPassage": "When a researcher announced that she had created energy from a tabletop device at room temperature, other scientists were ____. They did not accuse her of fraud, but they insisted on seeing independent replications before accepting such an extraordinary claim.",
+    "verified": false
+  },
+  {
+    "id": "wary",
+    "lemma": "wary",
+    "pos": "adjective",
+    "primarySense": "cautious because of possible danger or problems",
+    "forms": ["wary", "warily", "wariness"],
+    "roots": [],
+    "etymologyNote": "Old English wær 'aware, cautious'",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["wary of", "a wary eye", "remain wary"],
+    "nearSynonyms": [
+      { "word": "skeptical", "difference": "doubts truth; wary fears danger" },
+      { "word": "apprehensive", "difference": "anxious about a future event; wary is watchful caution" }
+    ],
+    "antonyms": ["trusting", "careless", "unsuspecting"],
+    "examples": [
+      { "domain": "science", "text": "Deer are wary of open fields, where predators can spot them easily, so they graze near the forest edge.", "highConstraint": true },
+      { "domain": "history", "text": "Having been betrayed once, the king was wary of any alliance that required him to send away his army.", "highConstraint": true },
+      { "domain": "literature", "text": "The stray dog approached warily, ready to flee at the first sudden movement.", "highConstraint": true }
+    ],
+    "satPassage": "After the last company that promised to revitalize downtown closed within two years, residents have become ____ of such proposals. They now demand detailed plans and guarantees before supporting any new development, however attractive it sounds.",
+    "verified": false
+  },
+  {
+    "id": "reverent",
+    "lemma": "reverent",
+    "pos": "adjective",
+    "primarySense": "feeling or showing deep respect and admiration",
+    "forms": ["reverent", "reverently", "reverence", "revere", "revered"],
+    "roots": [],
+    "etymologyNote": "Latin revereri 'to stand in awe of'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["reverent silence", "reverent tone", "speak reverently of"],
+    "nearSynonyms": [
+      { "word": "deferential", "difference": "yields to someone's authority; reverent expresses awe" },
+      { "word": "laudatory", "difference": "praising openly; reverent is quiet, deep respect" }
+    ],
+    "antonyms": ["irreverent", "disrespectful", "scornful"],
+    "examples": [
+      { "domain": "history", "text": "Visitors walk through the memorial in reverent silence, many pausing to touch the names carved into the wall.", "highConstraint": true },
+      { "domain": "literature", "text": "The young poet's tone is reverent whenever he mentions his teacher, as if describing a saint.", "highConstraint": true },
+      { "domain": "science", "text": "Astronomers speak reverently of the Hubble telescope, which transformed their field more than any instrument since Galileo's.", "highConstraint": true }
+    ],
+    "satPassage": "In her biography of Marie Curie, the author rarely criticizes her subject. Every chapter describes Curie's achievements in tones of awe and deep respect, a ____ approach that some reviewers felt prevented a balanced portrait.",
+    "verified": false
+  },
+  {
+    "id": "dismissive",
+    "lemma": "dismissive",
+    "pos": "adjective",
+    "primarySense": "showing that something is not worth consideration",
+    "forms": ["dismissive", "dismissively"],
+    "roots": [],
+    "etymologyNote": "from dismiss (Latin dimittere 'to send away')",
+    "connotation": "negative",
+    "category": "Tone & attitude",
+    "collocations": ["dismissive of", "a dismissive wave", "dismissive attitude"],
+    "nearSynonyms": [
+      { "word": "disdainful", "difference": "adds contempt; dismissive just refuses to take seriously" },
+      { "word": "skeptical", "difference": "doubts but still considers the evidence" }
+    ],
+    "antonyms": ["receptive", "respectful", "attentive"],
+    "examples": [
+      { "domain": "science", "text": "Senior researchers were dismissive of her early results, calling them a lab error without checking her data.", "highConstraint": true },
+      { "domain": "literature", "text": "With a dismissive wave of his hand, the duke ended the conversation before the servant could finish.", "highConstraint": true },
+      { "domain": "social-science", "text": "Officials were dismissive of residents' complaints about the water until tests showed dangerous lead levels.", "highConstraint": true }
+    ],
+    "satPassage": "When the young economist presented her model at the conference, the response from senior colleagues was ____: several left early, and one remarked that the idea was too simple to deserve discussion. Twenty years later, the same model is taught in every introductory course.",
+    "verified": false
+  },
+  {
+    "id": "sardonic",
+    "lemma": "sardonic",
+    "pos": "adjective",
+    "primarySense": "grimly mocking or scornfully humorous",
+    "forms": ["sardonic", "sardonically"],
+    "roots": [],
+    "etymologyNote": "Greek sardonios, said of a Sardinian plant that made eaters grimace",
+    "connotation": "negative",
+    "category": "Tone & attitude",
+    "collocations": ["sardonic smile", "sardonic wit", "sardonic remark"],
+    "nearSynonyms": [
+      { "word": "sarcastic", "difference": "openly says the opposite of what's meant; sardonic is quieter, darker mockery" },
+      { "word": "cynical", "difference": "a belief that people are selfish; sardonic is a tone of humor" }
+    ],
+    "antonyms": ["earnest", "sincere", "warm"],
+    "examples": [
+      { "domain": "literature", "text": "When told the ship was unsinkable, the old sailor gave a sardonic smile, as if he had heard that joke before.", "highConstraint": true },
+      { "domain": "history", "text": "Wartime soldiers' letters often adopt a sardonic tone, joking bitterly about mud, rats, and generals far behind the lines.", "highConstraint": true },
+      { "domain": "social-science", "text": "The columnist's sardonic review of the budget called it 'a masterpiece of creative arithmetic.'", "highConstraint": true }
+    ],
+    "satPassage": "Asked whether the government's new plan would finally fix the city's crumbling roads, the retired engineer laughed. \"Of course,\" she replied with a ____ grin, \"just like the last six plans did.\" Her mocking tone made clear she expected nothing to change.",
+    "verified": false
+  },
+  {
+    "id": "wistful",
+    "lemma": "wistful",
+    "pos": "adjective",
+    "primarySense": "having a gentle, sad longing for something lost or unattainable",
+    "forms": ["wistful", "wistfully", "wistfulness"],
+    "roots": [],
+    "etymologyNote": "perhaps from obsolete wistly 'intently'",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["wistful smile", "wistful tone", "look wistfully at"],
+    "nearSynonyms": [
+      { "word": "nostalgic", "difference": "longs for the past specifically; wistful can long for anything out of reach" },
+      { "word": "sorrowful", "difference": "heavier grief, without the gentle longing" }
+    ],
+    "antonyms": ["content", "satisfied", "cheerful"],
+    "examples": [
+      { "domain": "literature", "text": "She gazed wistfully at the boats leaving the harbor, wishing she could sail away with them.", "highConstraint": true },
+      { "domain": "history", "text": "In exile, the former king wrote wistful letters describing the gardens of the palace he would never see again.", "highConstraint": true },
+      { "domain": "social-science", "text": "Older interviewees spoke in a wistful tone about neighborhoods where children once played freely in the streets.", "highConstraint": true }
+    ],
+    "satPassage": "In the final chapter, the narrator, now elderly, returns to the farm where she grew up. Standing by the empty barn, she remembers summer evenings with her brothers and feels a gentle, ____ longing for a time that can never return.",
+    "verified": false
+  },
+  {
+    "id": "candid",
+    "lemma": "candid",
+    "pos": "adjective",
+    "primarySense": "honest and direct, even about uncomfortable things",
+    "otherSenses": ["(of a photo) taken informally without posing"],
+    "forms": ["candid", "candidly", "candor"],
+    "roots": [],
+    "etymologyNote": "Latin candidus 'white, pure, sincere'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["candid assessment", "candid conversation", "to be candid"],
+    "nearSynonyms": [
+      { "word": "blunt", "difference": "honest without tact, often rude; candid is honest and usually respectful" },
+      { "word": "earnest", "difference": "sincere and serious, not necessarily revealing" }
+    ],
+    "antonyms": ["evasive", "guarded", "reticent"],
+    "examples": [
+      { "domain": "social-science", "text": "In a candid interview, the CEO admitted the company had ignored safety warnings for years.", "highConstraint": true },
+      { "domain": "literature", "text": "Her diary is remarkably candid, recording her jealousy and failures alongside her triumphs.", "highConstraint": true },
+      { "domain": "science", "text": "The researchers were candid about their study's limits, openly noting that their sample included only men.", "highConstraint": true }
+    ],
+    "satPassage": "Most politicians' memoirs are carefully polished to avoid controversy. The former senator's book is unusually ____, however: she openly describes her mistakes, admits to decisions she regrets, and names colleagues she believes acted dishonestly.",
+    "verified": false
+  },
+  {
+    "id": "earnest",
+    "lemma": "earnest",
+    "pos": "adjective",
+    "primarySense": "sincere and serious in intention or feeling",
+    "forms": ["earnest", "earnestly", "earnestness"],
+    "roots": [],
+    "etymologyNote": "Old English eornoste 'serious, zealous'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["earnest effort", "in earnest", "earnest plea"],
+    "nearSynonyms": [
+      { "word": "candid", "difference": "frank and open; earnest is serious and sincere" },
+      { "word": "ardent", "difference": "passionately enthusiastic; earnest is steady seriousness" }
+    ],
+    "antonyms": ["flippant", "frivolous", "sardonic", "insincere"],
+    "examples": [
+      { "domain": "literature", "text": "Unlike his joking brothers, the youngest son was earnest about everything, treating even games as matters of honor.", "highConstraint": true },
+      { "domain": "history", "text": "The petition was an earnest plea for help, signed by hundreds of farmers facing starvation.", "highConstraint": true },
+      { "domain": "social-science", "text": "Volunteers made an earnest effort to reach every household, knocking on doors for six weeks straight.", "highConstraint": true }
+    ],
+    "satPassage": "Critics who expected the comedian's new book to be full of jokes were surprised. Its tone is sincere and serious throughout, as he ____ explains why he believes humor helped him survive a difficult childhood.",
+    "verified": false
+  },
+  {
+    "id": "ardent",
+    "lemma": "ardent",
+    "pos": "adjective",
+    "primarySense": "very enthusiastic or passionate",
+    "forms": ["ardent", "ardently", "ardor"],
+    "roots": [],
+    "etymologyNote": "Latin ardere 'to burn'",
+    "connotation": "positive",
+    "intensity": 3,
+    "category": "Tone & attitude",
+    "collocations": ["ardent supporter", "ardent admirer", "ardently believe"],
+    "nearSynonyms": [
+      { "word": "earnest", "difference": "serious and sincere; ardent burns with passion" },
+      { "word": "interested", "difference": "far weaker" }
+    ],
+    "antonyms": ["indifferent", "apathetic", "lukewarm"],
+    "examples": [
+      { "domain": "history", "text": "An ardent abolitionist, she risked her life repeatedly to guide escaped slaves to freedom.", "highConstraint": true },
+      { "domain": "science", "text": "Darwin was an ardent collector of beetles as a student, once popping one into his mouth to free his hands for another.", "highConstraint": true },
+      { "domain": "literature", "text": "Romeo's ardent declarations of love seem rash to Juliet, who fears they are too sudden.", "highConstraint": true }
+    ],
+    "satPassage": "John Muir was not merely fond of the Sierra Nevada; he devoted his life to it. He spent years hiking its peaks, wrote passionate essays about its beauty, and became its most ____ defender when developers threatened to dam its valleys.",
+    "mnemonic": "ARDENT ~ 'ardor' ~ 'arson': burning with passion.",
+    "verified": false
+  },
+  {
+    "id": "apprehensive",
+    "lemma": "apprehensive",
+    "pos": "adjective",
+    "primarySense": "anxious or fearful that something bad will happen",
+    "forms": ["apprehensive", "apprehensively", "apprehension"],
+    "roots": [],
+    "etymologyNote": "Latin apprehendere 'to grasp' — grasping at what may come",
+    "connotation": "negative",
+    "category": "Tone & attitude",
+    "collocations": ["apprehensive about", "feel apprehensive", "a sense of apprehension"],
+    "nearSynonyms": [
+      { "word": "wary", "difference": "cautious and watchful; apprehensive is anxious dread" },
+      { "word": "terrified", "difference": "much stronger fear" }
+    ],
+    "antonyms": ["confident", "calm", "assured"],
+    "examples": [
+      { "domain": "social-science", "text": "Many workers were apprehensive about the new software, fearing it would eventually replace their jobs.", "highConstraint": true },
+      { "domain": "literature", "text": "As the storm clouds gathered, the travelers grew apprehensive, glancing nervously at the narrow mountain path.", "highConstraint": true },
+      { "domain": "history", "text": "Allied commanders were apprehensive on the eve of D-Day, knowing bad weather could doom the invasion.", "highConstraint": true }
+    ],
+    "satPassage": "The night before her first solo flight, the young pilot could not sleep. She checked the weather report again and again, worrying about crosswinds and engine trouble, too ____ to think about anything except what might go wrong.",
+    "verified": false
+  },
+  {
+    "id": "disdainful",
+    "lemma": "disdainful",
+    "pos": "adjective",
+    "primarySense": "showing contempt for something considered unworthy",
+    "forms": ["disdainful", "disdainfully", "disdain"],
+    "roots": [],
+    "etymologyNote": "Old French desdeignier (des- 'not' + deignier 'to deem worthy')",
+    "connotation": "negative",
+    "intensity": 2,
+    "category": "Tone & attitude",
+    "collocations": ["disdainful of", "a disdainful look", "treat with disdain"],
+    "nearSynonyms": [
+      { "word": "dismissive", "difference": "refuses to take seriously; disdainful adds open contempt" },
+      { "word": "scathing", "difference": "describes harsh criticism, not a superior attitude" }
+    ],
+    "antonyms": ["admiring", "respectful", "reverent"],
+    "examples": [
+      { "domain": "literature", "text": "The aristocrat cast a disdainful glance at the muddy farmer, as if his presence soiled the room.", "highConstraint": true },
+      { "domain": "history", "text": "Established painters were disdainful of the Impressionists, mocking their loose brushwork as unfinished sketches.", "highConstraint": true },
+      { "domain": "science", "text": "Some theorists were openly disdainful of experimental work, which they considered mere tinkering.", "highConstraint": true }
+    ],
+    "satPassage": "Classical music critics of the 1950s often treated jazz with open contempt. One famous reviewer called it \"noise for the uneducated,\" a ____ judgment that reveals more about the critic's prejudices than about the music itself.",
+    "verified": false
+  },
+  {
+    "id": "nostalgic",
+    "lemma": "nostalgic",
+    "pos": "adjective",
+    "primarySense": "feeling affectionate longing for a happier past",
+    "forms": ["nostalgic", "nostalgically", "nostalgia"],
+    "roots": [],
+    "etymologyNote": "Greek nostos 'return home' + algos 'pain'",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["nostalgic for", "a nostalgic look back", "wave of nostalgia"],
+    "nearSynonyms": [
+      { "word": "wistful", "difference": "longing for anything out of reach; nostalgic is specifically about the past" },
+      { "word": "sentimental", "difference": "emotional, sometimes excessively, about anything" }
+    ],
+    "antonyms": ["forward-looking", "progressive"],
+    "examples": [
+      { "domain": "social-science", "text": "Advertisers exploit nostalgic feelings, reviving logos from the 1980s to appeal to adults who grew up with them.", "highConstraint": true },
+      { "domain": "literature", "text": "The novel's nostalgic tone paints the narrator's childhood village as a golden place, ignoring its hardships.", "highConstraint": true },
+      { "domain": "history", "text": "After the revolution, many exiles were nostalgic for the old regime, remembering its order rather than its cruelty.", "highConstraint": true }
+    ],
+    "satPassage": "Many older residents remember the town's downtown, before the highway bypassed it, as a lively place full of shops and parades. Historians caution that these ____ memories tend to soften the past, leaving out the poverty and segregation that also marked that era.",
+    "mnemonic": "NOST (home) + ALGIA (pain): the ache to return home.",
+    "verified": false
+  },
+  {
+    "id": "laudatory",
+    "lemma": "laudatory",
+    "pos": "adjective",
+    "primarySense": "expressing high praise",
+    "forms": ["laudatory", "laud", "laudable"],
+    "roots": [],
+    "etymologyNote": "Latin laudare 'to praise'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["laudatory review", "laudatory remarks", "highly laudatory"],
+    "nearSynonyms": [
+      { "word": "reverent", "difference": "deep, quiet respect; laudatory is open, spoken praise" },
+      { "word": "flattering", "difference": "praise that may be insincere or exaggerated" }
+    ],
+    "antonyms": ["scathing", "critical", "disparaging"],
+    "examples": [
+      { "domain": "literature", "text": "The novel received laudatory reviews, with one critic calling it the finest debut of the decade.", "highConstraint": true },
+      { "domain": "history", "text": "The general's obituary was entirely laudatory, mentioning his victories but none of his costly failures.", "highConstraint": true },
+      { "domain": "science", "text": "Her paper earned laudatory comments from reviewers, who praised its elegant experimental design.", "highConstraint": true }
+    ],
+    "satPassage": "Although the architect's earlier buildings were widely mocked, critics responded to her new museum with nearly universal praise. One reviewer called it \"a masterpiece,\" and the city's newspaper published an equally ____ editorial celebrating its design.",
+    "mnemonic": "LAUD ~ 'loud' applause: praise sung out loud.",
+    "verified": false
+  },
+  {
+    "id": "incredulous",
+    "lemma": "incredulous",
+    "pos": "adjective",
+    "primarySense": "unwilling or unable to believe something",
+    "forms": ["incredulous", "incredulously", "incredulity"],
+    "roots": [{ "rootId": "cred", "part": "cred" }],
+    "etymologyNote": "Latin in- 'not' + credulus 'believing' (credere 'to believe')",
+    "connotation": "neutral",
+    "intensity": 3,
+    "category": "Tone & attitude",
+    "collocations": ["incredulous look", "incredulous laugh", "stare incredulously"],
+    "nearSynonyms": [
+      { "word": "skeptical", "difference": "questioning and waiting for evidence; incredulous simply can't believe it" },
+      { "word": "incredible", "difference": "describes the thing that's hard to believe, not the person" }
+    ],
+    "antonyms": ["credulous", "convinced", "trusting"],
+    "confusables": [{ "word": "incredible", "note": "the news is incredible; the listener is incredulous" }],
+    "examples": [
+      { "domain": "literature", "text": "When told she had inherited a castle, the young clerk gave an incredulous laugh, sure it was a prank.", "highConstraint": true },
+      { "domain": "science", "text": "Scientists were incredulous when the bacterium survived in boiling water, an environment they had assumed was sterile.", "highConstraint": true },
+      { "domain": "history", "text": "Europeans were incredulous at early reports of the platypus, and some believed the first specimen was a stitched-together fake.", "highConstraint": true }
+    ],
+    "satPassage": "When the first stuffed platypus arrived in Britain in 1799, naturalists could not accept that such a creature was real. One, convinced it was a hoax, tried to pull off its bill with scissors—a vivid sign of how ____ the scientific community was.",
+    "verified": false
+  },
+  {
+    "id": "scathing",
+    "lemma": "scathing",
+    "pos": "adjective",
+    "primarySense": "severely and harshly critical",
+    "forms": ["scathing", "scathingly"],
+    "roots": [],
+    "etymologyNote": "Old Norse skaða 'to harm'",
+    "connotation": "negative",
+    "intensity": 3,
+    "category": "Tone & attitude",
+    "collocations": ["scathing review", "scathing attack", "scathing report"],
+    "nearSynonyms": [
+      { "word": "critical", "difference": "can be mild or balanced; scathing is brutal" },
+      { "word": "disdainful", "difference": "a superior attitude; scathing is an actual attack" }
+    ],
+    "antonyms": ["laudatory", "complimentary", "glowing"],
+    "examples": [
+      { "domain": "literature", "text": "The critic's scathing review called the play 'three hours of my life I will never recover,' and it closed within a week.", "highConstraint": true },
+      { "domain": "social-science", "text": "The inspector's scathing report listed forty safety violations and recommended closing the factory immediately.", "highConstraint": true },
+      { "domain": "history", "text": "In a scathing pamphlet, Thomas Paine attacked the king as a tyrant unfit to rule anyone.", "highConstraint": true }
+    ],
+    "satPassage": "The government's report on the failed rescue mission was anything but gentle. It accused officials of ignoring warnings, wasting critical hours, and misleading the public afterward—a ____ assessment that led two senior leaders to resign within days.",
+    "verified": false
+  },
+  {
+    "id": "conciliatory",
+    "lemma": "conciliatory",
+    "pos": "adjective",
+    "primarySense": "intended to make peace or reduce anger",
+    "forms": ["conciliatory", "conciliate", "conciliation"],
+    "roots": [],
+    "etymologyNote": "Latin conciliare 'to bring together, win over'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["conciliatory tone", "conciliatory gesture", "conciliatory remarks"],
+    "nearSynonyms": [
+      { "word": "deferential", "difference": "shows respect to authority; conciliatory aims to calm conflict" },
+      { "word": "submissive", "difference": "gives in entirely; conciliatory seeks a middle ground" }
+    ],
+    "antonyms": ["hostile", "antagonistic", "combative"],
+    "examples": [
+      { "domain": "history", "text": "After the war, Lincoln adopted a conciliatory approach, urging that the South be welcomed back 'with malice toward none.'", "highConstraint": true },
+      { "domain": "social-science", "text": "The company's conciliatory statement apologized to customers and offered refunds, calming the online outrage.", "highConstraint": true },
+      { "domain": "literature", "text": "Hoping to end their quarrel, he made a conciliatory gesture, offering his brother the larger share of the inheritance.", "highConstraint": true }
+    ],
+    "satPassage": "After weeks of angry exchanges, the union leader surprised observers with a far gentler speech. She thanked the company's managers for their patience, acknowledged their financial concerns, and proposed a compromise—a ____ shift that reopened negotiations.",
+    "verified": false
+  },
+  {
+    "id": "pragmatic",
+    "lemma": "pragmatic",
+    "pos": "adjective",
+    "primarySense": "dealing with problems in a practical, realistic way",
+    "forms": ["pragmatic", "pragmatically", "pragmatism", "pragmatist"],
+    "roots": [],
+    "etymologyNote": "Greek pragma 'deed, act'",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["pragmatic approach", "pragmatic solution", "pragmatic leader"],
+    "nearSynonyms": [
+      { "word": "prudent", "difference": "careful to avoid risk; pragmatic focuses on what works" },
+      { "word": "cynical", "difference": "distrusts people's motives; pragmatic just values results" }
+    ],
+    "antonyms": ["idealistic", "impractical", "dogmatic"],
+    "examples": [
+      { "domain": "history", "text": "A pragmatic ruler, the emperor allowed conquered peoples to keep their religions, knowing that forced conversion would spark revolt.", "highConstraint": true },
+      { "domain": "social-science", "text": "Rather than demanding a perfect law, the senator took a pragmatic approach and accepted a compromise that could actually pass.", "highConstraint": true },
+      { "domain": "science", "text": "Engineers made a pragmatic choice, using older but proven parts instead of an untested design.", "highConstraint": true }
+    ],
+    "satPassage": "The reformers dreamed of rebuilding the entire school system from scratch. The new superintendent was more ____: she focused on changes that could be achieved within the existing budget, such as tutoring programs and later start times, rather than sweeping overhauls.",
+    "verified": false
+  },
+  {
+    "id": "idealistic",
+    "lemma": "idealistic",
+    "pos": "adjective",
+    "primarySense": "guided by noble principles, often unrealistically",
+    "forms": ["idealistic", "idealistically", "idealism", "idealist"],
+    "roots": [],
+    "etymologyNote": "from ideal (Greek idea 'form, pattern')",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["idealistic youth", "idealistic vision", "naively idealistic"],
+    "nearSynonyms": [
+      { "word": "optimistic", "difference": "expects good outcomes; idealistic pursues perfect principles" },
+      { "word": "naive", "difference": "inexperienced and easily fooled; more negative" }
+    ],
+    "antonyms": ["pragmatic", "realistic", "cynical"],
+    "examples": [
+      { "domain": "history", "text": "The idealistic founders of the commune expected everyone to share work equally, but the farm collapsed within three years.", "highConstraint": true },
+      { "domain": "literature", "text": "Don Quixote is so idealistic that he sees windmills as giants and an innkeeper's daughter as a noble lady.", "highConstraint": true },
+      { "domain": "social-science", "text": "Critics called the plan idealistic, arguing that it assumed every nation would honor its promises.", "highConstraint": true }
+    ],
+    "satPassage": "Fresh out of college, the young lawyer believed she could end injustice in the city within a few years. Her mentor admired these principles but warned that such an ____ outlook would collide with a legal system that changes slowly and reluctantly.",
+    "verified": false
+  },
+  {
+    "id": "cynical",
+    "lemma": "cynical",
+    "pos": "adjective",
+    "primarySense": "believing that people are motivated purely by self-interest",
+    "forms": ["cynical", "cynically", "cynicism", "cynic"],
+    "roots": [],
+    "etymologyNote": "Greek kynikos 'dog-like', name of an ancient school of philosophers who scorned convention",
+    "connotation": "negative",
+    "intensity": 3,
+    "category": "Tone & attitude",
+    "collocations": ["cynical view", "deeply cynical", "cynical ploy"],
+    "nearSynonyms": [
+      { "word": "skeptical", "difference": "doubts claims until shown evidence; cynical assumes selfish motives" },
+      { "word": "pessimistic", "difference": "expects bad outcomes, not necessarily bad motives" }
+    ],
+    "antonyms": ["idealistic", "trusting", "optimistic"],
+    "examples": [
+      { "domain": "social-science", "text": "Years of broken promises left voters cynical, convinced that every candidate cared only about winning.", "highConstraint": true },
+      { "domain": "literature", "text": "The cynical detective assumes everyone is lying for personal gain, and in this novel he is usually right.", "highConstraint": true },
+      { "domain": "history", "text": "Critics called the king's sudden charity cynical, since it began just as he needed public support for a new tax.", "highConstraint": true }
+    ],
+    "satPassage": "When the oil company announced a large donation to an environmental charity, many observers were unimpressed. They viewed the gift as ____, arguing that it was designed to improve the company's image rather than to help the planet.",
+    "verified": false
+  },
+  {
+    "id": "measured",
+    "lemma": "measured",
+    "pos": "adjective",
+    "primarySense": "careful, restrained, and deliberately controlled",
+    "forms": ["measured"],
+    "roots": [],
+    "etymologyNote": "from measure — speech or action that has been carefully weighed",
+    "connotation": "positive",
+    "category": "Tone & attitude",
+    "collocations": ["measured response", "measured tone", "measured approach"],
+    "nearSynonyms": [
+      { "word": "deliberate", "difference": "intentional and unhurried; measured stresses restraint and balance" },
+      { "word": "indifferent", "difference": "uncaring; measured cares but stays calm" }
+    ],
+    "antonyms": ["impulsive", "rash", "inflammatory"],
+    "examples": [
+      { "domain": "history", "text": "Despite the provocation, the president gave a measured response, condemning the attack without threatening war.", "highConstraint": true },
+      { "domain": "science", "text": "The authors' conclusions were measured, claiming only a possible link rather than proof of a cause.", "highConstraint": true },
+      { "domain": "literature", "text": "She spoke in a slow, measured voice, choosing each word as if it might be used against her.", "highConstraint": true }
+    ],
+    "satPassage": "Many commentators reacted to the surprising study with excitement or alarm. The lead researcher's own statement was notably ____, however: she described the results as interesting but preliminary and cautioned against drawing firm conclusions before further testing.",
+    "verified": false
+  },
+  {
+    "id": "irreverent",
+    "lemma": "irreverent",
+    "pos": "adjective",
+    "primarySense": "showing a lack of respect for things usually taken seriously",
+    "forms": ["irreverent", "irreverently", "irreverence"],
+    "roots": [],
+    "etymologyNote": "Latin ir- 'not' + reverens 'respectful'",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["irreverent humor", "irreverent tone", "gleefully irreverent"],
+    "nearSynonyms": [
+      { "word": "disrespectful", "difference": "plainly rude; irreverent is often playful and witty" },
+      { "word": "sardonic", "difference": "grimly mocking; irreverent is lighter and cheekier" }
+    ],
+    "antonyms": ["reverent", "respectful", "solemn"],
+    "examples": [
+      { "domain": "literature", "text": "Mark Twain's irreverent humor poked fun at preachers, politicians, and even the Bible.", "highConstraint": true },
+      { "domain": "history", "text": "The magazine's irreverent cartoons of the emperor, drawn with a crown on a donkey, landed its editor in prison.", "highConstraint": true },
+      { "domain": "science", "text": "Physicist Richard Feynman's irreverent style—playing bongos and cracking safes—charmed students tired of solemn lectures.", "highConstraint": true }
+    ],
+    "satPassage": "Most guidebooks to the city treat its famous monuments with solemn respect. This one takes a cheekier approach, joking that one celebrated statue \"looks like a man who has lost his car keys\"—an ____ tone that some readers love and others find disrespectful.",
+    "verified": false
+  },
+  {
+    "id": "deferential",
+    "lemma": "deferential",
+    "pos": "adjective",
+    "primarySense": "showing respectful submission to another's judgment or authority",
+    "forms": ["deferential", "deferentially", "deference", "defer"],
+    "roots": [],
+    "etymologyNote": "from defer 'to yield to another' (Latin deferre 'to carry away, refer')",
+    "connotation": "neutral",
+    "category": "Tone & attitude",
+    "collocations": ["deferential to", "deferential tone", "out of deference"],
+    "nearSynonyms": [
+      { "word": "reverent", "difference": "deep awe and admiration; deferential is yielding to authority" },
+      { "word": "obsequious", "difference": "excessively eager to please; more negative" }
+    ],
+    "antonyms": ["defiant", "irreverent", "insubordinate"],
+    "examples": [
+      { "domain": "history", "text": "Courtiers were expected to be deferential, bowing low and never contradicting the king in public.", "highConstraint": true },
+      { "domain": "social-science", "text": "Junior doctors were often too deferential to challenge a senior surgeon, even when they spotted a mistake.", "highConstraint": true },
+      { "domain": "literature", "text": "The butler's deferential manner hides a sharp mind that notices everything his employers miss.", "highConstraint": true }
+    ],
+    "satPassage": "In the early letters, the young scientist addresses her famous mentor with great respect, rarely questioning his views and always yielding to his judgment. Later letters show a striking change: the once ____ student begins openly challenging his theories.",
+    "verified": false
+  }
+]

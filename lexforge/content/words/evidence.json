@@ -1,0 +1,446 @@
+[
+  {
+    "id": "tentative",
+    "lemma": "tentative",
+    "pos": "adjective",
+    "primarySense": "not yet certain or final; done hesitantly",
+    "forms": ["tentative", "tentatively"],
+    "roots": [],
+    "etymologyNote": "Latin tentare 'to try, test'",
+    "connotation": "neutral",
+    "category": "Evidence & certainty",
+    "collocations": ["tentative conclusion", "tentative agreement", "a tentative step"],
+    "nearSynonyms": [
+      { "word": "provisional", "difference": "officially temporary until replaced; tentative stresses uncertainty or hesitation" },
+      { "word": "preliminary", "difference": "comes first, before the main stage" }
+    ],
+    "antonyms": ["definitive", "conclusive", "confident"],
+    "examples": [
+      { "domain": "science", "text": "Because only twenty patients were studied, the authors described their conclusion as tentative and called for larger trials.", "highConstraint": true },
+      { "domain": "history", "text": "The two nations reached a tentative agreement, but either side could still walk away before the final signing.", "highConstraint": true },
+      { "domain": "literature", "text": "She took a tentative step onto the frozen pond, testing whether the ice would hold her weight.", "highConstraint": true }
+    ],
+    "satPassage": "The archaeologists believe the carvings may be the oldest writing in the region, but they stress that this identification is ____. Until more examples are found and dated, they say, the claim should be treated as a hypothesis rather than a settled fact.",
+    "verified": false
+  },
+  {
+    "id": "conclusive",
+    "lemma": "conclusive",
+    "pos": "adjective",
+    "primarySense": "settling a question beyond reasonable doubt",
+    "forms": ["conclusive", "conclusively", "inconclusive"],
+    "roots": [],
+    "etymologyNote": "Latin concludere 'to shut up, close'",
+    "connotation": "positive",
+    "intensity": 3,
+    "category": "Evidence & certainty",
+    "collocations": ["conclusive evidence", "conclusive proof", "far from conclusive"],
+    "nearSynonyms": [
+      { "word": "compelling", "difference": "very persuasive, but not necessarily final" },
+      { "word": "definitive", "difference": "the authoritative final version; conclusive is about ending doubt" }
+    ],
+    "antonyms": ["inconclusive", "tentative", "dubious"],
+    "examples": [
+      { "domain": "science", "text": "The DNA match was conclusive: the bones belonged to the missing king, ending a five-hundred-year mystery.", "highConstraint": true },
+      { "domain": "social-science", "text": "Early studies hinted at a link, but none were conclusive, so the debate continued for another decade.", "highConstraint": true },
+      { "domain": "history", "text": "Without conclusive proof of the plot, the court had no choice but to release the accused.", "highConstraint": true }
+    ],
+    "satPassage": "Previous sightings of the bird were blurry photographs that could easily have shown a different species. The 2021 recording of its unique call, together with a clear video, finally provided ____ evidence that the bird had not gone extinct.",
+    "verified": false
+  },
+  {
+    "id": "compelling",
+    "lemma": "compelling",
+    "pos": "adjective",
+    "primarySense": "convincing enough to demand attention or belief",
+    "forms": ["compelling", "compellingly"],
+    "roots": [],
+    "etymologyNote": "Latin compellere 'to drive together, force'",
+    "connotation": "positive",
+    "category": "Evidence & certainty",
+    "collocations": ["compelling evidence", "a compelling argument", "compelling reason"],
+    "nearSynonyms": [
+      { "word": "conclusive", "difference": "settles the question; compelling is persuasive but may not be final" },
+      { "word": "plausible", "difference": "merely believable; compelling is forcefully convincing" }
+    ],
+    "antonyms": ["weak", "unconvincing", "dubious"],
+    "examples": [
+      { "domain": "science", "text": "The fossil of a feathered dinosaur offered compelling evidence that birds evolved from reptiles.", "highConstraint": true },
+      { "domain": "social-science", "text": "The lawyer made such a compelling case that even skeptical jurors changed their votes.", "highConstraint": true },
+      { "domain": "literature", "text": "The villain is compelling precisely because his motives are understandable, even sympathetic.", "highConstraint": true }
+    ],
+    "satPassage": "The idea that the asteroid impact caused the dinosaurs' extinction was once dismissed as speculation. The discovery of a giant crater dated to exactly the right moment turned it into a ____ explanation that most scientists now find hard to resist.",
+    "verified": false
+  },
+  {
+    "id": "plausible",
+    "lemma": "plausible",
+    "pos": "adjective",
+    "primarySense": "seeming reasonable or likely to be true",
+    "forms": ["plausible", "plausibly", "plausibility", "implausible"],
+    "roots": [],
+    "etymologyNote": "Latin plausibilis 'deserving applause'",
+    "connotation": "neutral",
+    "intensity": 1,
+    "category": "Evidence & certainty",
+    "collocations": ["a plausible explanation", "entirely plausible", "plausible scenario"],
+    "nearSynonyms": [
+      { "word": "compelling", "difference": "forcefully convincing; plausible is just believable" },
+      { "word": "probable", "difference": "actually likely, not just reasonable-seeming" }
+    ],
+    "antonyms": ["implausible", "far-fetched", "dubious"],
+    "examples": [
+      { "domain": "science", "text": "A meteor strike is a plausible explanation for the crater, but the team has not ruled out volcanic activity.", "highConstraint": true },
+      { "domain": "history", "text": "His story seemed plausible at first, since ships did often sink in that strait, but the records later proved it false.", "highConstraint": true },
+      { "domain": "literature", "text": "Good mystery writers make every suspect's guilt seem plausible until the final chapter.", "highConstraint": true }
+    ],
+    "satPassage": "The theory that the ancient city was abandoned because of drought is ____: pollen records show rainfall dropped sharply at the time. Researchers caution, however, that warfare or disease could also explain the evidence equally well.",
+    "verified": false
+  },
+  {
+    "id": "dubious",
+    "lemma": "dubious",
+    "pos": "adjective",
+    "primarySense": "doubtful; probably not true, honest, or reliable",
+    "forms": ["dubious", "dubiously"],
+    "roots": [],
+    "etymologyNote": "Latin dubium 'doubt'",
+    "connotation": "negative",
+    "category": "Evidence & certainty",
+    "collocations": ["dubious claim", "of dubious value", "dubious honor"],
+    "nearSynonyms": [
+      { "word": "skeptical", "difference": "describes a person who doubts; dubious often describes the claim itself" },
+      { "word": "spurious", "difference": "actually false or fake, not merely doubtful" }
+    ],
+    "antonyms": ["reliable", "credible", "trustworthy"],
+    "examples": [
+      { "domain": "science", "text": "The supplement's dubious claims—curing everything from colds to cancer—were backed by no published studies.", "highConstraint": true },
+      { "domain": "history", "text": "The map's origins are dubious; it surfaced only in 1957, and its ink contains a pigment invented in the 1920s.", "highConstraint": true },
+      { "domain": "social-science", "text": "Economists were dubious about the forecast, noting that it assumed growth rates the country had never achieved.", "highConstraint": true }
+    ],
+    "satPassage": "The online seller insists that the coin is a genuine Roman artifact. Experts consider this claim ____ at best: the seller offers no record of where the coin was found, and its lettering contains errors no Roman mint would have made.",
+    "verified": false
+  },
+  {
+    "id": "tenuous",
+    "lemma": "tenuous",
+    "pos": "adjective",
+    "primarySense": "very weak or slight; easily broken or disputed",
+    "forms": ["tenuous", "tenuously"],
+    "roots": [{ "rootId": "tenu", "part": "tenu" }],
+    "etymologyNote": "Latin tenuis 'thin'",
+    "connotation": "negative",
+    "category": "Evidence & certainty",
+    "collocations": ["tenuous link", "tenuous connection", "a tenuous grip on"],
+    "nearSynonyms": [
+      { "word": "dubious", "difference": "doubtful in truth; tenuous means thin and fragile" },
+      { "word": "tentative", "difference": "hesitant or provisional, not necessarily weak" }
+    ],
+    "antonyms": ["strong", "robust", "solid"],
+    "examples": [
+      { "domain": "science", "text": "The link between the chemical and the disease is tenuous, resting on a single study with a tiny sample.", "highConstraint": true },
+      { "domain": "history", "text": "The new government's hold on power was tenuous; it controlled the capital but few of the provinces.", "highConstraint": true },
+      { "domain": "literature", "text": "Their friendship hung by a tenuous thread, and one careless remark was enough to snap it.", "highConstraint": true }
+    ],
+    "satPassage": "The documentary suggests that the two artists influenced each other, but the connection is ____. The only evidence is a single letter in which one painter mentions the other's name, and the two never appear to have met.",
+    "mnemonic": "TENUous ~ thin: think of a thin, TENUous thread.",
+    "verified": false
+  },
+  {
+    "id": "robust",
+    "lemma": "robust",
+    "pos": "adjective",
+    "primarySense": "strong and reliable; holding up under testing or stress",
+    "forms": ["robust", "robustly", "robustness"],
+    "roots": [],
+    "etymologyNote": "Latin robustus 'strong as oak' (robur 'oak, strength')",
+    "connotation": "positive",
+    "category": "Evidence & certainty",
+    "collocations": ["robust evidence", "robust findings", "robust economy"],
+    "nearSynonyms": [
+      { "word": "substantial", "difference": "large in amount; robust stresses strength under pressure" },
+      { "word": "rigorous", "difference": "describes careful methods; robust describes strong results" }
+    ],
+    "antonyms": ["tenuous", "fragile", "weak"],
+    "examples": [
+      { "domain": "science", "text": "The finding proved robust: it held up across five countries, three age groups, and two different testing methods.", "highConstraint": true },
+      { "domain": "social-science", "text": "Despite the global downturn, the country's economy remained robust, with unemployment barely rising.", "highConstraint": true },
+      { "domain": "history", "text": "Roman concrete was so robust that harbors built two thousand years ago still withstand the waves.", "highConstraint": true }
+    ],
+    "satPassage": "A single study can be misleading, but this result has been replicated by dozens of independent teams using different methods and populations. Because it has held up under such varied testing, researchers now regard it as one of the most ____ findings in the field.",
+    "verified": false
+  },
+  {
+    "id": "negligible",
+    "lemma": "negligible",
+    "pos": "adjective",
+    "primarySense": "so small or unimportant that it can be ignored",
+    "forms": ["negligible", "negligibly"],
+    "roots": [],
+    "etymologyNote": "Latin neglegere 'to disregard'",
+    "connotation": "neutral",
+    "intensity": 1,
+    "category": "Evidence & certainty",
+    "collocations": ["negligible effect", "negligible risk", "negligible amount"],
+    "nearSynonyms": [
+      { "word": "marginal", "difference": "small but noticeable; negligible is ignorable" },
+      { "word": "minor", "difference": "small, but still worth noting" }
+    ],
+    "antonyms": ["substantial", "significant", "considerable"],
+    "confusables": [{ "word": "negligent", "note": "negligent = careless in one's duties" }],
+    "examples": [
+      { "domain": "science", "text": "The radiation from a single dental X-ray is negligible, roughly what you absorb from a day of normal life.", "highConstraint": true },
+      { "domain": "social-science", "text": "The tax cut had a negligible effect on spending; most families saved the extra few dollars instead.", "highConstraint": true },
+      { "domain": "history", "text": "Damage from the first bombardment was negligible, but the second destroyed half the fort.", "highConstraint": true }
+    ],
+    "satPassage": "Critics feared that the wind farm would kill large numbers of migrating birds. A three-year study found the impact to be ____, however: fewer than a dozen birds were harmed, far fewer than are killed each year by the region's office windows.",
+    "verified": false
+  },
+  {
+    "id": "marginal",
+    "lemma": "marginal",
+    "pos": "adjective",
+    "primarySense": "small and not very important; at the edge",
+    "otherSenses": ["(economics) relating to one additional unit"],
+    "forms": ["marginal", "marginally"],
+    "roots": [],
+    "etymologyNote": "Latin margo 'edge, border'",
+    "connotation": "neutral",
+    "intensity": 1,
+    "category": "Evidence & certainty",
+    "collocations": ["marginal improvement", "marginal gains", "marginally better"],
+    "nearSynonyms": [
+      { "word": "negligible", "difference": "so small it can be ignored; marginal is small but real" },
+      { "word": "peripheral", "difference": "about position or relevance, not size of effect" }
+    ],
+    "antonyms": ["substantial", "significant", "central"],
+    "examples": [
+      { "domain": "science", "text": "The new drug offered only a marginal improvement over the old one, extending survival by about two weeks.", "highConstraint": true },
+      { "domain": "social-science", "text": "Spending millions on advertising produced marginal gains in sales, barely one percent.", "highConstraint": true },
+      { "domain": "history", "text": "Once a major port, the town became marginal after the railway bypassed it.", "highConstraint": true }
+    ],
+    "satPassage": "The upgraded software was advertised as revolutionary, but independent tests told a different story. The new version ran only ____ faster than the old one—about two percent—an improvement few users would ever notice.",
+    "verified": false
+  },
+  {
+    "id": "substantial",
+    "lemma": "substantial",
+    "pos": "adjective",
+    "primarySense": "large in size, amount, or importance",
+    "forms": ["substantial", "substantially"],
+    "roots": [],
+    "etymologyNote": "Latin substantia 'substance, essence'",
+    "connotation": "positive",
+    "category": "Evidence & certainty",
+    "collocations": ["substantial evidence", "a substantial increase", "substantially different"],
+    "nearSynonyms": [
+      { "word": "robust", "difference": "strong under stress; substantial is about size" },
+      { "word": "significant", "difference": "important or statistically meaningful, not necessarily large" }
+    ],
+    "antonyms": ["negligible", "marginal", "slight"],
+    "examples": [
+      { "domain": "social-science", "text": "The program led to a substantial drop in dropout rates—nearly a third fewer students left school.", "highConstraint": true },
+      { "domain": "science", "text": "There is substantial evidence that sleep helps consolidate memory, from brain scans to behavioral studies.", "highConstraint": true },
+      { "domain": "history", "text": "The merchant left a substantial fortune, enough to fund the city's hospital for a century.", "highConstraint": true }
+    ],
+    "satPassage": "Early estimates suggested the new irrigation method would barely affect harvests. In fact, farmers who adopted it saw yields rise by forty percent within two seasons, a ____ gain that transformed the region's economy.",
+    "verified": false
+  },
+  {
+    "id": "preliminary",
+    "lemma": "preliminary",
+    "pos": "adjective",
+    "primarySense": "coming before and preparing for the main stage",
+    "forms": ["preliminary", "preliminaries"],
+    "roots": [],
+    "etymologyNote": "Latin prae- 'before' + limen 'threshold'",
+    "connotation": "neutral",
+    "category": "Evidence & certainty",
+    "collocations": ["preliminary results", "preliminary findings", "a preliminary step"],
+    "nearSynonyms": [
+      { "word": "tentative", "difference": "stresses uncertainty; preliminary stresses coming first" },
+      { "word": "provisional", "difference": "temporary until replaced" }
+    ],
+    "antonyms": ["final", "definitive", "concluding"],
+    "examples": [
+      { "domain": "science", "text": "Preliminary results look promising, but the full trial will not finish for another two years.", "highConstraint": true },
+      { "domain": "history", "text": "The preliminary talks in Geneva set the agenda for the formal peace conference held months later.", "highConstraint": true },
+      { "domain": "social-science", "text": "A preliminary survey of fifty households helped researchers design the larger national study.", "highConstraint": true }
+    ],
+    "satPassage": "The team has analyzed only the first hundred of the ten thousand samples collected from the lake. Although these early data suggest pollution is declining, the researchers emphasize that their findings are ____ and may change once the full analysis is complete.",
+    "mnemonic": "PRE-LIMIN-ary: before (pre) the threshold (limen) — the stuff before you step through the door.",
+    "verified": false
+  },
+  {
+    "id": "definitive",
+    "lemma": "definitive",
+    "pos": "adjective",
+    "primarySense": "final and authoritative; not able to be improved or questioned",
+    "forms": ["definitive", "definitively"],
+    "roots": [],
+    "etymologyNote": "Latin definire 'to set bounds, determine'",
+    "connotation": "positive",
+    "intensity": 3,
+    "category": "Evidence & certainty",
+    "collocations": ["definitive answer", "the definitive account", "definitively proven"],
+    "nearSynonyms": [
+      { "word": "conclusive", "difference": "ends doubt about a question; definitive is the authoritative final version" },
+      { "word": "definite", "difference": "simply clear and certain, not authoritative" }
+    ],
+    "antonyms": ["tentative", "provisional", "preliminary"],
+    "confusables": [{ "word": "definite", "note": "definite = clear, fixed; definitive = final, authoritative" }],
+    "examples": [
+      { "domain": "history", "text": "Her twelve-volume biography is considered the definitive account of Lincoln's life; later scholars rarely dispute it.", "highConstraint": true },
+      { "domain": "science", "text": "Only a definitive test—such as a biopsy—can confirm the diagnosis that the scan merely suggests.", "highConstraint": true },
+      { "domain": "literature", "text": "No definitive edition of the poems exists, because the poet kept revising them until her death.", "highConstraint": true }
+    ],
+    "satPassage": "Scholars had debated the play's authorship for centuries without resolution. A 2016 computer analysis of its vocabulary claimed to offer a ____ answer, but critics argue that such methods can suggest probabilities, not final proof.",
+    "verified": false
+  },
+  {
+    "id": "anecdotal",
+    "lemma": "anecdotal",
+    "pos": "adjective",
+    "primarySense": "based on personal stories rather than systematic research",
+    "forms": ["anecdotal", "anecdotally", "anecdote", "anecdotes"],
+    "roots": [],
+    "etymologyNote": "Greek anekdota 'things unpublished'",
+    "connotation": "negative",
+    "category": "Evidence & certainty",
+    "collocations": ["anecdotal evidence", "anecdotal reports", "purely anecdotal"],
+    "nearSynonyms": [
+      { "word": "empirical", "difference": "based on systematic observation; the opposite in strength" },
+      { "word": "dubious", "difference": "doubtful for any reason; anecdotal names the specific weakness" }
+    ],
+    "antonyms": ["empirical", "systematic", "statistical"],
+    "examples": [
+      { "domain": "science", "text": "Claims that the herb cures headaches are purely anecdotal, drawn from customer stories rather than controlled trials.", "highConstraint": true },
+      { "domain": "social-science", "text": "Teachers had anecdotal evidence that phones hurt concentration, but no one had measured it until this study.", "highConstraint": true },
+      { "domain": "history", "text": "Accounts of the king's cruelty are largely anecdotal, passed down in gossip long after his death.", "highConstraint": true }
+    ],
+    "satPassage": "Many gardeners swear that playing music helps their plants grow, citing their own tomatoes and roses as proof. Botanists note, however, that this evidence is ____: it comes from individual experiences rather than controlled experiments that compare plants with and without music.",
+    "verified": false
+  },
+  {
+    "id": "empirical",
+    "lemma": "empirical",
+    "pos": "adjective",
+    "primarySense": "based on observation or experiment rather than theory alone",
+    "forms": ["empirical", "empirically"],
+    "roots": [],
+    "etymologyNote": "Greek empeiria 'experience'",
+    "connotation": "positive",
+    "category": "Evidence & certainty",
+    "collocations": ["empirical evidence", "empirical data", "empirically tested"],
+    "nearSynonyms": [
+      { "word": "anecdotal", "difference": "based on stories; empirical is systematic observation" },
+      { "word": "theoretical", "difference": "based on reasoning, not observation" }
+    ],
+    "antonyms": ["theoretical", "speculative", "anecdotal"],
+    "examples": [
+      { "domain": "science", "text": "Galileo insisted on empirical evidence, dropping objects and timing them instead of trusting ancient authorities.", "highConstraint": true },
+      { "domain": "social-science", "text": "The theory sounded elegant, but it had never been tested empirically with real consumers.", "highConstraint": true },
+      { "domain": "history", "text": "Unlike earlier chroniclers who relied on legend, she built her history on empirical sources such as tax rolls and ship logs.", "highConstraint": true }
+    ],
+    "satPassage": "For centuries, physicians accepted the theory that disease was caused by imbalanced bodily fluids, a belief based on reasoning rather than testing. The shift to ____ medicine, in which treatments were judged by carefully observed results, transformed patient survival rates.",
+    "verified": false
+  },
+  {
+    "id": "provisional",
+    "lemma": "provisional",
+    "pos": "adjective",
+    "primarySense": "arranged for now, likely to be changed later",
+    "forms": ["provisional", "provisionally"],
+    "roots": [],
+    "etymologyNote": "Latin providere 'to foresee, provide for'",
+    "connotation": "neutral",
+    "category": "Evidence & certainty",
+    "collocations": ["provisional government", "provisional results", "provisionally accepted"],
+    "nearSynonyms": [
+      { "word": "tentative", "difference": "stresses uncertainty or hesitation" },
+      { "word": "temporary", "difference": "general; provisional implies a stand-in until the official version" }
+    ],
+    "antonyms": ["permanent", "definitive", "final"],
+    "examples": [
+      { "domain": "history", "text": "After the tsar abdicated, a provisional government ruled Russia until elections could be held—or so it was planned.", "highConstraint": true },
+      { "domain": "science", "text": "The new element received a provisional name until the international committee approved a permanent one.", "highConstraint": true },
+      { "domain": "social-science", "text": "Provisional election results showed a narrow lead, but officials warned the count could shift once mail ballots arrived.", "highConstraint": true }
+    ],
+    "satPassage": "When astronomers first spot a comet, it receives a temporary code made of letters and numbers. This ____ label is replaced with an official name only after the object's orbit has been confirmed by repeated observations.",
+    "verified": false
+  },
+  {
+    "id": "cursory",
+    "lemma": "cursory",
+    "pos": "adjective",
+    "primarySense": "hasty and not thorough or detailed",
+    "forms": ["cursory", "cursorily"],
+    "roots": [],
+    "etymologyNote": "Latin cursor 'runner' (currere 'to run')",
+    "connotation": "negative",
+    "category": "Evidence & certainty",
+    "collocations": ["a cursory glance", "cursory examination", "cursory review"],
+    "nearSynonyms": [
+      { "word": "brief", "difference": "short, but not necessarily careless" },
+      { "word": "superficial", "difference": "lacking depth; cursory specifically means rushed" }
+    ],
+    "antonyms": ["thorough", "rigorous", "meticulous"],
+    "examples": [
+      { "domain": "science", "text": "A cursory inspection missed the hairline crack, which only became visible under a microscope.", "highConstraint": true },
+      { "domain": "literature", "text": "He gave the letter a cursory glance and tossed it aside, never noticing the warning in its final line.", "highConstraint": true },
+      { "domain": "social-science", "text": "The committee's review was cursory, lasting only twenty minutes for a three-hundred-page budget.", "highConstraint": true }
+    ],
+    "satPassage": "The inspector spent less than ten minutes in the factory, glancing at a few machines before signing the safety certificate. Investigators later concluded that this ____ visit had overlooked the faulty wiring that caused the fire.",
+    "mnemonic": "CURSory comes from 'run' (like cursor racing across a screen): you ran through it.",
+    "verified": false
+  },
+  {
+    "id": "rigorous",
+    "lemma": "rigorous",
+    "pos": "adjective",
+    "primarySense": "extremely thorough, careful, and accurate",
+    "otherSenses": ["harsh or demanding (rigorous training)"],
+    "forms": ["rigorous", "rigorously", "rigor"],
+    "roots": [],
+    "etymologyNote": "Latin rigor 'stiffness'",
+    "connotation": "positive",
+    "category": "Evidence & certainty",
+    "collocations": ["rigorous testing", "rigorous analysis", "rigorously controlled"],
+    "nearSynonyms": [
+      { "word": "meticulous", "difference": "describes a careful person's attention to detail; rigorous describes strict methods" },
+      { "word": "robust", "difference": "describes strong results, not careful methods" }
+    ],
+    "antonyms": ["cursory", "sloppy", "lax"],
+    "examples": [
+      { "domain": "science", "text": "The drug passed rigorous testing, including three trials in which neither patients nor doctors knew who received it.", "highConstraint": true },
+      { "domain": "history", "text": "Her rigorous use of sources—every claim footnoted to an original document—set a new standard for the field.", "highConstraint": true },
+      { "domain": "social-science", "text": "Unlike earlier surveys, this study used a rigorous random sample, so its results can be trusted.", "highConstraint": true }
+    ],
+    "satPassage": "Earlier claims about the diet's benefits came from small, informal studies. The new research is far more ____: it followed thousands of participants for ten years, randomly assigned their diets, and checked every measurement twice.",
+    "verified": false
+  },
+  {
+    "id": "spurious",
+    "lemma": "spurious",
+    "pos": "adjective",
+    "primarySense": "false or fake, though appearing genuine; based on faulty reasoning",
+    "forms": ["spurious", "spuriously"],
+    "roots": [],
+    "etymologyNote": "Latin spurius 'illegitimate, false'",
+    "connotation": "negative",
+    "category": "Evidence & certainty",
+    "collocations": ["spurious correlation", "spurious claim", "spurious argument"],
+    "nearSynonyms": [
+      { "word": "dubious", "difference": "doubtful; spurious means actually false" },
+      { "word": "counterfeit", "difference": "a physical fake made to deceive" }
+    ],
+    "antonyms": ["genuine", "authentic", "valid"],
+    "examples": [
+      { "domain": "science", "text": "Ice cream sales and drownings rise together, but the correlation is spurious—both are simply caused by hot weather.", "highConstraint": true },
+      { "domain": "history", "text": "The so-called royal charter proved spurious, forged by monks two centuries after the king's death.", "highConstraint": true },
+      { "domain": "social-science", "text": "Her opponent's argument rested on a spurious statistic that no government agency had ever published.", "highConstraint": true }
+    ],
+    "satPassage": "A study once found that towns with more storks also had more babies. The relationship was ____, however: larger towns simply had both more nesting sites for birds and more people, so neither factor actually caused the other.",
+    "verified": false
+  }
+]

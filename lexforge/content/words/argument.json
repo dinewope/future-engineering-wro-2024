@@ -1,0 +1,622 @@
+[
+  {
+    "id": "assert",
+    "lemma": "assert",
+    "pos": "verb",
+    "primarySense": "to state something confidently as true",
+    "otherSenses": ["to insist on one's rights or authority (assert oneself)"],
+    "forms": ["assert", "asserts", "asserted", "asserting", "assertion", "assertions"],
+    "roots": [],
+    "etymologyNote": "Latin asserere 'to claim, join to oneself' (ad- 'to' + serere 'to join')",
+    "connotation": "neutral",
+    "intensity": 3,
+    "category": "Argument & reasoning",
+    "collocations": ["assert that", "firmly assert", "assert one's independence"],
+    "nearSynonyms": [
+      { "word": "suggest", "difference": "much weaker; offers an idea tentatively rather than declaring it true" },
+      { "word": "claim", "difference": "similar, but often hints the statement may be doubtful" }
+    ],
+    "antonyms": ["deny", "retract"],
+    "examples": [
+      { "domain": "science", "text": "The researchers did not merely suggest a link; they asserted that the gene directly causes the disorder, citing three independent trials.", "highConstraint": true },
+      { "domain": "history", "text": "In the Declaration of Independence, the colonists asserted, without hedging, that all men are created equal.", "highConstraint": true },
+      { "domain": "literature", "text": "Rather than hinting at her innocence, the narrator asserts it flatly in the first line, daring the reader to disagree.", "highConstraint": true }
+    ],
+    "satPassage": "Many critics describe the novelist's final essay as cautious, but that reading misses its tone. Far from hedging, she ____ that modern fiction has abandoned moral questions, stating the point plainly and offering no qualifications.",
+    "verified": false
+  },
+  {
+    "id": "contend",
+    "lemma": "contend",
+    "pos": "verb",
+    "primarySense": "to argue or maintain that something is true",
+    "otherSenses": ["to struggle or compete (contend with a problem)"],
+    "forms": ["contend", "contends", "contended", "contending", "contention"],
+    "roots": [],
+    "etymologyNote": "Latin contendere 'to strive' (com- 'with' + tendere 'to stretch')",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["contend that", "critics contend", "contend with"],
+    "nearSynonyms": [
+      { "word": "assert", "difference": "states as fact; contend implies an argument against opposition" },
+      { "word": "argue", "difference": "very close; contend sounds more formal and suggests a debated position" }
+    ],
+    "antonyms": ["concede", "deny"],
+    "examples": [
+      { "domain": "social-science", "text": "Some economists contend that raising the minimum wage reduces jobs, while others argue the effect is negligible.", "highConstraint": true },
+      { "domain": "history", "text": "Historians who contend that the war was inevitable point to decades of rising tension before the first shot.", "highConstraint": true },
+      { "domain": "science", "text": "Against the prevailing view, the team contends that the crater was formed by a volcano, not an asteroid.", "highConstraint": true }
+    ],
+    "satPassage": "Most scholars treat the letters as forgeries. A small group of archivists, however, ____ that they are authentic, arguing that the paper and ink match materials available only in the 1790s.",
+    "verified": false
+  },
+  {
+    "id": "posit",
+    "lemma": "posit",
+    "pos": "verb",
+    "primarySense": "to put forward an idea as a basis for argument",
+    "forms": ["posit", "posits", "posited", "positing"],
+    "roots": [],
+    "etymologyNote": "Latin positus, past participle of ponere 'to place'",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["posit that", "posit the existence of", "theorists posit"],
+    "nearSynonyms": [
+      { "word": "assert", "difference": "claims something is true; posit proposes it as a starting assumption" },
+      { "word": "hypothesize", "difference": "close; hypothesize implies a testable scientific guess" }
+    ],
+    "antonyms": ["refute", "reject"],
+    "examples": [
+      { "domain": "science", "text": "To explain the galaxy's rotation, astronomers posited an invisible form of matter that no telescope had yet detected.", "highConstraint": true },
+      { "domain": "social-science", "text": "The model posits that consumers act rationally, an assumption that later experiments called into question.", "highConstraint": true },
+      { "domain": "literature", "text": "The critic posits, as a starting premise, that every character in the play is an aspect of the author.", "highConstraint": true }
+    ],
+    "satPassage": "Unable to account for the planet's wobbling orbit, nineteenth-century astronomers ____ the existence of an unseen neighboring world. Only decades later did telescopes confirm that this assumed planet was real.",
+    "verified": false
+  },
+  {
+    "id": "refute",
+    "lemma": "refute",
+    "pos": "verb",
+    "primarySense": "to prove a statement or theory wrong",
+    "forms": ["refute", "refutes", "refuted", "refuting", "refutation"],
+    "roots": [],
+    "etymologyNote": "Latin refutare 'to repel, rebut'",
+    "connotation": "neutral",
+    "intensity": 3,
+    "category": "Argument & reasoning",
+    "collocations": ["refute a claim", "refute the theory", "conclusively refuted"],
+    "nearSynonyms": [
+      { "word": "rebut", "difference": "argues against; refute means actually proves wrong" },
+      { "word": "deny", "difference": "just says something is false, with or without proof" }
+    ],
+    "antonyms": ["confirm", "corroborate", "substantiate"],
+    "confusables": [{ "word": "refuse", "note": "refuse = decline to do something; unrelated to proving" }],
+    "examples": [
+      { "domain": "science", "text": "Pasteur's sealed flasks refuted the theory of spontaneous generation: no life appeared without exposure to outside air.", "highConstraint": true },
+      { "domain": "history", "text": "Newly opened archives refuted the official account, proving that the general had ordered the retreat himself.", "highConstraint": true },
+      { "domain": "social-science", "text": "The survey data refuted the popular belief that teenagers read less than their parents did; in fact, they read more.", "highConstraint": true }
+    ],
+    "satPassage": "For decades, textbooks claimed that the Great Wall is visible from the Moon. Astronauts' photographs have since ____ this belief entirely, showing that the wall is far too narrow to be seen from that distance.",
+    "mnemonic": "REFUTE: your proof makes their claim 'refuse' to stand.",
+    "verified": false
+  },
+  {
+    "id": "rebut",
+    "lemma": "rebut",
+    "pos": "verb",
+    "primarySense": "to argue against a claim by offering opposing evidence",
+    "forms": ["rebut", "rebuts", "rebutted", "rebutting", "rebuttal"],
+    "roots": [],
+    "etymologyNote": "Old French reboter 'to push back'",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["rebut the charge", "rebut an argument", "a point-by-point rebuttal"],
+    "nearSynonyms": [
+      { "word": "refute", "difference": "succeeds in proving it wrong; rebut only argues back" },
+      { "word": "counter", "difference": "general; rebut is more formal and suggests a structured reply" }
+    ],
+    "antonyms": ["concede", "accept"],
+    "examples": [
+      { "domain": "history", "text": "In the debate, Lincoln rebutted each of Douglas's charges in turn, offering counterexamples for every claim.", "highConstraint": true },
+      { "domain": "science", "text": "The authors rebutted their critics by publishing the raw data, which showed no sign of the alleged error.", "highConstraint": true },
+      { "domain": "social-science", "text": "The city council invited residents to rebut the developer's traffic study with measurements of their own.", "highConstraint": true }
+    ],
+    "satPassage": "When a rival chemist accused her of contaminating her samples, Rosalind Franklin responded swiftly. She ____ the accusation in a detailed letter, presenting new measurements that contradicted each point her critic had raised.",
+    "verified": false
+  },
+  {
+    "id": "concede",
+    "lemma": "concede",
+    "pos": "verb",
+    "primarySense": "to admit, often reluctantly, that something is true",
+    "otherSenses": ["to surrender or give up (concede a game)"],
+    "forms": ["concede", "concedes", "conceded", "conceding", "concession"],
+    "roots": [{ "rootId": "ced", "part": "ced" }],
+    "etymologyNote": "Latin concedere 'to yield' (com- + cedere 'to go, yield')",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["concede that", "reluctantly concede", "concede defeat", "concede the point"],
+    "nearSynonyms": [
+      { "word": "admit", "difference": "general; concede implies yielding a point in an argument" },
+      { "word": "acknowledge", "difference": "neutral recognition without the sense of reluctance" }
+    ],
+    "antonyms": ["deny", "contend", "dispute"],
+    "examples": [
+      { "domain": "social-science", "text": "Even the plan's strongest supporters concede that it will raise costs in the short term, though they insist it pays off later.", "highConstraint": true },
+      { "domain": "history", "text": "After months of losses, the king finally conceded that the rebellion could not be crushed by force.", "highConstraint": true },
+      { "domain": "literature", "text": "Elizabeth Bennet, proud as she is, eventually concedes that her first judgment of Darcy was mistaken.", "highConstraint": true }
+    ],
+    "satPassage": "The physicist had defended her model for years, but the new telescope data were difficult to ignore. In a 2019 interview, she ____ that the model could not explain the observations, while maintaining that its core idea remained useful.",
+    "verified": false
+  },
+  {
+    "id": "corroborate",
+    "lemma": "corroborate",
+    "pos": "verb",
+    "primarySense": "to confirm a claim with additional supporting evidence",
+    "forms": ["corroborate", "corroborates", "corroborated", "corroborating", "corroboration"],
+    "roots": [],
+    "etymologyNote": "Latin corroborare 'to strengthen' (com- + robur 'strength')",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["corroborate a claim", "corroborating evidence", "independently corroborated"],
+    "nearSynonyms": [
+      { "word": "substantiate", "difference": "supply proof for one's own claim; corroborate often means a second source agrees" },
+      { "word": "confirm", "difference": "more general and can be final; corroborate stresses added support" }
+    ],
+    "antonyms": ["refute", "contradict", "undermine"],
+    "examples": [
+      { "domain": "history", "text": "A second diary, found in a different city, corroborated the soldier's account of the battle down to the hour.", "highConstraint": true },
+      { "domain": "science", "text": "The results were corroborated by two other labs, which ran the same experiment and obtained nearly identical numbers.", "highConstraint": true },
+      { "domain": "social-science", "text": "Interviews with former employees corroborated what the financial records suggested: the company had hidden its losses.", "highConstraint": true }
+    ],
+    "satPassage": "A single witness claimed to have seen the comet in 1661, and astronomers were initially doubtful. Then a Chinese court record from the same month was discovered, describing an identical object and thereby ____ the witness's report.",
+    "mnemonic": "co + ROBUR (strength, as in 'robust'): a second source adds strength.",
+    "verified": false
+  },
+  {
+    "id": "substantiate",
+    "lemma": "substantiate",
+    "pos": "verb",
+    "primarySense": "to provide evidence that proves a claim is true",
+    "forms": ["substantiate", "substantiates", "substantiated", "substantiating", "substantiation", "unsubstantiated"],
+    "roots": [],
+    "etymologyNote": "Latin substantia 'substance' — giving a claim substance",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["substantiate a claim", "unsubstantiated rumors", "fail to substantiate"],
+    "nearSynonyms": [
+      { "word": "corroborate", "difference": "adds confirming support, often from another source" },
+      { "word": "assert", "difference": "just states it; substantiate backs it with proof" }
+    ],
+    "antonyms": ["refute", "disprove"],
+    "examples": [
+      { "domain": "science", "text": "The company claimed its drink boosted memory, but it never published any study to substantiate that promise.", "highConstraint": true },
+      { "domain": "history", "text": "Rumors of a secret treaty spread widely, yet no historian has found a single document to substantiate them.", "highConstraint": true },
+      { "domain": "social-science", "text": "To substantiate her theory of urban loneliness, the sociologist gathered survey responses from 12,000 city residents.", "highConstraint": true }
+    ],
+    "satPassage": "The explorer's memoir claims he reached the summit alone in 1906. Yet he brought back no photographs, no rock samples, and no witness statements—nothing that could ____ his story—so most geographers remain unconvinced.",
+    "verified": false
+  },
+  {
+    "id": "undermine",
+    "lemma": "undermine",
+    "pos": "verb",
+    "primarySense": "to gradually weaken or damage something, often secretly",
+    "forms": ["undermine", "undermines", "undermined", "undermining"],
+    "roots": [],
+    "etymologyNote": "under + mine: literally to dig beneath a wall so it collapses",
+    "connotation": "negative",
+    "category": "Argument & reasoning",
+    "collocations": ["undermine confidence", "undermine an argument", "undermine authority"],
+    "nearSynonyms": [
+      { "word": "refute", "difference": "disproves outright; undermine weakens bit by bit" },
+      { "word": "sabotage", "difference": "deliberate, often dramatic destruction" }
+    ],
+    "antonyms": ["bolster", "reinforce", "corroborate"],
+    "examples": [
+      { "domain": "science", "text": "One contaminated sample was enough to undermine confidence in the entire study, even though the other results were sound.", "highConstraint": true },
+      { "domain": "history", "text": "Constant disputes among his generals undermined the emperor's authority long before any enemy reached the capital.", "highConstraint": true },
+      { "domain": "literature", "text": "The narrator's repeated lies slowly undermine our trust, so that by the final chapter we doubt everything he says.", "highConstraint": true }
+    ],
+    "satPassage": "The senator's speech was persuasive until she cited a statistic that reporters quickly showed to be invented. That single error ____ the rest of her argument, leading many listeners to doubt even the claims that were accurate.",
+    "mnemonic": "Picture miners digging UNDER a castle wall until it crumbles.",
+    "verified": false
+  },
+  {
+    "id": "bolster",
+    "lemma": "bolster",
+    "pos": "verb",
+    "primarySense": "to support or strengthen something, such as an argument or morale",
+    "forms": ["bolster", "bolsters", "bolstered", "bolstering"],
+    "roots": [],
+    "etymologyNote": "Old English bolster 'a long pillow' — something that props you up",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["bolster a case", "bolster confidence", "bolster the economy"],
+    "nearSynonyms": [
+      { "word": "corroborate", "difference": "confirms with evidence; bolster is broader support of any kind" },
+      { "word": "boost", "difference": "informal and usually about quantity or mood" }
+    ],
+    "antonyms": ["undermine", "weaken"],
+    "examples": [
+      { "domain": "science", "text": "Fossils found in Antarctica bolstered the theory of continental drift by showing that identical species once lived on separate continents.", "highConstraint": true },
+      { "domain": "history", "text": "News of the French alliance bolstered the morale of Washington's exhausted troops during the brutal winter.", "highConstraint": true },
+      { "domain": "social-science", "text": "To bolster local businesses, the town lowered rents for shops that hired residents.", "highConstraint": true }
+    ],
+    "satPassage": "Skeptics doubted that ancient Polynesians navigated by the stars alone. In 1976, however, a crew sailed a traditional canoe from Hawaii to Tahiti without instruments, a voyage that greatly ____ the case for deliberate, skilled navigation.",
+    "mnemonic": "A bolster is a firm pillow — it props up your argument.",
+    "verified": false
+  },
+  {
+    "id": "validate",
+    "lemma": "validate",
+    "pos": "verb",
+    "primarySense": "to check or prove that something is accurate or acceptable",
+    "otherSenses": ["to recognize someone's feelings as reasonable"],
+    "forms": ["validate", "validates", "validated", "validating", "validation"],
+    "roots": [],
+    "etymologyNote": "Latin validus 'strong, effective'",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["validate a hypothesis", "validate the results", "independently validated"],
+    "nearSynonyms": [
+      { "word": "corroborate", "difference": "adds support; validate implies a formal check passes" },
+      { "word": "endorse", "difference": "expresses approval rather than testing accuracy" }
+    ],
+    "antonyms": ["invalidate", "refute"],
+    "examples": [
+      { "domain": "science", "text": "Before the vaccine could be approved, its effectiveness had to be validated in trials with thousands of volunteers.", "highConstraint": true },
+      { "domain": "social-science", "text": "The new reading test was validated by comparing its scores with students' actual performance over a full year.", "highConstraint": true },
+      { "domain": "history", "text": "Carbon dating validated the scroll's age, confirming it was written centuries before the forgery theory claimed.", "highConstraint": true }
+    ],
+    "satPassage": "Computer simulations suggested that the bridge design could survive a major earthquake. Engineers were not satisfied with predictions alone, though; they built a scale model and shook it on a vibration table to ____ the simulations' results.",
+    "verified": false
+  },
+  {
+    "id": "dispute",
+    "lemma": "dispute",
+    "pos": "verb",
+    "primarySense": "to question or argue that a claim is untrue",
+    "otherSenses": ["(noun) a disagreement or argument"],
+    "forms": ["dispute", "disputes", "disputed", "disputing", "disputable", "indisputable"],
+    "roots": [],
+    "etymologyNote": "Latin disputare 'to discuss, examine'",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["dispute a claim", "hotly disputed", "no one disputes that"],
+    "nearSynonyms": [
+      { "word": "refute", "difference": "proves wrong; dispute only challenges" },
+      { "word": "deny", "difference": "flat rejection; dispute suggests argument and debate" }
+    ],
+    "antonyms": ["accept", "concede"],
+    "examples": [
+      { "domain": "history", "text": "Few historians dispute that the printing press spread literacy, but they argue fiercely about how quickly.", "highConstraint": true },
+      { "domain": "science", "text": "Other researchers disputed the findings, pointing out that the sample included only twelve patients.", "highConstraint": true },
+      { "domain": "social-science", "text": "The two countries still dispute ownership of the islands, each citing maps that support its own claim.", "highConstraint": true }
+    ],
+    "satPassage": "The museum labels the painting as an early work by Vermeer. Several art historians ____ this attribution, arguing that the brushwork is too uneven and that the canvas was manufactured after the painter's death.",
+    "verified": false
+  },
+  {
+    "id": "infer",
+    "lemma": "infer",
+    "pos": "verb",
+    "primarySense": "to reach a conclusion from evidence rather than direct statement",
+    "forms": ["infer", "infers", "inferred", "inferring", "inference", "inferences"],
+    "roots": [],
+    "etymologyNote": "Latin inferre 'to bring in'",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["infer from", "reasonably infer", "draw an inference"],
+    "nearSynonyms": [
+      { "word": "deduce", "difference": "stricter, step-by-step logical certainty" },
+      { "word": "imply", "difference": "the speaker implies; the listener infers" }
+    ],
+    "antonyms": ["state", "declare"],
+    "confusables": [{ "word": "imply", "note": "a writer implies (hints); a reader infers (concludes)" }],
+    "examples": [
+      { "domain": "science", "text": "Because the rock layers were folded, geologists inferred that enormous pressure had acted on them long after they formed.", "highConstraint": true },
+      { "domain": "literature", "text": "The author never says the father is ill, but readers infer it from his cough and his sudden interest in writing a will.", "highConstraint": true },
+      { "domain": "history", "text": "From the ash layers and abandoned tools, archaeologists inferred that the village was evacuated in a hurry.", "highConstraint": true }
+    ],
+    "satPassage": "The letters never directly mention the composer's deafness. Still, readers can ____ it from clues scattered throughout: he asks friends to write rather than speak, and he complains that conversations at dinner have become impossible to follow.",
+    "verified": false
+  },
+  {
+    "id": "deduce",
+    "lemma": "deduce",
+    "pos": "verb",
+    "primarySense": "to reach a conclusion by careful logical reasoning",
+    "forms": ["deduce", "deduces", "deduced", "deducing", "deduction"],
+    "roots": [{ "rootId": "duc", "part": "duc" }],
+    "etymologyNote": "Latin deducere 'to lead down' (de- + ducere 'to lead')",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["deduce from", "logically deduce", "deduce that"],
+    "nearSynonyms": [
+      { "word": "infer", "difference": "broader; may rely on likelihood rather than strict logic" },
+      { "word": "guess", "difference": "no reasoning required" }
+    ],
+    "antonyms": ["guess", "assume"],
+    "examples": [
+      { "domain": "literature", "text": "From a tan line and a stiff posture, Sherlock Holmes deduced that his visitor had recently returned from military service abroad.", "highConstraint": true },
+      { "domain": "science", "text": "Measuring how the planet's starlight dimmed, astronomers deduced its size with surprising precision.", "highConstraint": true },
+      { "domain": "history", "text": "By comparing ship logs, the historian deduced which route the missing fleet must have taken.", "highConstraint": true }
+    ],
+    "satPassage": "Eratosthenes never left Egypt, yet he estimated Earth's circumference. Noting that the sun cast no shadow in Syene but a slight shadow in Alexandria at the same moment, he used geometry to ____ the planet's size step by step.",
+    "verified": false
+  },
+  {
+    "id": "speculate",
+    "lemma": "speculate",
+    "pos": "verb",
+    "primarySense": "to form ideas or theories without firm evidence",
+    "otherSenses": ["to invest riskily hoping for large profit"],
+    "forms": ["speculate", "speculates", "speculated", "speculating", "speculation", "speculative"],
+    "roots": [{ "rootId": "spec", "part": "spec" }],
+    "etymologyNote": "Latin speculari 'to observe, spy out' (from specere 'to look')",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["speculate about", "wild speculation", "it is tempting to speculate"],
+    "nearSynonyms": [
+      { "word": "posit", "difference": "formally proposes an assumption to reason from" },
+      { "word": "deduce", "difference": "based on firm logic; speculate lacks firm evidence" }
+    ],
+    "antonyms": ["know", "prove"],
+    "examples": [
+      { "domain": "science", "text": "With only a single tooth to study, scientists could merely speculate about what the creature looked like.", "highConstraint": true },
+      { "domain": "history", "text": "Because the diary ends abruptly, historians can only speculate about why the expedition turned back.", "highConstraint": true },
+      { "domain": "literature", "text": "Fans speculated for years about the hero's parentage until the final book finally settled the question.", "highConstraint": true }
+    ],
+    "satPassage": "No written records survive from the people who built the stone circle, so its purpose remains unknown. Researchers can only ____ about whether it served as a calendar, a burial site, or a gathering place.",
+    "verified": false
+  },
+  {
+    "id": "presume",
+    "lemma": "presume",
+    "pos": "verb",
+    "primarySense": "to suppose something is true without proof",
+    "otherSenses": ["to dare to act beyond one's rights (presumptuous)"],
+    "forms": ["presume", "presumes", "presumed", "presuming", "presumption", "presumably"],
+    "roots": [],
+    "etymologyNote": "Latin praesumere 'to take beforehand'",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["presumed innocent", "presume that", "it is safe to presume"],
+    "nearSynonyms": [
+      { "word": "assume", "difference": "very close; presume implies a reasonable basis" },
+      { "word": "infer", "difference": "reached from evidence, not taken for granted" }
+    ],
+    "antonyms": ["prove", "verify"],
+    "examples": [
+      { "domain": "social-science", "text": "Under the law, a defendant is presumed innocent until the prosecution proves otherwise.", "highConstraint": true },
+      { "domain": "history", "text": "The crew was presumed dead after months without word, so their return the following spring stunned the town.", "highConstraint": true },
+      { "domain": "science", "text": "Early chemists presumed that all burning released a substance called phlogiston, an idea later disproved.", "highConstraint": true }
+    ],
+    "satPassage": "For centuries, Europeans ____ that all swans were white, taking the idea for granted simply because no one had seen otherwise. The sighting of black swans in Australia in 1697 overturned this unexamined belief.",
+    "verified": false
+  },
+  {
+    "id": "advocate",
+    "lemma": "advocate",
+    "pos": "verb",
+    "primarySense": "to publicly support or recommend a cause or policy",
+    "otherSenses": ["(noun) a person who publicly supports a cause"],
+    "forms": ["advocate", "advocates", "advocated", "advocating", "advocacy"],
+    "roots": [{ "rootId": "voc", "part": "voc" }],
+    "etymologyNote": "Latin advocare 'to call to one's aid' (ad- + vocare 'to call')",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["advocate for", "strongly advocate", "advocate reform"],
+    "nearSynonyms": [
+      { "word": "endorse", "difference": "approves something already proposed; advocate actively argues for it" },
+      { "word": "champion", "difference": "even more energetic, personal defense" }
+    ],
+    "antonyms": ["oppose", "discourage"],
+    "examples": [
+      { "domain": "history", "text": "Frederick Douglass advocated the abolition of slavery in speeches delivered across the North and in Britain.", "highConstraint": true },
+      { "domain": "science", "text": "Ignaz Semmelweis advocated handwashing for doctors years before germ theory explained why it saved lives.", "highConstraint": true },
+      { "domain": "social-science", "text": "Many urban planners advocate building more bike lanes, arguing that they reduce both traffic and pollution.", "highConstraint": true }
+    ],
+    "satPassage": "Rachel Carson did more than study pesticides; she spent the last years of her life arguing publicly for their regulation. Through books, speeches, and testimony before Congress, she ____ stricter controls on chemicals such as DDT.",
+    "verified": false
+  },
+  {
+    "id": "endorse",
+    "lemma": "endorse",
+    "pos": "verb",
+    "primarySense": "to declare public approval or support of something",
+    "forms": ["endorse", "endorses", "endorsed", "endorsing", "endorsement"],
+    "roots": [],
+    "etymologyNote": "Medieval Latin indorsare 'to write on the back' (as when signing a check)",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["endorse a candidate", "publicly endorse", "fully endorse"],
+    "nearSynonyms": [
+      { "word": "advocate", "difference": "actively campaigns for; endorse can be a single statement of approval" },
+      { "word": "tolerate", "difference": "merely allows without approving" }
+    ],
+    "antonyms": ["oppose", "condemn", "reject"],
+    "examples": [
+      { "domain": "social-science", "text": "The newspaper rarely takes sides, so its decision to endorse the mayor's housing plan surprised readers.", "highConstraint": true },
+      { "domain": "science", "text": "The medical association endorsed the new guidelines only after reviewing evidence from forty clinical trials.", "highConstraint": true },
+      { "domain": "history", "text": "Several former rivals endorsed the treaty, lending it the broad support it needed to pass.", "highConstraint": true }
+    ],
+    "satPassage": "The proposal to extend the school day had divided parents for months. When the state's largest teachers' union announced its formal approval, publicly ____ the plan at a press conference, many undecided families followed its lead.",
+    "verified": false
+  },
+  {
+    "id": "discredit",
+    "lemma": "discredit",
+    "pos": "verb",
+    "primarySense": "to damage the reputation or believability of someone or something",
+    "forms": ["discredit", "discredits", "discredited", "discrediting"],
+    "roots": [{ "rootId": "cred", "part": "cred" }],
+    "etymologyNote": "dis- 'not' + credit (Latin credere 'to believe')",
+    "connotation": "negative",
+    "category": "Argument & reasoning",
+    "collocations": ["discredit a theory", "thoroughly discredited", "attempt to discredit"],
+    "nearSynonyms": [
+      { "word": "refute", "difference": "proves an idea wrong; discredit attacks its believability or source" },
+      { "word": "undermine", "difference": "weakens gradually; discredit damages trust more directly" }
+    ],
+    "antonyms": ["validate", "vindicate"],
+    "examples": [
+      { "domain": "science", "text": "Once investigators showed the data had been fabricated, the study was discredited and formally withdrawn.", "highConstraint": true },
+      { "domain": "history", "text": "Political opponents tried to discredit the reformer by spreading false stories about her finances.", "highConstraint": true },
+      { "domain": "social-science", "text": "The theory that birth order determines personality has been largely discredited by large studies that found no effect.", "highConstraint": true }
+    ],
+    "satPassage": "In 1912, the discovery of a skull in England seemed to prove a missing link in human evolution. Decades later, chemical tests revealed it was a hoax built from a human cranium and an ape's jaw, and the find was thoroughly ____.",
+    "verified": false
+  },
+  {
+    "id": "reconcile",
+    "lemma": "reconcile",
+    "pos": "verb",
+    "primarySense": "to make two ideas or facts consistent with each other",
+    "otherSenses": ["to restore friendly relations", "to accept something unpleasant (be reconciled to)"],
+    "forms": ["reconcile", "reconciles", "reconciled", "reconciling", "reconciliation"],
+    "roots": [],
+    "etymologyNote": "Latin reconciliare 'to bring together again'",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["reconcile with", "reconcile differences", "difficult to reconcile"],
+    "nearSynonyms": [
+      { "word": "synthesize", "difference": "combines ideas into a new whole; reconcile removes their conflict" },
+      { "word": "compromise", "difference": "each side gives something up" }
+    ],
+    "antonyms": ["contradict", "estrange"],
+    "examples": [
+      { "domain": "science", "text": "Physicists have struggled for a century to reconcile quantum mechanics with general relativity, which seem to describe incompatible worlds.", "highConstraint": true },
+      { "domain": "literature", "text": "The poem tries to reconcile the speaker's love of the city with her disgust at its cruelty.", "highConstraint": true },
+      { "domain": "history", "text": "After the civil war, leaders worked to reconcile former enemies, offering amnesty to soldiers on both sides.", "highConstraint": true }
+    ],
+    "satPassage": "The two sets of measurements seemed to contradict each other: satellites showed the glacier shrinking, while ground surveys showed it thickening. Researchers finally ____ the results by realizing that snow was piling up on top even as ice melted underneath.",
+    "verified": false
+  },
+  {
+    "id": "synthesize",
+    "lemma": "synthesize",
+    "pos": "verb",
+    "primarySense": "to combine separate ideas or elements into a coherent whole",
+    "otherSenses": ["to produce a substance by chemical reaction"],
+    "forms": ["synthesize", "synthesizes", "synthesized", "synthesizing", "synthesis"],
+    "roots": [],
+    "etymologyNote": "Greek synthesis 'putting together' (syn- 'together' + tithenai 'to place')",
+    "connotation": "positive",
+    "category": "Argument & reasoning",
+    "collocations": ["synthesize research", "synthesize findings", "a synthesis of"],
+    "nearSynonyms": [
+      { "word": "summarize", "difference": "restates briefly; synthesize builds a new, unified understanding" },
+      { "word": "reconcile", "difference": "removes contradictions; synthesize merges into one picture" }
+    ],
+    "antonyms": ["separate", "analyze", "fragment"],
+    "examples": [
+      { "domain": "social-science", "text": "The report synthesizes dozens of studies on sleep and learning into a single set of recommendations for schools.", "highConstraint": true },
+      { "domain": "science", "text": "Darwin synthesized observations from geology, breeding, and biogeography into one theory that explained them all.", "highConstraint": true },
+      { "domain": "history", "text": "Her history of the empire synthesizes tax records, letters, and archaeology into a vivid account of daily life.", "highConstraint": true }
+    ],
+    "satPassage": "Earlier studies of the coral reef had each examined a single factor—temperature, acidity, or fishing. The new review is valuable because it ____ these separate findings, combining them into one model that shows how the threats interact.",
+    "verified": false
+  },
+  {
+    "id": "extrapolate",
+    "lemma": "extrapolate",
+    "pos": "verb",
+    "primarySense": "to estimate unknown outcomes by extending known trends",
+    "forms": ["extrapolate", "extrapolates", "extrapolated", "extrapolating", "extrapolation"],
+    "roots": [],
+    "etymologyNote": "extra- 'outside' + (inter)polate — extending beyond the known data",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["extrapolate from", "extrapolate the data", "dangerous to extrapolate"],
+    "nearSynonyms": [
+      { "word": "infer", "difference": "concludes from evidence; extrapolate projects beyond the data's range" },
+      { "word": "predict", "difference": "general; extrapolate specifies extending a pattern" }
+    ],
+    "antonyms": ["observe", "measure"],
+    "examples": [
+      { "domain": "science", "text": "By extrapolating the current warming rate, climate scientists estimated sea levels for the year 2100.", "highConstraint": true },
+      { "domain": "social-science", "text": "The pollsters warned against extrapolating from one small town's results to the entire country.", "highConstraint": true },
+      { "domain": "history", "text": "Extrapolating from surviving tax rolls in three provinces, scholars estimated the empire's total population.", "highConstraint": true }
+    ],
+    "satPassage": "The study tracked the plant's growth for only six weeks, during which it doubled in height every week. The authors caution readers not to ____ from this short period, since growth almost always slows as a plant matures.",
+    "verified": false
+  },
+  {
+    "id": "underscore",
+    "lemma": "underscore",
+    "pos": "verb",
+    "primarySense": "to emphasize or draw special attention to something",
+    "forms": ["underscore", "underscores", "underscored", "underscoring"],
+    "roots": [],
+    "etymologyNote": "literally to draw a line under (underline) a word",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["underscore the need for", "underscore the importance of", "underscore a point"],
+    "nearSynonyms": [
+      { "word": "assert", "difference": "states a claim; underscore highlights something already present" },
+      { "word": "mention", "difference": "much weaker; no emphasis" }
+    ],
+    "antonyms": ["downplay", "minimize"],
+    "examples": [
+      { "domain": "science", "text": "The outbreak underscored the need for faster vaccine production, revealing how slow existing methods were.", "highConstraint": true },
+      { "domain": "history", "text": "The famine underscored the dangers of relying on a single crop, a lesson Irish farmers learned at terrible cost.", "highConstraint": true },
+      { "domain": "literature", "text": "The author underscores the hero's isolation by giving him almost no dialogue in the first fifty pages.", "highConstraint": true }
+    ],
+    "satPassage": "Engineers had long warned that the city's levees were outdated, but their reports drew little attention. The 2005 flood, which breached the walls in more than fifty places, dramatically ____ how urgent those warnings had been.",
+    "verified": false
+  },
+  {
+    "id": "allude",
+    "lemma": "allude",
+    "pos": "verb",
+    "primarySense": "to refer to something indirectly, without naming it outright",
+    "forms": ["allude", "alludes", "alluded", "alluding", "allusion", "allusions"],
+    "roots": [],
+    "etymologyNote": "Latin alludere 'to play with, refer to' (ad- + ludere 'to play')",
+    "connotation": "neutral",
+    "category": "Argument & reasoning",
+    "collocations": ["allude to", "a passing allusion", "biblical allusion"],
+    "nearSynonyms": [
+      { "word": "mention", "difference": "names the thing directly" },
+      { "word": "imply", "difference": "suggests a meaning; allude points to a specific thing" }
+    ],
+    "antonyms": ["specify", "state"],
+    "confusables": [{ "word": "elude", "note": "elude = to escape or evade" }],
+    "examples": [
+      { "domain": "literature", "text": "The title alludes to a line from Shakespeare, though the novel never names the play directly.", "highConstraint": true },
+      { "domain": "history", "text": "In his speech, the president alluded to the scandal without ever using the senator's name.", "highConstraint": true },
+      { "domain": "social-science", "text": "Survey respondents often alluded to money troubles indirectly, mentioning 'tight months' instead of debt.", "highConstraint": true }
+    ],
+    "satPassage": "Martin Luther King Jr. opened his 1963 speech with the words \"Five score years ago,\" never naming Abraham Lincoln outright. Listeners nonetheless understood that he was ____ the Gettysburg Address, which begins with a similar phrase.",
+    "verified": false
+  },
+  {
+    "id": "dismiss",
+    "lemma": "dismiss",
+    "pos": "verb",
+    "primarySense": "to treat an idea as unworthy of serious consideration",
+    "otherSenses": ["to send away or remove from a job"],
+    "forms": ["dismiss", "dismisses", "dismissed", "dismissing", "dismissal"],
+    "roots": [{ "rootId": "mit", "part": "miss" }],
+    "etymologyNote": "Latin dimittere 'to send away' (dis- 'away' + mittere 'to send')",
+    "connotation": "negative",
+    "category": "Argument & reasoning",
+    "collocations": ["dismiss a claim", "dismiss as", "quickly dismissed"],
+    "nearSynonyms": [
+      { "word": "refute", "difference": "disproves with evidence; dismiss rejects without engaging" },
+      { "word": "ignore", "difference": "pays no attention at all; dismiss considers briefly, then rejects" }
+    ],
+    "antonyms": ["entertain", "consider", "embrace"],
+    "examples": [
+      { "domain": "science", "text": "Wegener's colleagues dismissed his theory of drifting continents as fantasy, and it took fifty years for it to be accepted.", "highConstraint": true },
+      { "domain": "history", "text": "Officials dismissed early reports of the approaching army as rumors, leaving the city unprepared.", "highConstraint": true },
+      { "domain": "literature", "text": "Cassandra's warnings are always dismissed, and the city falls exactly as she predicted.", "highConstraint": true }
+    ],
+    "satPassage": "When Barbara McClintock first proposed that genes could move within chromosomes, most geneticists ____ the idea without examining her evidence. Three decades later, her once-ignored work earned her a Nobel Prize.",
+    "verified": false
+  }
+]

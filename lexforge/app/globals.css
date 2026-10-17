@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/* "Scholar's index card, rebuilt for the future." Tokens first, Tailwind maps them below. */
+:root {
+  --paper: #f6f1e7;
+  --card: #fffdf8;
+  --ink: #1b1a17;
+  --ink-soft: #5a554b;
+  --rule: #e2d9c6;
+  --cobalt: #1d3bb3;
+  --cobalt-ink: #ffffff;
+  --cobalt-soft: #e4e9fb;
+  --ember: #b8410f;
+  --ember-soft: #fbe6da;
+  --good: #1f6b3a;
+  --good-soft: #dff2e4;
+  --bad: #a3221b;
+  --bad-soft: #f9e0de;
+  /* Root colors: each root keeps the same hue everywhere it appears. All ≥ 4.5:1 on --card. */
+  --r0: #9a3412; --r1: #1e40af; --r2: #166534; --r3: #6b21a8;
+  --r4: #9f1239; --r5: #155e75; --r6: #854d0e; --r7: #3f6212;
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .05 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  color-scheme: light;
+}
+
+/* "Night library": charcoal paper, cream ink. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #191816;
+    --card: #23211e;
+    --ink: #efe8d8;
+    --ink-soft: #b3ab99;
+    --rule: #3a3731;
+    --cobalt: #8ea2ff;
+    --cobalt-ink: #10132a;
+    --cobalt-soft: #262c4a;
+    --ember: #ff9a62;
+    --ember-soft: #3d2619;
+    --good: #7fd69a;
+    --good-soft: #1d3324;
+    --bad: #ff8f86;
+    --bad-soft: #3d1f1d;
+    --r0: #fdba74; --r1: #93c5fd; --r2: #86efac; --r3: #d8b4fe;
+    --r4: #fda4af; --r5: #67e8f9; --r6: #fcd34d; --r7: #bef264;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #191816;
+  --card: #23211e;
+  --ink: #efe8d8;
+  --ink-soft: #b3ab99;
+  --rule: #3a3731;
+  --cobalt: #8ea2ff;
+  --cobalt-ink: #10132a;
+  --cobalt-soft: #262c4a;
+  --ember: #ff9a62;
+  --ember-soft: #3d2619;
+  --good: #7fd69a;
+  --good-soft: #1d3324;
+  --bad: #ff8f86;
+  --bad-soft: #3d1f1d;
+  --r0: #fdba74; --r1: #93c5fd; --r2: #86efac; --r3: #d8b4fe;
+  --r4: #fda4af; --r5: #67e8f9; --r6: #fcd34d; --r7: #bef264;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-rule: var(--rule);
+  --color-cobalt: var(--cobalt);
+  --color-cobalt-ink: var(--cobalt-ink);
+  --color-cobalt-soft: var(--cobalt-soft);
+  --color-ember: var(--ember);
+  --color-ember-soft: var(--ember-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+html { background: var(--paper); }
+body {
+  background-color: var(--paper);
+  background-image: var(--grain);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 2px; border-radius: 6px; }
+
+.root-c0 { color: var(--r0); } .root-c1 { color: var(--r1); } .root-c2 { color: var(--r2); } .root-c3 { color: var(--r3); }
+.root-c4 { color: var(--r4); } .root-c5 { color: var(--r5); } .root-c6 { color: var(--r6); } .root-c7 { color: var(--r7); }
+
+.card-3d { perspective: 1600px; }
+.card-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+
+.blank {
+  display: inline-block;
+  min-width: 4.5em;
+  border-bottom: 2px solid var(--cobalt);
+  vertical-align: baseline;
+  height: 1em;
+}
